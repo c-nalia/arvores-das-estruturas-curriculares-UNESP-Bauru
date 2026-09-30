@@ -1,0 +1,46 @@
+/* =====================================================================
+   SOMENTE PARA PRÉ-VISUALIZAÇÃO.
+   Reproduz, de forma simplificada, o leiaute das páginas de curso do
+   portal www.fc.unesp.br para avaliar a integração da Árvore de Grade.
+   Não publicar: no portal, este invólucro é fornecido pelo próprio CMS.
+   ===================================================================== */
+:root { --p-azul: #1e3b50; --p-ciano: #00acfa; --p-cinza: #f5f5f5; --p-texto: #1a1a1a; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Raleway", system-ui, sans-serif; color: var(--p-texto); background: #fff; font-size: 16px; line-height: 1.5; }
+a { color: var(--p-ciano); text-decoration: none; }
+.p-aviso { background: #3a3a3a; color: #fff; font-size: 12.5px; padding: 7px 16px; text-align: center; letter-spacing: .01em; }
+.p-aviso strong { color: #ffd66b; font-weight: 700; }
+.p-topo { background: var(--p-azul); color: #fff; font-size: 12.5px; }
+.p-topo .p-in { display: flex; align-items: center; justify-content: space-between; height: 36px; }
+.p-topo nav { display: flex; gap: 18px; flex-wrap: wrap; }
+.p-topo nav span { opacity: .92; font-weight: 500; }
+.p-busca { display: flex; }
+.p-busca span { background: #fff; color: #999; padding: 3px 10px; font-size: 11.5px; width: 170px; }
+.p-busca i { background: var(--p-ciano); width: 26px; }
+.p-in { max-width: 1200px; margin: 0 auto; padding-inline: 16px; }
+.p-cab .p-in { display: flex; align-items: center; justify-content: center; gap: 22px; padding-block: 22px; }
+.p-cab h1 { margin: 0; font-weight: 500; font-size: clamp(24px, 3.4vw, 40px); letter-spacing: -.027em; color: var(--p-azul); }
+.p-sep { width: 1px; align-self: stretch; background: #cfd6dc; }
+.p-logo { border: 1px dashed #aab4bd; color: #7d8791; font-size: 11px; padding: 10px 14px; line-height: 1.35; text-align: center; }
+.p-menu { background: var(--p-cinza); border-top: 1.6px solid var(--p-ciano); }
+.p-menu .p-in { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 4px; padding-block: 10px; }
+.p-menu span { padding: 7px 12px; font-size: 14px; color: #4d4d4d; }
+.p-menu span.on { color: var(--p-azul); font-weight: 600; }
+.p-migalhas { font-size: 11px; text-transform: uppercase; padding-top: 14px; display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.p-migalhas span { color: #999; }
+.p-conteudo h2 { font-weight: 300; font-size: clamp(28px, 3.6vw, 42px); color: var(--p-azul); letter-spacing: -.022em; margin: 6px 0 18px; }
+.p-cols { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; padding-bottom: 48px; }
+.p-lateral { display: flex; flex-direction: column; gap: 10px; font-size: 15.5px; padding-top: 2px; }
+.p-lateral a.on { color: var(--p-azul); font-weight: 600; border-left: 3px solid var(--p-ciano); padding-left: 8px; margin-left: -11px; }
+.p-lateral a { line-height: 1.3; }
+iframe.arvore-grade { display: block; width: 100%; border: 0; min-height: 600px; }
+.p-rodape { background: var(--p-azul); color: #dfe7ee; font-size: 13px; }
+.p-rodape .p-in { padding-block: 26px; display: flex; flex-wrap: wrap; gap: 8px 40px; justify-content: space-between; }
+@media (max-width: 860px) {
+  .p-cols { grid-template-columns: 1fr; }
+  .p-lateral { flex-direction: row; flex-wrap: wrap; gap: 8px 16px; }
+  .p-lateral a.on { border-left: 0; padding-left: 0; margin-left: 0; border-bottom: 2px solid var(--p-ciano); }
+  .p-topo nav { display: none; }
+  .p-cab .p-in { flex-direction: column; gap: 10px; }
+  .p-sep { display: none; }
+}
