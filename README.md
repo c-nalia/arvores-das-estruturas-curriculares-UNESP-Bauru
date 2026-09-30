@@ -226,48 +226,7 @@ ArvoreGrade.registrar({
 O componente registra no console qualquer requisito que aponte para código inexistente e qualquer
 diferença entre a soma das obrigatórias e o quadro-resumo.
 
-## 6. Pendências de validação (para a Coordenação)
-
-Os dados reproduzem os documentos. Recomenda-se confirmar os pontos abaixo com o Conselho de
-Curso e, havendo correção, alterá-la primeiro na fonte oficial.
-
-**BCC — Currículo 2105**
-
-1. **Álgebra Linear (4609):** a coluna "Disciplina" do PDF imprime "A0lgebra Linear" (falha de
-   codificação do acento). A árvore usa "Álgebra Linear" por correção autorizada em 30/09/2026,
-   registrada em `testes/referencia/bcc-2105-complementos.json`. Convém corrigir também o PDF.
-2. **Banco de Dados II (4635):** tem pré-requisito *Estruturas de Dados II* (4624).
-3. **Engenharia de Software II (4654):** repete os pré-requisitos de Engenharia de Software I
-   (4605, 4617, 4644) e não exige a 4653.
-4. **Fundamentos e Metodologia da Extensão Universitária (4652):** confirmado em 30/09/2026 que
-   conta como horas de extensão. Aparece como no PDF (4 créditos, 60 h) e fica fora da soma das
-   obrigatórias, que assim fecha os 178 créditos / 2.670 h do quadro-resumo.
-5. **Projeto e Implementação de Sistemas (TCC-disciplina anual) (4650):** consta no 7º termo com
-   16 créditos / 240 h, como no PDF. Por ser anual, parte da carga ocorre no 8º termo; os
-   totais por termo seguem o documento.
-6. **Relação de optativas do currículo 2105:** não está publicada (o PDF prevê apenas Optativa I
-   e Optativa II). O quadro mostra a exigência do quadro-resumo e as optativas ofertadas no
-   1º semestre de 2026, conforme os horários. A relação oficial pode ser incluída em
-   `optativas.lista` assim que disponibilizada. O modelo é a relação emitida pelo Sistema de
-   Graduação, como a publicada para o BSI.
-7. **Ementas:** copiadas literalmente da página "Estrutura curricular" do curso, inclusive
-   grafias como "Analise", "importancia" e "Seqüencial".
-
-**BSI — Currículo 2804**
-
-1. **Quadro-resumo:** o documento (relação do Sistema de Graduação, 19/02/2026) não traz; a seção
-   não é exibida até que os números oficiais sejam informados.
-2. **Optativas na matriz:** o documento não indica em quais termos cursá-las; por isso não há
-   vagas de optativa na árvore do BSI.
-3. **Departamento e turno:** não constam do documento 2804 e não são exibidos.
-4. **Grafias do documento, mantidas:** "Metodologia da Pesquisa" (4742), "Teoria da Computacão e
-   Linguagens Formais" (optativa 4623) e "Aprendizado de Máquina Aplicado à Sistemas de
-   Informação" (49225).
-5. **Redes de Computadores (4724):** tem *Sistemas Operacionais (4723)* como **co-requisito**.
-6. **Ementas:** o BSI não tem ementas publicadas no portal; o campo `ementa` pode ser preenchido
-   quando houver.
-
-## 7. Testes
+## 6. Testes
 
 ```
 node testes/validar-dados.mjs                             # sem dependências
@@ -282,14 +241,14 @@ node testes/e2e.mjs
   co-requisitos e regra de 70%), altura do iframe, montagem tardia, teclado, ARIA, celular e
   injeção de HTML.
 
-## 8. Privacidade e dependências externas
+## 7. Privacidade e dependências externas
 
 - Nenhum dado é enviado a servidores. A simulação e a preferência de visualização ficam apenas no
   `localStorage` do navegador do usuário.
 - Sem ferramentas de análise ou rastreamento.
 - Única dependência externa: a fonte Raleway via Google Fonts, a mesma usada pelo portal.
 
-## 9. Manutenção
+## 8. Manutenção
 
 - **Mudança de currículo:** criar um novo arquivo de dados (ex.: `dados-bcc-2106.js`) em vez de
   editar o anterior, preservando a árvore dos ingressantes antigos.
