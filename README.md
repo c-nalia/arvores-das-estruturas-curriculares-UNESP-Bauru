@@ -1,4 +1,5 @@
-# Árvore de Grade — Cursos de graduação · Unesp Bauru
+# Árvores de Grade dos cursos da UNESP de Bauru
+OBS: Este não é um repositório institucional nem oficial. É uma base para uma sugestão 
 
 Ferramenta de consulta às matrizes curriculares dos cursos de graduação do Câmpus de Bauru, com as
 relações de pré-requisito e co-requisito entre as disciplinas. Esta versão cobre **20 cursos
