@@ -1,0 +1,250 @@
+[
+ {
+  "pasta": "faac/artes-visuais",
+  "titulo": "Artes Visuais",
+  "descricao": "Bacharelado e Licenciatura · currículo 2504",
+  "curriculos": [
+   {
+    "id": "artes-visuais-bacharelado-2504",
+    "rotulo": "Bacharelado"
+   },
+   {
+    "id": "artes-visuais-licenciatura-2504",
+    "rotulo": "Licenciatura"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "faac/comunicacao-audiovisual",
+  "titulo": "Comunicação: Rádio, TV e Internet",
+  "descricao": "Currículo 1104I · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "rtvi-1104i",
+    "rotulo": "Comunicação: Rádio, TV e Internet (Audiovisual)"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "faac/relacoes-publicas",
+  "titulo": "Relações Públicas",
+  "descricao": "Ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "relacoes-publicas-2023",
+    "rotulo": "Relações Públicas"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "faac/arquitetura-e-urbanismo",
+  "titulo": "Arquitetura e Urbanismo",
+  "descricao": "Ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "arquitetura-urbanismo-2023",
+    "rotulo": "Arquitetura e Urbanismo"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "faac/jornalismo",
+  "titulo": "Jornalismo",
+  "descricao": "Estrutura 2205 · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "jornalismo-2205",
+    "rotulo": "Jornalismo"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "faac/design",
+  "titulo": "Design",
+  "descricao": "Estrutura curricular 2023 · ingressantes a partir de 2024",
+  "curriculos": [
+   {
+    "id": "design-2023",
+    "rotulo": "Bacharelado em Design"
+   }
+  ],
+  "unidade": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/ciencias-biologicas",
+  "titulo": "Ciências Biológicas",
+  "descricao": "Bacharelado (2710) e Licenciatura (2711)",
+  "curriculos": [
+   {
+    "id": "ciencias-biologicas-2710",
+    "rotulo": "Bacharelado · integral (2710)"
+   },
+   {
+    "id": "ciencias-biologicas-2711",
+    "rotulo": "Licenciatura · noturno (2711)"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/pedagogia",
+  "titulo": "Pedagogia",
+  "descricao": "Licenciatura · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "pedagogia-2023",
+    "rotulo": "Licenciatura em Pedagogia"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/psicologia",
+  "titulo": "Psicologia",
+  "descricao": "Currículo 1212/1213 · integral e noturno",
+  "curriculos": [
+   {
+    "id": "psicologia-1212-1213",
+    "rotulo": "Graduação em Psicologia (integral e noturno)"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/quimica",
+  "titulo": "Química",
+  "descricao": "Licenciatura e Bacharelado em Química Tecnológica",
+  "curriculos": [
+   {
+    "id": "quimica-licenciatura-2023",
+    "rotulo": "Licenciatura"
+   },
+   {
+    "id": "quimica-tecnologica-2023",
+    "rotulo": "Bacharelado em Química Tecnológica"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/fisica",
+  "titulo": "Física",
+  "descricao": "Estrutura curricular 1606 · Licenciatura e Bacharelado",
+  "curriculos": [
+   {
+    "id": "fisica-1606-licenciatura",
+    "rotulo": "Licenciatura"
+   },
+   {
+    "id": "fisica-1606-materiais",
+    "rotulo": "Bacharelado · Física de Materiais"
+   },
+   {
+    "id": "fisica-1606-computacional",
+    "rotulo": "Bacharelado · Física Computacional"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/meteorologia",
+  "titulo": "Meteorologia",
+  "descricao": "Bacharelado · currículo 1702",
+  "curriculos": [
+   {
+    "id": "meteorologia-1702",
+    "rotulo": "Bacharelado em Meteorologia"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/matematica",
+  "titulo": "Matemática",
+  "descricao": "Licenciatura · currículo 1507",
+  "curriculos": [
+   {
+    "id": "matematica-1507",
+    "rotulo": "Licenciatura em Matemática"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "fc/educacao-fisica",
+  "titulo": "Educação Física",
+  "descricao": "Bacharelado e Licenciatura · currículos 2610 (integral) e 2611 (noturno)",
+  "curriculos": [
+   {
+    "id": "educacao-fisica-2610-bacharelado",
+    "rotulo": "Bacharelado · integral (2610)"
+   },
+   {
+    "id": "educacao-fisica-2610-licenciatura",
+    "rotulo": "Licenciatura · integral (2610)"
+   },
+   {
+    "id": "educacao-fisica-2611-bacharelado",
+    "rotulo": "Bacharelado · noturno (2611)"
+   },
+   {
+    "id": "educacao-fisica-2611-licenciatura",
+    "rotulo": "Licenciatura · noturno (2611)"
+   }
+  ],
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru"
+ },
+ {
+  "pasta": "feb/engenharia-civil",
+  "titulo": "Engenharia Civil",
+  "descricao": "Currículo 0104 · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "engenharia-civil-0104",
+    "rotulo": "Engenharia Civil"
+   }
+  ],
+  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+ },
+ {
+  "pasta": "feb/engenharia-eletrica",
+  "titulo": "Engenharia Elétrica",
+  "descricao": "Currículo 0304 · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "engenharia-eletrica-0304",
+    "rotulo": "Engenharia Elétrica"
+   }
+  ],
+  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+ },
+ {
+  "pasta": "feb/engenharia-mecanica",
+  "titulo": "Engenharia Mecânica",
+  "descricao": "Currículo 0204 · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "engenharia-mecanica-0204",
+    "rotulo": "Engenharia Mecânica"
+   }
+  ],
+  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+ },
+ {
+  "pasta": "feb/engenharia-de-producao",
+  "titulo": "Engenharia de Produção",
+  "descricao": "Currículo 4403 · ingressantes a partir de 2023",
+  "curriculos": [
+   {
+    "id": "engenharia-de-producao-4403",
+    "rotulo": "Engenharia de Produção"
+   }
+  ],
+  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+ }
+]

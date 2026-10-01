@@ -1,0 +1,1073 @@
+{
+ "gerado": "2026-09-30",
+ "cursos": [
+  {
+   "id": "artes-visuais-bacharelado-2504",
+   "termos": {
+    "1": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "2": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "3": {
+     "documento": 210,
+     "dados": 210,
+     "confere": true
+    },
+    "4": {
+     "documento": 240,
+     "dados": 240,
+     "confere": true
+    },
+    "5": {
+     "documento": 270,
+     "dados": 270,
+     "confere": true
+    },
+    "6": {
+     "documento": 240,
+     "dados": 240,
+     "confere": true
+    },
+    "7": {
+     "documento": 270,
+     "dados": 270,
+     "confere": true
+    },
+    "8": {
+     "documento": 153,
+     "dados": 180,
+     "confere": true,
+     "observacao": "sem-aceu"
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "artes-visuais-licenciatura-2504",
+   "termos": {
+    "1": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "2": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "3": {
+     "documento": 435,
+     "dados": 435,
+     "confere": true
+    },
+    "4": {
+     "documento": 435,
+     "dados": 435,
+     "confere": true
+    },
+    "5": {
+     "documento": 405,
+     "dados": 405,
+     "confere": true
+    },
+    "6": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "7": {
+     "documento": 330,
+     "dados": 330,
+     "confere": true
+    },
+    "8": {
+     "documento": 267,
+     "dados": 300,
+     "confere": true,
+     "observacao": "sem-aceu"
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "rtvi-1104i",
+   "termos": {
+    "1": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "2": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "3": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "4": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "5": {
+     "documento": 450,
+     "dados": 450,
+     "confere": true
+    },
+    "6": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "7": {
+     "documento": 180,
+     "dados": 180,
+     "confere": true
+    },
+    "8": {
+     "documento": 120,
+     "dados": 120,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "relacoes-publicas-2023",
+   "termos": {
+    "1": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "2": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "3": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "4": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "5": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "6": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "7": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "8": {
+     "documento": 330,
+     "dados": 330,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "arquitetura-urbanismo-2023",
+   "termos": {
+    "1": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "2": {
+     "documento": 480,
+     "dados": 480,
+     "confere": true
+    },
+    "3": {
+     "documento": 450,
+     "dados": 450,
+     "confere": true
+    },
+    "4": {
+     "documento": 450,
+     "dados": 450,
+     "confere": true
+    },
+    "5": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "6": {
+     "documento": 480,
+     "dados": 480,
+     "confere": true
+    },
+    "7": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "8": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "9": {
+     "documento": 60,
+     "dados": 60,
+     "confere": true
+    },
+    "10": {
+     "documento": 330,
+     "dados": 330,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "jornalismo-2205",
+   "termos": {
+    "1": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "2": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "3": {
+     "documento": 330,
+     "dados": 330,
+     "confere": true
+    },
+    "4": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "5": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "6": {
+     "documento": 510,
+     "dados": 510,
+     "confere": true
+    },
+    "7": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "8": {
+     "documento": 375,
+     "dados": 375,
+     "confere": true
+    },
+    "9": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "design-2023",
+   "termos": {},
+   "divergencias": []
+  },
+  {
+   "id": "ciencias-biologicas-2710",
+   "termos": {
+    "1": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "2": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "3": {
+     "documento": 435,
+     "dados": 435,
+     "confere": true
+    },
+    "4": {
+     "documento": 465,
+     "dados": 465,
+     "confere": true
+    },
+    "5": {
+     "documento": 405,
+     "dados": 405,
+     "confere": true
+    },
+    "6": {
+     "documento": 525,
+     "dados": 525,
+     "confere": true
+    },
+    "7": {
+     "documento": 285,
+     "dados": 285,
+     "confere": true
+    },
+    "8": {
+     "documento": 240,
+     "dados": 240,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "ciencias-biologicas-2711",
+   "termos": {
+    "1": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "2": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "3": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "4": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "5": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "6": {
+     "documento": 345,
+     "dados": 345,
+     "confere": true
+    },
+    "7": {
+     "documento": 345,
+     "dados": 345,
+     "confere": true
+    },
+    "8": {
+     "documento": 285,
+     "dados": 285,
+     "confere": true
+    },
+    "9": {
+     "documento": 225,
+     "dados": 225,
+     "confere": true
+    },
+    "10": {
+     "documento": 210,
+     "dados": 210,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "pedagogia-2023",
+   "termos": {},
+   "divergencias": []
+  },
+  {
+   "id": "psicologia-1212-1213",
+   "termos": {},
+   "divergencias": []
+  },
+  {
+   "id": "quimica-licenciatura-2023",
+   "termos": {},
+   "divergencias": []
+  },
+  {
+   "id": "quimica-tecnologica-2023",
+   "termos": {},
+   "divergencias": []
+  },
+  {
+   "id": "fisica-1606-licenciatura",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "3": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "4": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "5": {
+     "documento": 18,
+     "dados": 18,
+     "confere": true
+    },
+    "6": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "7": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "8": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "9": {
+     "documento": 23,
+     "dados": 23,
+     "confere": true
+    },
+    "10": {
+     "documento": 26,
+     "dados": 26,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "fisica-1606-materiais",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "3": {
+     "documento": 18,
+     "dados": 18,
+     "confere": true
+    },
+    "4": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "5": {
+     "documento": 18,
+     "dados": 18,
+     "confere": true
+    },
+    "6": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "7": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "8": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "fisica-1606-computacional",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "3": {
+     "documento": 18,
+     "dados": 18,
+     "confere": true
+    },
+    "4": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "5": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "6": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "7": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "8": {
+     "documento": 16,
+     "dados": 16,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "meteorologia-1702",
+   "termos": {
+    "1": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "2": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "3": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "4": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "5": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "6": {
+     "documento": 405,
+     "dados": 405,
+     "confere": true
+    },
+    "7": {
+     "documento": 330,
+     "dados": 330,
+     "confere": true
+    },
+    "8": {
+     "documento": 270,
+     "dados": 270,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "matematica-1507",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "3": {
+     "documento": 26,
+     "dados": 26,
+     "confere": true
+    },
+    "4": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "5": {
+     "documento": 28,
+     "dados": 28,
+     "confere": true
+    },
+    "6": {
+     "documento": 29,
+     "dados": 29,
+     "confere": true
+    },
+    "7": {
+     "documento": 29,
+     "dados": 29,
+     "confere": true
+    },
+    "8": {
+     "documento": 29,
+     "dados": 29,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "educacao-fisica-2610-bacharelado",
+   "termos": {
+    "1": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "2": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "3": {
+     "documento": 28,
+     "dados": 28,
+     "confere": true
+    },
+    "4": {
+     "documento": 26,
+     "dados": 26,
+     "confere": true
+    },
+    "5": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "6": {
+     "documento": 26,
+     "dados": 26,
+     "confere": true
+    },
+    "7": {
+     "documento": 30,
+     "dados": 30,
+     "confere": true
+    },
+    "8": {
+     "documento": 31,
+     "dados": 31,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "educacao-fisica-2610-licenciatura",
+   "termos": {
+    "1": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "2": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "3": {
+     "documento": 28,
+     "dados": 28,
+     "confere": true
+    },
+    "4": {
+     "documento": 26,
+     "dados": 26,
+     "confere": true
+    },
+    "5": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "6": {
+     "documento": 29,
+     "dados": 29,
+     "confere": true
+    },
+    "7": {
+     "documento": 31,
+     "dados": 31,
+     "confere": true
+    },
+    "8": {
+     "documento": 31,
+     "dados": 31,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "educacao-fisica-2611-bacharelado",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "3": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "4": {
+     "documento": 22,
+     "dados": 20,
+     "confere": false
+    },
+    "5": {
+     "documento": 20,
+     "dados": 22,
+     "confere": false
+    },
+    "6": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "7": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "8": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "9": {
+     "documento": 24,
+     "dados": 24,
+     "confere": true
+    },
+    "10": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    }
+   },
+   "divergencias": [
+    4,
+    5
+   ]
+  },
+  {
+   "id": "educacao-fisica-2611-licenciatura",
+   "termos": {
+    "1": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "2": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "3": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "4": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "5": {
+     "documento": 22,
+     "dados": 22,
+     "confere": true
+    },
+    "6": {
+     "documento": 20,
+     "dados": 20,
+     "confere": true
+    },
+    "7": {
+     "documento": 18,
+     "dados": 18,
+     "confere": true
+    },
+    "8": {
+     "documento": 23,
+     "dados": 23,
+     "confere": true
+    },
+    "9": {
+     "documento": 25,
+     "dados": 25,
+     "confere": true
+    },
+    "10": {
+     "documento": 25,
+     "dados": 25,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "engenharia-civil-0104",
+   "termos": {
+    "1": {
+     "documento": 315,
+     "dados": 315,
+     "confere": true
+    },
+    "2": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "3": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "4": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "5": {
+     "documento": 375,
+     "dados": 375,
+     "confere": true
+    },
+    "6": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "7": {
+     "documento": 360,
+     "dados": 360,
+     "confere": true
+    },
+    "8": {
+     "documento": 375,
+     "dados": 375,
+     "confere": true
+    },
+    "9": {
+     "documento": 300,
+     "dados": 300,
+     "confere": true
+    },
+    "10": {
+     "documento": 90,
+     "dados": 90,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "engenharia-eletrica-0304",
+   "termos": {
+    "1": {
+     "documento": 375,
+     "dados": 375,
+     "confere": true
+    },
+    "2": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "3": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "4": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "5": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "6": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "7": {
+     "documento": 405,
+     "dados": 405,
+     "confere": true
+    },
+    "8": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "engenharia-mecanica-0204",
+   "termos": {
+    "1": {
+     "documento": 345,
+     "dados": 345,
+     "confere": true
+    },
+    "2": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "3": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "4": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "5": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "6": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "7": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "8": {
+     "documento": 240,
+     "dados": 240,
+     "confere": true
+    },
+    "9": {
+     "documento": 90,
+     "dados": 90,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  },
+  {
+   "id": "engenharia-de-producao-4403",
+   "termos": {
+    "1": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "2": {
+     "documento": 354,
+     "dados": 510,
+     "confere": true,
+     "observacao": "sem-aceu"
+    },
+    "3": {
+     "documento": 480,
+     "dados": 480,
+     "confere": true
+    },
+    "4": {
+     "documento": 390,
+     "dados": 390,
+     "confere": true
+    },
+    "5": {
+     "documento": 384,
+     "dados": 570,
+     "confere": true,
+     "observacao": "sem-aceu"
+    },
+    "6": {
+     "documento": 450,
+     "dados": 450,
+     "confere": true
+    },
+    "7": {
+     "documento": 420,
+     "dados": 420,
+     "confere": true
+    },
+    "8": {
+     "documento": 210,
+     "dados": 210,
+     "confere": true
+    }
+   },
+   "divergencias": []
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 /* =====================================================================
-   Árvore de Grade — Faculdade de Ciências · Unesp Bauru
+   Árvore de Grade — Unesp · Câmpus de Bauru
    Folha de estilos do componente. Todo seletor é escopado em .ag para
    não colidir com o CSS do Portal Unesp quando incorporado diretamente.
    Tokens extraídos do portal www.fc.unesp.br (tema Portal Unesp 2.9):
@@ -299,6 +299,21 @@
 }
 .ag-rodape p { margin: 0; max-width: 100ch; }
 .ag-rodape strong { color: var(--ag-texto-2); font-weight: 600; }
+.ag-correcoes summary { cursor: pointer; color: var(--ag-texto-2); font-weight: 500; }
+.ag-correcoes ul { margin: 6px 0; padding-left: 18px; display: grid; gap: 2px; }
+.ag-correcoes small { color: var(--ag-texto-3); }
+
+/* ---------- Avisos sobre o documento-fonte ---------------------------- */
+.ag-avisos {
+  margin: 14px 0 0; padding: 10px 14px 10px 30px; max-width: 100ch; font-size: 13.5px; color: var(--ag-texto-2);
+  background: var(--ag-cinza); border-left: 3px solid var(--ag-ciano); display: grid; gap: 4px;
+}
+.ag-nota { margin: 10px 0 0; font-size: 13.5px; color: var(--ag-texto-2); max-width: 90ch; }
+
+/* ---------- Seletor de currículos ------------------------------------ */
+.ag-seletor { display: flex; flex-direction: column; gap: 4px; margin-bottom: 18px; }
+.ag-seg-quebra { flex-wrap: wrap; max-width: 100%; }
+.ag-seg-quebra button { height: auto; min-height: 36px; padding: 6px 14px; text-align: left; }
 
 /* ---------- Página autônoma / iframe --------------------------------- */
 body.ag-pagina { margin: 0; background: #fff; }
@@ -323,7 +338,8 @@ body.ag-pagina.embed .ag-container { max-width: none; padding-block: 4px 16px; p
 @media print {
   @page { margin: 14mm; }
   .ag { font-size: 11pt; }
-  .ag-barra, .ag-sim, .ag-detalhe, .ag-vista-arvore { display: none !important; }
+  .ag-barra, .ag-sim, .ag-detalhe, .ag-vista-arvore, .ag-seletor { display: none !important; }
+  .ag-correcoes ul { display: grid !important; }
   .ag .ag-vista-lista, .ag .ag-vista-lista[hidden] { display: block !important; }
   .ag .ag-lista-termo.sem-resultado { display: block !important; }
   .ag .ag-tabela tr.oculta { display: table-row !important; }

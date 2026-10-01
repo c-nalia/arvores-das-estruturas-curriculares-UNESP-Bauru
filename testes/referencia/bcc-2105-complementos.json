@@ -1,0 +1,73 @@
+{
+  "_fonte": "Transcrição literal dos trechos usados. quadroResumo: PDF do currículo 2105 (página 2). oferta: PDFs 'BCC Horário Nº Termo 1º semestre de 2026' (cabeçalho 'HORÁRIO CURRÍCULO 2104 / 2105'); nomes sem o marcador '(op)'.",
+  "quadroResumo": {
+    "cabecalho": "Componentes curriculares",
+    "linhas": [
+      [
+        "Disciplinas obrigatórias",
+        178,
+        2670
+      ],
+      [
+        "Disciplinas optativas",
+        8,
+        120
+      ],
+      [
+        "Estágio, Iniciação Científica ou Monitoria",
+        0,
+        0
+      ],
+      [
+        "Atividades curriculares de Extensão Universitária",
+        22,
+        330
+      ],
+      [
+        "Atividades Complementares",
+        6,
+        90
+      ]
+    ],
+    "total": [
+      214,
+      3210
+    ]
+  },
+  "oferta1sem2026": [
+    {
+      "c": "49203",
+      "d": "COM",
+      "n": "Laboratório de Programação Competitiva",
+      "cr": 4,
+      "termos": [
+        3,
+        5
+      ]
+    },
+    {
+      "c": "49187",
+      "d": "COM",
+      "n": "Ciência de Dados",
+      "cr": 4,
+      "termos": [
+        5,
+        7
+      ]
+    }
+  ],
+  "correcoesAutorizadas": {
+    "4609": {
+      "pdf": "A0lgebra Linear",
+      "usar": "Álgebra Linear",
+      "motivo": "falha de codificação do acento no PDF; o próprio PDF escreve 'Álgebra Linear' nos pré-requisitos de 4633 e 4646",
+      "data": "2026-09-30"
+    }
+  },
+  "classificacoesConfirmadas": {
+    "4652": {
+      "classificacao": "extensao",
+      "data": "2026-09-30"
+    }
+  }
+}

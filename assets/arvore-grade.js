@@ -1,10 +1,14 @@
 /* =====================================================================
-   Árvore de Grade — Faculdade de Ciências · Unesp Bauru
+   Árvore de Grade — Unesp · Câmpus de Bauru
    Componente sem dependências. Uso:
 
      <div data-arvore-grade="bcc-2105"></div>
      <script src="assets/arvore-grade.js"></script>
-     <script src="bcc/dados-bcc-2105.js"></script>
+     <script src="fc/bcc/dados-bcc-2105.js"></script>
+
+   Vários currículos do mesmo curso (modalidades, turnos) numa só página:
+     <div data-arvore-grade="fisica-1606-licenciatura,fisica-1606-materiais"></div>
+   mostra um seletor acima da árvore; ?curriculo=<id> abre um currículo específico.
 
    Cada arquivo de dados chama ArvoreGrade.registrar({...}). Todo elemento
    [data-arvore-grade] é montado com o curso de mesmo id — no carregamento da
@@ -46,7 +50,8 @@
   function dataBR(iso) { if (!iso) return ""; var p = iso.split("-"); return p[2] + "/" + p[1] + "/" + p[0]; }
 
   var ROTULOS_TERMO = {
-    "serie-periodo": function (t) { return "Série " + Math.ceil(t / 2) + " · Período " + (t % 2 === 1 ? 1 : 2); }
+    "serie-periodo": function (t) { return "Série " + Math.ceil(t / 2) + " · Período " + (t % 2 === 1 ? 1 : 2); },
+    "ano-semestre": function (t) { return Math.ceil(t / 2) + "º ano · " + (t % 2 === 1 ? 1 : 2) + "º semestre"; }
   };
 
   var ICONES = {
@@ -72,7 +77,7 @@
 
     /* modelo */
     var lista = dados.disciplinas.map(function (d) {
-      var x = Object.assign({ pre: [], co: [], ch: 0, aceu: 0 }, d);
+      var x = Object.assign({ pre: [], co: [], aceu: 0 }, d);
       if (d.ext && !d.aceu) x.aceu = d.ext; // compatibilidade com o formato anterior
       return x;
     });
@@ -94,7 +99,13 @@
     var optPorReq = {};
     optLista.forEach(function (o) { o.pre.forEach(function (p) { (optPorReq[p] = optPorReq[p] || []).push(o); }); });
     var slots = lista.filter(function (d) { return d.tipo === "SLOT"; });
-    var temSecaoOpt = !!(optLista.length || (opt.oferta && opt.oferta.itens.length) || slots.length);
+    function reqOptativa(o) {
+      var r = o.pre.map(function (p) { return M[p] ? esc(M[p].n) + (cod(M[p]) ? " (" + esc(cod(M[p])) + ")" : "") : esc(p); });
+      (o.co || []).forEach(function (p) { if (M[p]) r.push("co-requisito: " + esc(M[p].n) + (cod(M[p]) ? " (" + esc(cod(M[p])) + ")" : "")); });
+      if (o.preTexto) r.push(esc(o.preTexto));
+      return r.length ? r.join("; ") : '<span class="ag-vazio">—</span>';
+    }
+    var temSecaoOpt = !!(optLista.length || (opt.oferta && opt.oferta.itens.length) || slots.length || (opt.exigencia && opt.exigencia.length));
     var termos = [];
     lista.forEach(function (d) { if (termos.indexOf(d.t) < 0) termos.push(d.t); });
     termos.sort(function (a, b) { return a - b; });
@@ -102,25 +113,48 @@
     var fnTermo = typeof dados.rotuloTermo === "function" ? dados.rotuloTermo : ROTULOS_TERMO[dados.rotuloTermo];
 
     // Carga que conta para o progresso: obrigatórias (e TRA), exceto as classificadas como extensão
-    function contaNoProgresso(d) { return (d.tipo === "OBR" || d.tipo === "TRA") && d.classificacao !== "extensao"; }
-    var linhaObrig = dados.quadroResumo && dados.quadroResumo.linhas.filter(function (l) { return /obrigat/i.test(l[0]); })[0];
-    var linhaOpt = dados.quadroResumo && dados.quadroResumo.linhas.filter(function (l) { return /optativ/i.test(l[0]); })[0];
-    var somaProgresso = lista.filter(contaNoProgresso).reduce(function (s, d) { return s + d.ch; }, 0);
-    var totalObrig = linhaObrig ? linhaObrig[2] : somaProgresso;
-    if (linhaObrig && linhaObrig[2] !== somaProgresso) console.warn("[Árvore de Grade] soma das obrigatórias (" + somaProgresso + " h) difere do quadro-resumo (" + linhaObrig[2] + " h)");
-    var baseRegra = linhaObrig ? linhaObrig[2] : lista.filter(function (d) { return d.tipo === "OBR" && d.classificacao !== "extensao"; }).reduce(function (s, d) { return s + d.ch; }, 0);
-    var temTRA = lista.some(function (d) { return d.tipo === "TRA"; });
-    var rotuloProgresso = linhaObrig ? "em disciplinas obrigatórias (quadro-resumo)" : temTRA ? "em disciplinas OBR e TRA" : "em disciplinas obrigatórias";
+    // horas de uma disciplina: a carga impressa ou, na falta dela, créditos × 15
+    function hc(d) { return typeof d.ch === "number" ? d.ch : (d.cr != null ? d.cr * 15 : 0); }
+    function contaNoProgresso(d) { return (d.tipo === "OBR" || d.tipo === "TRA" || d.tipo === "EST") && d.classificacao !== "extensao"; }
+    function numero(v) { return (v % 1 === 0 ? String(v) : String(v).replace(".", ",")); }
+    var qr = dados.quadroResumo || null;
+    var colunasQR = qr ? (qr.colunas || ["Créditos", "Horas"]) : [];
+    var iHoras = colunasQR.indexOf("Horas") + 1; // posição na linha [rótulo, ...valores]
+    function horasLinha(l) { return iHoras > 0 && typeof l[iHoras] === "number" ? l[iHoras] : null; }
+    var linhaObrig = qr && qr.linhas.filter(function (l) { return /obrigat/i.test(l[0]) && !/optativ/i.test(l[0]) && horasLinha(l) != null; })[0];
+    var linhaOpt = qr && qr.linhas.filter(function (l) { return /optativ/i.test(l[0]) && horasLinha(l); })[0];
+    // unidade de medida: horas, créditos ou (quando o documento não informa carga) componentes
+    var somaEmHoras = !dados.semCarga && lista.every(function (d) { return d.tipo === "SLOT" || typeof d.ch === "number"; });
+    var modo = dados.semCarga ? "n" : somaEmHoras ? "h" : "cr";
+    function valorProg(d) { return modo === "h" ? hc(d) : modo === "cr" ? (d.cr || 0) : 1; }
+    function fmtProg(v) { return modo === "h" ? horas(v) : modo === "cr" ? numero(v) + (v === 1 ? " crédito" : " créditos") : plural(v, "componente", "componentes"); }
+    var somaProgresso = lista.filter(contaNoProgresso).reduce(function (s, d) { return s + valorProg(d); }, 0);
+    var totalObrig = dados.horasObrigatorias || somaProgresso;
+    var baseRegra = totalObrig;
+    var temTRA = lista.some(function (d) { return d.tipo === "TRA" || d.tipo === "EST"; });
+    var rotuloProgresso = modo === "n" ? "da matriz" : temTRA ? "em disciplinas obrigatórias, TCC e estágios da matriz" : "em disciplinas obrigatórias da matriz";
+    function cod(d) { return d.tipo === "SLOT" ? "" : d.semCodigo ? "" : (d.cod || d.c); }
+    function somaTermo(ds) {
+      if (modo === "n") return plural(ds.length, "componente", "componentes");
+      if (somaEmHoras) return horas(ds.reduce(function (s, d) { return s + (d.ch || 0) + (d.aceu || 0); }, 0));
+      var cr = ds.reduce(function (s, d) { return s + (d.cr != null ? d.cr : 0); }, 0);
+      return numero(cr) + " créditos";
+    }
 
     function rotuloTermo(t) { return fnTermo ? fnTermo(t) : ""; }
     function chListada(d) { return (d.ch || 0) + (d.aceu || 0); }
     function metaTexto(d, longo) {
       var partes = [];
-      if (d.ch || !d.aceu) partes.push(horas(d.ch) + (mostraCr && d.ch ? " · " + numCr(d.ch) + (longo ? " créditos" : " cr") : ""));
-      if (d.aceu) partes.push((longo ? "CH ACEU " : "CH ACEU ") + horas(d.aceu));
-      return partes.join(" · ");
+      var temCh = typeof d.ch === "number";
+      var cr = d.cr != null ? d.cr : (mostraCr && temCh && d.ch ? d.ch / 15 : null);
+      var txtCr = cr != null ? numero(cr) + (longo ? (cr === 1 ? " crédito" : " créditos") : " cr") : "";
+      if (temCh && (d.ch || !d.aceu)) partes.push(horas(d.ch) + (txtCr ? " · " + txtCr : ""));
+      else if (txtCr) partes.push(txtCr);
+      if (d.aceu) partes.push("CH ACEU " + horas(d.aceu));
+      (d.extras || []).forEach(function (x) { partes.push(esc(x[0]) + (longo ? ": " : " ") + numero(x[1]) + (x[2] === "cr" ? (longo ? (x[1] === 1 ? " crédito" : " créditos") : " cr") : " h")); });
+      return partes.join(" · ") || (dados.semCarga ? "" : "—");
     }
-    function selo(d) { return (d.tipo === "TRA" || d.tipo === "EXT") ? d.tipo : ""; }
+    function selo(d) { return d.tipoDoc ? d.tipoDoc : (d.tipo === "TRA" || d.tipo === "EXT" || d.tipo === "EST" || d.tipo === "OPT") ? d.tipo + (d.anual ? " · anual" : "") : d.anual ? "Anual" : ""; }
 
     /* estado */
     var sel = null, busca = "";
@@ -135,22 +169,27 @@
 
     h.push('<header class="ag-cab">');
     if (comTitulo) {
-      h.push('<p class="ag-sobretitulo">' + esc(dados.curso) + " · Currículo " + esc(dados.curriculo) + "</p>");
+      h.push('<p class="ag-sobretitulo">' + esc(dados.curso) + (dados.curriculo ? " · Currículo " + esc(dados.curriculo) : "") + "</p>");
       h.push('<h2 class="ag-titulo">Árvore de Pré-requisitos</h2>');
     }
     var temEmenta = lista.some(function (d) { return d.ementa; });
     h.push('<p class="ag-desc' + (comTitulo ? "" : " sem-titulo") + '">Representação da matriz curricular organizada por termo, com as relações de pré-requisito e co-requisito entre as disciplinas. Selecione uma disciplina para consultar ' + (temEmenta ? "sua ementa, " : "") + "a cadeia de disciplinas que a antecede e aquelas que dela dependem.</p>");
     h.push('<dl class="ag-ficha">');
     h.push("<div><dt>Curso</dt><dd>" + esc(dados.sigla) + (dados.turno ? " · " + esc(dados.turno) : "") + "</dd></div>");
-    h.push("<div><dt>Currículo</dt><dd>" + esc(dados.curriculo) + "</dd></div>");
+    if (dados.curriculo) h.push("<div><dt>Currículo</dt><dd>" + esc(dados.curriculo) + "</dd></div>");
     h.push("<div><dt>Vigência</dt><dd>" + esc(dados.vigencia) + "</dd></div>");
-    if (dados.quadroResumo) {
-      h.push("<div><dt>Carga horária total</dt><dd>" + horas(dados.quadroResumo.total[1]) + " (" + dados.quadroResumo.total[0] + " créditos)</dd></div>");
+    if (qr && qr.total) {
+      var tot = colunasQR.map(function (c, i) { var v = qr.total[i]; return v == null ? "" : (c === "Horas" ? horas(v) : numero(v) + " " + c.toLowerCase()); }).filter(Boolean);
+      h.push("<div><dt>Carga horária total</dt><dd>" + tot[tot.length - 1] + (tot.length > 1 ? " (" + tot.slice(0, -1).join(", ") + ")" : "") + "</dd></div>");
     } else {
-      h.push("<div><dt>Carga das disciplinas listadas</dt><dd>" + horas(lista.filter(function (d) { return d.tipo !== "SLOT"; }).reduce(function (s, d) { return s + chListada(d); }, 0)) + "</dd></div>");
+      h.push("<div><dt>" + (modo === "n" ? "Componentes listados" : somaEmHoras ? "Carga das disciplinas listadas" : "Créditos das disciplinas listadas") + "</dt><dd>" + somaTermo(lista.filter(function (d) { return d.tipo !== "SLOT" || modo !== "h"; })) + "</dd></div>");
     }
-    if (dados.fonte) h.push('<div><dt>Documento oficial</dt><dd><a href="' + esc(dados.fonte.url) + '" target="_blank" rel="noopener">' + esc(dados.fonte.titulo) + " (PDF)</a></dd></div>");
-    h.push("</dl></header>");
+    if (dados.fonte) h.push('<div><dt>Documento oficial</dt><dd><a href="' + esc(dados.fonte.url) + '" target="_blank" rel="noopener">' + esc(dados.fonte.titulo) + (/\.pdf$/i.test(dados.fonte.url) ? " (PDF)" : "") + "</a></dd></div>");
+    h.push("</dl>");
+    if (dados.avisos && dados.avisos.length) {
+      h.push('<ul class="ag-avisos">' + dados.avisos.map(function (a) { return "<li>" + esc(a) + "</li>"; }).join("") + "</ul>");
+    }
+    h.push("</header>");
 
     h.push('<div class="ag-barra">');
     h.push('<div class="ag-busca"><label class="ag-rotulo" for="' + pfx + '-busca">Localizar disciplina</label>');
@@ -175,16 +214,15 @@
       '</defs><g class="ag-arestas-g"></g></svg>');
     termos.forEach(function (t) {
       var ds = lista.filter(function (d) { return d.t === t; });
-      var ht = ds.reduce(function (s, d) { return s + chListada(d); }, 0);
       var idCab = pfx + "-t" + t;
       h.push('<div class="ag-col">');
-      h.push('<div class="ag-col-cab" id="' + idCab + '"><strong>' + termoOrdinal(t) + "</strong><span>" + (rotuloTermo(t) ? esc(rotuloTermo(t)) + " · " : "") + horas(ht) + "</span></div>");
+      h.push('<div class="ag-col-cab" id="' + idCab + '"><strong>' + termoOrdinal(t) + "</strong><span>" + (rotuloTermo(t) ? esc(rotuloTermo(t)) + " · " : "") + somaTermo(ds) + "</span></div>");
       h.push('<div class="ag-col-lista" role="list" aria-labelledby="' + idCab + '">');
       ds.forEach(function (d) {
         var s = selo(d);
         h.push('<div class="ag-card" role="listitem" data-c="' + esc(d.c) + '" data-tipo="' + esc(d.tipo) + '">');
         h.push('<button type="button" class="ag-card-btn" aria-pressed="false">');
-        h.push('<span class="ag-card-topo"><span>' + (d.tipo === "SLOT" ? "optativa" : esc(d.c)) + "</span>" + (d.d ? '<span class="ag-dep" title="Departamento">' + esc(d.d) + "</span>" : "") + "</span>");
+        h.push('<span class="ag-card-topo"><span>' + (d.tipo === "SLOT" ? "optativa" : esc(cod(d))) + "</span>" + (d.d ? '<span class="ag-dep" title="Departamento">' + esc(d.d) + "</span>" : "") + "</span>");
         h.push('<span class="ag-nome">' + esc(d.n) + "</span>");
         if (s) h.push('<span class="ag-selo" title="Tipo no Sistema de Graduação">' + esc(s) + "</span>");
         h.push('<span class="ag-meta"><span>' + metaTexto(d) + "</span>" + (d.filhos.length ? '<span class="ag-libera">libera ' + d.filhos.length + "</span>" : "") + "</span>");
@@ -211,16 +249,18 @@
     h.push('<div class="ag-vista ag-vista-lista">');
     termos.forEach(function (t) {
       var ds = lista.filter(function (d) { return d.t === t; });
-      var ht = ds.reduce(function (s, d) { return s + chListada(d); }, 0);
-      h.push('<section class="ag-lista-termo"><h3>' + termoOrdinal(t) + "<span>" + (rotuloTermo(t) ? esc(rotuloTermo(t)) + " · " : "") + horas(ht) + "</span></h3>");
+      h.push('<section class="ag-lista-termo"><h3>' + termoOrdinal(t) + "<span>" + (rotuloTermo(t) ? esc(rotuloTermo(t)) + " · " : "") + somaTermo(ds) + "</span></h3>");
       h.push('<div class="ag-tabela-wrap"><table class="ag-tabela"><thead><tr><th scope="col">Código</th><th scope="col">Disciplina</th><th scope="col">Carga</th><th scope="col">Pré-requisitos</th><th scope="col">Libera</th></tr></thead><tbody>');
       ds.forEach(function (d) {
         var req = [];
-        d.pre.forEach(function (p) { if (M[p]) req.push(esc(M[p].n) + " (" + esc(p) + ")"); });
-        d.co.forEach(function (p) { if (M[p]) req.push("co-requisito: " + esc(M[p].n) + " (" + esc(p) + ")"); });
+        var rc = function (p) { return cod(M[p]) ? " (" + esc(cod(M[p])) + ")" : ""; };
+        d.pre.forEach(function (p) { if (M[p]) req.push(esc(M[p].n) + rc(p)); });
+        d.co.forEach(function (p) { if (M[p]) req.push("co-requisito: " + esc(M[p].n) + rc(p)); });
         if (regras[d.c]) req.push(esc(regras[d.c].texto));
+        if (d.preTexto) req.push(esc(d.preTexto));
+        if (d.coTexto) req.push("co-requisito: " + esc(d.coTexto));
         var lib = d.filhos.map(function (f) { return esc(M[f].n); });
-        h.push('<tr data-c="' + esc(d.c) + '"><td>' + (d.tipo === "SLOT" ? "—" : esc(d.c)) + '</td><td class="nome"><button type="button" data-selecionar="' + esc(d.c) + '">' + esc(d.n) + "</button>" + (selo(d) ? ' <span class="ag-selo">' + esc(selo(d)) + "</span>" : "") + "</td>");
+        h.push('<tr data-c="' + esc(d.c) + '"><td>' + (cod(d) ? esc(cod(d)) : "—") + '</td><td class="nome"><button type="button" data-selecionar="' + esc(d.c) + '">' + esc(d.n) + "</button>" + (selo(d) ? ' <span class="ag-selo">' + esc(selo(d)) + "</span>" : "") + "</td>");
         h.push('<td class="num" data-rot="Carga">' + metaTexto(d) + "</td>");
         h.push('<td class="req" data-rot="Pré-requisitos">' + (req.length ? req.join("; ") : '<span class="ag-vazio">—</span>') + "</td>");
         h.push('<td class="req" data-rot="Libera">' + (lib.length ? lib.join("; ") : '<span class="ag-vazio">—</span>') + "</td></tr>");
@@ -232,23 +272,28 @@
     // quadro de optativas
     if (temSecaoOpt) {
       h.push('<section class="ag-secao" id="' + pfx + '-optativas"><h3>Disciplinas optativas</h3>');
+      (opt.exigencia || []).forEach(function (t) { h.push("<p>" + esc(t) + "</p>"); });
       var exig = [];
-      if (linhaOpt) exig.push("O quadro-resumo do currículo " + esc(dados.curriculo) + " exige " + linhaOpt[1] + " créditos (" + horas(linhaOpt[2]) + ") em disciplinas optativas");
-      if (slots.length) exig.push((exig.length ? ", previstos" : "A matriz prevê") + " como " + slots.map(function (s) { return esc(s.n) + " (" + termoOrdinal(s.t) + ")"; }).join(" e "));
+      if (linhaOpt && !opt.exigencia) {
+        var vals = colunasQR.map(function (c, i) { var v = linhaOpt[i + 1]; return v == null ? null : (c === "Horas" ? horas(v) : numero(v) + " " + c.toLowerCase()); }).filter(Boolean);
+        exig.push("O quadro-resumo do currículo " + esc(dados.curriculo) + " exige " + (vals.length > 1 ? vals[0] + " (" + vals.slice(1).join(", ") + ")" : vals[0]) + " em disciplinas optativas");
+      }
+      if (slots.length && !opt.exigencia) exig.push((exig.length ? ", previstos" : "A matriz prevê") + " como " + slots.map(function (s) { return esc(s.n) + " (" + termoOrdinal(s.t) + ")"; }).join(" e "));
       if (exig.length) h.push("<p>" + exig.join("") + ".</p>");
+      if (opt.nota) h.push('<p class="ag-aviso">' + esc(opt.nota) + "</p>");
       if (optLista.length) {
         var tipos = {}; optLista.forEach(function (o) { tipos[o.tipo] = 1; });
-        h.push("<p>Relação de disciplinas optativas do currículo " + esc(dados.curriculo) + ", conforme o documento oficial" +
+        h.push("<p>Relação de disciplinas optativas" + (dados.curriculo ? " do currículo " + esc(dados.curriculo) : "") + ", conforme o documento oficial" +
           (opt.fonte ? ' (<a href="' + esc(opt.fonte.url) + '" target="_blank" rel="noopener">' + esc(opt.fonte.titulo) + "</a>)" : "") + ".</p>");
         h.push('<div class="ag-tabela-wrap"><table class="ag-tabela ag-tabela-opt"><thead><tr><th scope="col">Código</th><th scope="col">Disciplina</th><th scope="col">Carga horária</th>' + (Object.keys(tipos).length > 1 ? '<th scope="col">Tipo</th>' : "") + '<th scope="col">Pré-requisitos</th></tr></thead><tbody>');
         optLista.forEach(function (o) {
-          h.push("<tr><td>" + esc(o.c) + '</td><td class="nome-opt">' + esc(o.n) + '</td><td class="num" data-rot="Carga">' + horas(o.ch) + "</td>" +
+          h.push("<tr><td>" + (o.semCodigo ? "—" : esc(o.cod || o.c)) + '</td><td class="nome-opt">' + esc(o.n) + (o.d ? ' <span class="ag-dep" title="Departamento">' + esc(o.d) + "</span>" : "") + '</td><td class="num" data-rot="Carga">' + metaTexto(o) + "</td>" +
             (Object.keys(tipos).length > 1 ? '<td data-rot="Tipo">' + esc(o.tipo) + "</td>" : "") +
-            '<td class="req" data-rot="Pré-requisitos">' + (o.pre.length ? o.pre.map(function (p) { return M[p] ? esc(M[p].n) + " (" + esc(p) + ")" : esc(p); }).join("; ") : '<span class="ag-vazio">—</span>') + "</td></tr>");
+            '<td class="req" data-rot="Pré-requisitos">' + reqOptativa(o) + "</td></tr>");
         });
         h.push("</tbody></table></div>");
-      } else {
-        h.push('<p class="ag-aviso">A relação de optativas do currículo ' + esc(dados.curriculo) + " não consta dos documentos publicados do curso. Ela será incluída aqui quando for disponibilizada" + (dados.contato ? ' pelo <a href="' + esc(dados.contato.url) + '" target="_top">' + esc(dados.contato.titulo) + "</a>" : "") + ".</p>");
+      } else if (!opt.nota && !opt.exigencia) {
+        h.push('<p class="ag-aviso">A relação de optativas' + (dados.curriculo ? " do currículo " + esc(dados.curriculo) : "") + " não consta dos documentos publicados do curso. Ela será incluída aqui quando for disponibilizada pelo Conselho de Curso.</p>");
       }
       if (opt.oferta && opt.oferta.itens.length) {
         var of = opt.oferta;
@@ -264,19 +309,26 @@
     }
 
     // quadro-resumo
-    if (dados.quadroResumo) {
-      var q = dados.quadroResumo;
-      h.push('<section class="ag-secao"><h3>Quadro-resumo da integralização</h3>');
-      h.push('<div class="ag-tabela-wrap"><table class="ag-quadro"><thead><tr><th scope="col">Componentes curriculares</th><th scope="col">Créditos</th><th scope="col">Horas</th></tr></thead><tbody>');
-      q.linhas.forEach(function (l) { h.push("<tr><td>" + esc(l[0]) + "</td><td>" + l[1] + "</td><td>" + l[2].toLocaleString("pt-BR") + "</td></tr>"); });
-      h.push("</tbody><tfoot><tr><td>TOTAL</td><td>" + q.total[0] + "</td><td>" + q.total[1].toLocaleString("pt-BR") + "</td></tr></tfoot></table></div></section>");
+    if (qr) {
+      h.push('<section class="ag-secao"><h3>' + esc(qr.titulo || "Quadro-resumo da integralização") + "</h3>");
+      h.push('<div class="ag-tabela-wrap"><table class="ag-quadro"><thead><tr><th scope="col">' + esc(qr.cabecalho || "Componentes curriculares") + "</th>" + colunasQR.map(function (c) { return '<th scope="col">' + esc(c) + "</th>"; }).join("") + "</tr></thead><tbody>");
+      var cel = function (v) { return v == null ? "—" : typeof v === "number" ? v.toLocaleString("pt-BR") : esc(v); };
+      qr.linhas.forEach(function (l) { h.push("<tr><td>" + esc(l[0]) + "</td>" + colunasQR.map(function (c, i) { return "<td>" + cel(l[i + 1]) + "</td>"; }).join("") + "</tr>"); });
+      h.push("</tbody>" + (qr.total ? "<tfoot><tr><td>" + esc(qr.rotuloTotal || "TOTAL") + "</td>" + colunasQR.map(function (c, i) { return "<td>" + cel(qr.total[i]) + "</td>"; }).join("") + "</tr></tfoot>" : "") + "</table></div>");
+      if (qr.nota) h.push('<p class="ag-nota">' + esc(qr.nota) + "</p>");
+      h.push("</section>");
     }
 
     // rodapé
     h.push('<footer class="ag-rodape">');
     if (dados.fonte) h.push('<p><strong>Fonte:</strong> <a href="' + esc(dados.fonte.url) + '" target="_blank" rel="noopener">' + esc(dados.fonte.titulo) + "</a>" + (dados.atualizadoEm ? ". Dados conferidos em " + dataBR(dados.atualizadoEm) + "." : "") + "</p>");
-    h.push("<p>Ferramenta de caráter informativo. Em caso de divergência, prevalece o currículo oficial homologado. Questões sobre matrícula, equivalências e quebra de pré-requisito devem ser encaminhadas ao " +
-      (dados.contato ? '<a href="' + esc(dados.contato.url) + '" target="_top">' + esc(dados.contato.titulo) + "</a>" : "Conselho de Curso") + ".</p>");
+    h.push("<p>Ferramenta de caráter informativo. Em caso de divergência, prevalece o currículo oficial homologado. Questões sobre matrícula, equivalências e quebra de pré-requisito devem ser encaminhadas ao Conselho de Curso" +
+      (dados.contato ? ' (<a href="' + esc(dados.contato.url) + '" target="_top">' + esc(dados.contato.titulo) + "</a>)" : "") + ".</p>");
+    if (dados.correcoes && dados.correcoes.length) {
+      h.push('<details class="ag-correcoes"><summary>Grafias corrigidas em relação ao documento (' + dados.correcoes.length + ")</summary><ul>" +
+        dados.correcoes.map(function (c) { return "<li>" + (c.cod ? esc(c.cod) + (c.campo === "ementa" ? " (ementa)" : "") + ": " : "") + "“" + esc(c.de) + "” → “" + esc(c.para) + "” <small>(" + esc(c.motivo) + ")</small></li>"; }).join("") +
+        "</ul><p>Códigos, créditos e cargas horárias não foram alterados.</p></details>");
+    }
     h.push("<p>A simulação de percurso é armazenada somente neste navegador e não substitui o histórico escolar.</p>");
     h.push("</footer>");
     h.push("</div>");
@@ -304,11 +356,13 @@
     function antecessores(c) {
       var vis = new Set(), pilha = [c];
       while (pilha.length) { var x = M[pilha.pop()]; x.pre.concat(x.co).forEach(function (p) { if (M[p] && !vis.has(p)) { vis.add(p); pilha.push(p); } }); }
+      vis.delete(c); // co-requisitos mútuos: a própria disciplina não entra na sua cadeia
       return vis;
     }
     function dependentes(c) {
       var vis = new Set(), pilha = [c];
       while (pilha.length) { M[pilha.pop()].filhos.forEach(function (f) { if (!vis.has(f)) { vis.add(f); pilha.push(f); } }); }
+      vis.delete(c);
       return vis;
     }
 
@@ -400,7 +454,7 @@
 
     function chip(c, classe, extra) {
       var d = M[c];
-      return '<li><button type="button" class="ag-chip ' + classe + '" data-selecionar="' + esc(c) + '">' + esc(d.n) + (d.tipo !== "SLOT" ? " <small>" + esc(c) + "</small>" : "") + (extra ? " <small>" + extra + "</small>" : "") + "</button></li>";
+      return '<li><button type="button" class="ag-chip ' + classe + '" data-selecionar="' + esc(c) + '">' + esc(d.n) + (cod(d) ? " <small>" + esc(cod(d)) + "</small>" : "") + (extra ? " <small>" + extra + "</small>" : "") + "</button></li>";
     }
     function renderDetalhe(ant, dep) {
       if (!sel) {
@@ -410,7 +464,7 @@
         return;
       }
       var d = M[sel];
-      var meta = ["<b>" + (d.tipo === "SLOT" ? "Optativa" : esc(d.c)) + "</b>", termoOrdinal(d.t)];
+      var meta = [(d.tipo === "SLOT" ? "<b>Optativa</b>" : cod(d) ? "<b>" + esc(cod(d)) + "</b>" : ""), termoOrdinal(d.t)].filter(Boolean);
       if (rotuloTermo(d.t)) meta.push(esc(rotuloTermo(d.t)));
       meta.push(metaTexto(d, true));
       if (d.d) meta.push("Depto. " + esc(d.d));
@@ -427,11 +481,13 @@
       x.push('<div><h4>Pré-requisitos</h4><ul class="ag-lista-chips">');
       if (regras[sel]) x.push('<li><span class="ag-chip neutro pre">' + esc(regras[sel].texto) + "</span></li>");
       d.pre.forEach(function (p) { if (M[p]) x.push(chip(p, "pre")); });
-      if (!d.pre.length && !regras[sel]) x.push('<li><span class="ag-chip neutro">Nenhum</span></li>');
+      if (d.preTexto) x.push('<li><span class="ag-chip neutro pre">' + esc(d.preTexto) + "</span></li>");
+      if (!d.pre.length && !regras[sel] && !d.preTexto) x.push('<li><span class="ag-chip neutro">Nenhum</span></li>');
       x.push("</ul></div>");
-      if (d.co.length) {
+      if (d.co.length || d.coTexto) {
         x.push('<div><h4>Co-requisitos</h4><ul class="ag-lista-chips">');
         d.co.forEach(function (p) { if (M[p]) x.push(chip(p, "co")); });
+        if (d.coTexto) x.push('<li><span class="ag-chip neutro co">' + esc(d.coTexto) + "</span></li>");
         x.push("</ul></div>");
       }
       x.push('<div><h4>Disciplinas que dependem desta</h4><ul class="ag-lista-chips">');
@@ -475,7 +531,7 @@
       return lista.filter(function (d) {
         if (!concluidas.has(d.c) || !contaNoProgresso(d)) return false;
         return soBaseRegra ? d.tipo === "OBR" : true;
-      }).reduce(function (s, d) { return s + d.ch; }, 0);
+      }).reduce(function (s, d) { return s + valorProg(d); }, 0);
     }
     function regraAtendida(d) {
       var r = regras[d.c];
@@ -524,7 +580,7 @@
       var feitas = horasConcluidas(false);
       var pct = totalObrig ? feitas / totalObrig : 0;
       var s = [];
-      s.push('<div class="ag-sim-topo"><div class="ag-sim-num"><strong>' + horas(feitas) + "</strong> de " + horas(totalObrig) + " " + rotuloProgresso + " (" + Math.round(pct * 100) + "%)</div>");
+      s.push('<div class="ag-sim-topo"><div class="ag-sim-num"><strong>' + fmtProg(feitas) + "</strong> de " + fmtProg(totalObrig) + " " + rotuloProgresso + " (" + Math.round(pct * 100) + "%)</div>");
       s.push('<div class="ag-sim-contagem">' + plural(cont.concluida + cont.inconsistente, "concluída", "concluídas") + " · " + cont.apta + (cont.apta === 1 ? " apta" : " aptas") + " para matrícula · " + cont.bloqueada + " com pré-requisitos pendentes</div></div>");
       var marcas = "", notas = [];
       Object.keys(regras).forEach(function (c) {
@@ -532,8 +588,8 @@
         if (r.tipo !== "percentualObrigatorias" || !M[c]) return;
         var alvo = r.valor * baseRegra, feitasBase = horasConcluidas(true);
         marcas += '<span class="ag-trilho-marca" style="left:' + (alvo / totalObrig * 100).toFixed(2) + '%" title="' + esc(M[c].n) + '"></span>';
-        notas.push("<strong>" + esc(c) + " — " + esc(M[c].n) + ":</strong> exige " + Math.round(r.valor * 100) + "% da carga obrigatória (" + horas(Math.ceil(alvo)) + "). " +
-          (feitasBase >= alvo ? "Requisito atendido na simulação." : "Faltam " + horas(Math.ceil(alvo - feitasBase)) + "."));
+        notas.push("<strong>" + esc(c) + " — " + esc(M[c].n) + ":</strong> exige " + Math.round(r.valor * 100) + "% da carga obrigatória (" + fmtProg(Math.ceil(alvo)) + "). " +
+          (feitasBase >= alvo ? "Requisito atendido na simulação." : "Faltam " + fmtProg(Math.ceil(alvo - feitasBase)) + "."));
       });
       s.push('<div class="ag-trilho" role="progressbar" aria-label="Carga horária obrigatória concluída" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + Math.round(pct * 100) + '"><span class="ag-trilho-fill" style="width:' + Math.min(100, pct * 100).toFixed(2) + '%"></span>' + marcas + "</div>");
       notas.forEach(function (t) { s.push('<p class="ag-sim-nota">' + t + "</p>"); });
@@ -630,11 +686,50 @@
   /* ---------- inicialização automática ---------- */
   function iniciar(escopo) {
     (escopo || document).querySelectorAll("[data-arvore-grade]:not([data-ag-montado])").forEach(function (el) {
-      var id = el.getAttribute("data-arvore-grade");
-      if (!REGISTRO[id]) return;
+      var ids = el.getAttribute("data-arvore-grade").split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+      if (!ids.length || !ids.every(function (id) { return REGISTRO[id]; })) return;
       el.setAttribute("data-ag-montado", "");
-      montar(el, REGISTRO[id]);
+      if (ids.length === 1) montar(el, REGISTRO[ids[0]]);
+      else montarSeletor(el, ids);
     });
+  }
+
+  /* ---------- seletor de currículos (modalidades e turnos de um mesmo curso) ---------- */
+  function montarSeletor(el, ids) {
+    var params = new URLSearchParams(location.search);
+    var chave = "arvore-grade:seletor:" + ids.join(",");
+    var atual = params.get("curriculo");
+    if (ids.indexOf(atual) < 0) atual = lerArmazenado(chave, null);
+    if (ids.indexOf(atual) < 0) atual = ids[0];
+    var n = ++instancias;
+    var caixa = document.createElement("div");
+    caixa.className = "ag ag-seletor";
+    caixa.innerHTML = '<span class="ag-rotulo" id="ag-sel' + n + '">Currículo</span><div class="ag-seg ag-seg-quebra" role="group" aria-labelledby="ag-sel' + n + '">' +
+      ids.map(function (id) { var d = REGISTRO[id]; return '<button type="button" data-curriculo="' + esc(id) + '">' + esc(d.rotuloSeletor || d.curso) + "</button>"; }).join("") + "</div>";
+    var alvo = document.createElement("div");
+    el.innerHTML = "";
+    el.appendChild(caixa);
+    el.appendChild(alvo);
+    function abrir(id, foco) {
+      atual = id;
+      gravar(chave, id);
+      caixa.querySelectorAll("[data-curriculo]").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-curriculo") === id ? "true" : "false"); });
+      var box = document.createElement("div");
+      alvo.innerHTML = "";
+      alvo.appendChild(box);
+      montar(box, REGISTRO[id]);
+      if (location.hash.indexOf("#!") !== 0) {
+        var p = new URLSearchParams(location.search);
+        p.set("curriculo", id);
+        try { history.replaceState(null, "", location.pathname + "?" + p.toString() + (foco ? "" : location.hash)); } catch (e) { }
+      }
+      if (foco) caixa.querySelector('[data-curriculo="' + id + '"]').focus();
+    }
+    caixa.addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-curriculo]");
+      if (b && b.getAttribute("data-curriculo") !== atual) abrir(b.getAttribute("data-curriculo"), true);
+    });
+    abrir(atual, false);
   }
   var observador = null;
   function observar() {

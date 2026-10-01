@@ -1,0 +1,115 @@
+/*
+ * Árvore de Grade — dados do curso
+ * Graduação em Psicologia (integral e noturno) · Currículo 1212/1213
+ * Faculdade de Ciências · Câmpus de Bauru
+ *
+ * ARQUIVO GERADO por ferramentas/construir.py a partir de "planos de ensino/FC/DPSI/Psicologia".
+ * Não edite à mão: corrija a fonte, a transcrição ou a tabela de correções e gere de novo.
+ * Números (códigos, créditos, horas) são os do documento oficial. Correções de grafia
+ * aplicadas aos nomes estão listadas no campo "correcoes".
+ */
+ArvoreGrade.registrar({
+  "id": "psicologia-1212-1213",
+  "sigla": "Psicologia",
+  "curso": "Graduação em Psicologia (integral e noturno)",
+  "curriculo": "1212/1213",
+  "vigencia": "Ingressantes a partir de 2023",
+  "unidade": "Faculdade de Ciências · Câmpus de Bauru",
+  "atualizadoEm": "2026-09-30",
+  "creditosNoDocumento": true,
+  "fonte": {"titulo": "Currículo 1212/1213, Integral e Noturno", "url": "https://www.fc.unesp.br/Home/Departamentos/Psicologia/grade-curricular-curso-de-psicologia-1212-1213.pdf"},
+  "pagina": {"titulo": "página do curso", "url": "https://www.fc.unesp.br/#!/departamentos/psicologia/curso-de-psicologia/documentos-do-curso/"},
+  "contato": {"titulo": "página do curso", "url": "https://www.fc.unesp.br/#!/departamentos/psicologia/curso-de-psicologia/documentos-do-curso/"},
+  "quadroResumo": {"titulo": "Carga horária total (ajuste do PPP às DCN)", "cabecalho": "Carga horária", "colunas": ["Créditos", "Horas"], "linhas": [["Práticas (EST+AACC)", 54, 810], ["Aula (Sala +AE)", 189, 2835], ["Extensão", 29, 435]], "total": [272, 4080], "nota": "Detalhamento por modalidade: Disciplinas teóricas e teórico-práticas 189 créditos (2835 h); Em Sala de Aula 143 créditos (2145 h); Em Atividade Extra-Classe 46 créditos (690 h); Práticas 54 créditos (810 h); Estágio Básico 4 créditos (60 h); Estágio Específico 48 créditos (720 h); AACC 2 créditos (30 h); Extensão 29 créditos (435 h)."},
+  "disciplinas": [
+    {"c": "1.1", "semCodigo": true, "t": 1, "cr": 2, "tipo": "OBR", "n": "Introdução à Psicologia como Ciência e Profissão"},
+    {"c": "1.2", "semCodigo": true, "t": 1, "cr": 4, "tipo": "OBR", "n": "Constituição Histórica da Psicologia"},
+    {"c": "1.3", "semCodigo": true, "t": 1, "cr": 4, "tipo": "OBR", "n": "Psicologia do Desenvolvimento: Ciclo Vital"},
+    {"c": "1.4", "semCodigo": true, "t": 1, "cr": 4, "tipo": "OBR", "n": "Bases Biológicas do Comportamento"},
+    {"c": "1.5", "semCodigo": true, "t": 1, "cr": 4, "tipo": "OBR", "n": "Sociologia", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "1.6", "semCodigo": true, "t": 1, "cr": 4, "tipo": "OBR", "n": "Filosofia"},
+    {"c": "1.7", "semCodigo": true, "t": 1, "cr": 2, "tipo": "OBR", "n": "Metodologia Científica I"},
+    {"c": "1.8", "semCodigo": true, "t": 1, "cr": 2, "tipo": "OBR", "n": "Fundamentos da Análise do Comportamento"},
+    {"c": "2.1", "semCodigo": true, "t": 2, "cr": 4, "tipo": "OBR", "n": "Neurofisiologia"},
+    {"c": "2.2", "semCodigo": true, "t": 2, "cr": 4, "tipo": "OBR", "n": "Estatística Aplicada à Psicologia"},
+    {"c": "2.3", "semCodigo": true, "t": 2, "cr": 4, "tipo": "OBR", "n": "Metodologia Científica II", "pre": ["1.7"], "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "2.4", "semCodigo": true, "t": 2, "cr": 2, "tipo": "OBR", "n": "Antropologia I"},
+    {"c": "2.5", "semCodigo": true, "t": 2, "cr": 4, "tipo": "OBR", "n": "Laboratório de Análise Experimental do Comportamento I", "pre": ["1.8"], "coTexto": "Laboratório de Análise Experimental do Comportamento I (a própria disciplina, conforme o documento)", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "2.6", "semCodigo": true, "t": 2, "cr": 4, "tipo": "OBR", "n": "Análise Experimental do Comportamento I", "pre": ["1.8"], "coTexto": "Análise Experimental do Comportamento I (a própria disciplina, conforme o documento)"},
+    {"c": "2.7", "semCodigo": true, "t": 2, "cr": 2, "tipo": "OBR", "n": "Análise Histórico-Social do Desenvolvimento Humano"},
+    {"c": "2.8", "semCodigo": true, "t": 2, "cr": 2, "tipo": "OBR", "n": "Fundamentos Epistemológicos da Psicologia Sócio-histórica"},
+    {"c": "2.9", "semCodigo": true, "t": 2, "cr": 2, "tipo": "OBR", "n": "Fundamentos das Teorias Sistêmica e Complexa"},
+    {"c": "3.1", "semCodigo": true, "t": 3, "cr": 2, "tipo": "OBR", "n": "Antropologia II", "pre": ["2.4"]},
+    {"c": "3.2", "semCodigo": true, "t": 3, "cr": 2, "tipo": "OBR", "n": "Estágio Básico - Pesquisa 1", "pre": ["2.3"], "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "3.3", "semCodigo": true, "t": 3, "cr": 4, "tipo": "OBR", "n": "Introdução à Extensão", "extras": [["Extensão", 4, "cr"]]},
+    {"c": "3.4", "semCodigo": true, "t": 3, "cr": 2, "tipo": "OBR", "n": "Análise do Comportamento Verbal", "pre": ["2.6"], "co": ["3.6"]},
+    {"c": "3.5", "semCodigo": true, "t": 3, "cr": 4, "tipo": "OBR", "n": "Laboratório de Análise Experimental do Comportamento II", "pre": ["2.6"], "co": ["3.6"], "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "3.6", "semCodigo": true, "t": 3, "cr": 2, "tipo": "OBR", "n": "Análise Experimental do Comportamento II", "pre": ["2.6"], "co": ["3.5"]},
+    {"c": "3.7", "semCodigo": true, "t": 3, "cr": 4, "tipo": "OBR", "n": "Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica I", "pre": ["2.8", "2.7"]},
+    {"c": "3.8", "semCodigo": true, "t": 3, "cr": 4, "tipo": "OBR", "n": "Psicologia da Educação: Fundamentos Filosóficos", "pre": ["2.8", "2.7"]},
+    {"c": "3.9", "semCodigo": true, "t": 3, "cr": 4, "tipo": "OBR", "n": "Teorias e Práticas Sistêmicas e Complexas", "pre": ["2.9"], "extras": [["Extensão", 1, "cr"]]},
+    {"c": "3.10", "semCodigo": true, "t": 3, "cr": 2, "tipo": "OBR", "n": "Fundamentos da Psicanálise"},
+    {"c": "4.1", "semCodigo": true, "t": 4, "cr": 4, "tipo": "OBR", "n": "Avaliação Psicológica I", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "4.2", "semCodigo": true, "t": 4, "cr": 2, "tipo": "OBR", "n": "Estágio Básico - Pesquisa 2", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "4.3", "semCodigo": true, "t": 4, "cr": 2, "tipo": "OBR", "n": "Análise Comportamental do Desenvolvimento Humano", "pre": ["3.6", "3.4"]},
+    {"c": "4.4", "semCodigo": true, "t": 4, "cr": 2, "tipo": "OBR", "n": "Análise do Comportamento Aplicada: Processos Educativos I", "pre": ["3.6", "3.5"]},
+    {"c": "4.5", "semCodigo": true, "t": 4, "cr": 6, "tipo": "OBR", "n": "Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica II", "pre": ["3.7"], "co": ["3.3"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "4.6", "semCodigo": true, "t": 4, "cr": 4, "tipo": "OBR", "n": "Políticas Públicas, Instituições e Saúde"},
+    {"c": "4.7", "semCodigo": true, "t": 4, "cr": 4, "tipo": "OBR", "n": "Psicologia Escolar I", "pre": ["3.8"]},
+    {"c": "4.8", "semCodigo": true, "t": 4, "cr": 4, "tipo": "OBR", "n": "Teorias Psicanalíticas I", "pre": ["3.10"]},
+    {"c": "5.1", "semCodigo": true, "t": 5, "cr": 4, "tipo": "OBR", "n": "Avaliação Psicológica II", "pre": ["4.1"], "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "5.2", "semCodigo": true, "t": 5, "cr": 2, "tipo": "OBR", "n": "Análise do Comportamento Aplicada: Processos Educativos II", "pre": ["4.4"]},
+    {"c": "5.3", "semCodigo": true, "t": 5, "cr": 2, "tipo": "OBR", "n": "Análise do Comportamento Aplicada: Delineamentos Culturais", "pre": ["3.6"]},
+    {"c": "5.4", "semCodigo": true, "t": 5, "cr": 2, "tipo": "OBR", "n": "Atividades Extensionistas em Educação e Sociedade I", "pre": ["4.4", "5.3"], "co": ["5.2"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "5.5", "semCodigo": true, "t": 5, "cr": 6, "tipo": "OBR", "n": "Psicologia Escolar II", "pre": ["4.7"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "5.6", "semCodigo": true, "t": 5, "cr": 4, "tipo": "OBR", "n": "Psicologia Social I", "co": ["4.5", "4.6"]},
+    {"c": "5.7", "semCodigo": true, "t": 5, "cr": 4, "tipo": "OBR", "n": "Teorias Psicanalíticas II", "pre": ["4.8"]},
+    {"c": "5.8", "semCodigo": true, "t": 5, "cr": 2, "tipo": "OBR", "n": "Orientação Profissional I", "pre": ["3.9", "4.1"]},
+    {"c": "6.1", "semCodigo": true, "t": 6, "cr": 4, "tipo": "OBR", "n": "Psicopatologia", "pre": ["5.7", "1.3"], "co": ["6.2", "6.7"]},
+    {"c": "6.2", "semCodigo": true, "t": 6, "cr": 4, "tipo": "OBR", "n": "Terapia Comportamental", "pre": ["4.3", "5.1"], "co": ["6.1"]},
+    {"c": "6.3", "semCodigo": true, "t": 6, "cr": 4, "tipo": "OBR", "n": "Análise do Comportamento Aplicada: Educação Especial e Inclusiva", "pre": ["4.3"], "co": ["6.1"], "preTexto": "Análise do Comportamento Aplicada: Processos Educativos"},
+    {"c": "6.4", "semCodigo": true, "t": 6, "cr": 2, "tipo": "OBR", "n": "Atividades Extensionistas em Educação e Sociedade II", "pre": ["5.4"], "co": ["6.3"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "6.5", "semCodigo": true, "t": 6, "cr": 4, "tipo": "OBR", "n": "Psicologia Social II", "pre": ["5.6"]},
+    {"c": "6.6", "semCodigo": true, "t": 6, "cr": 2, "tipo": "OBR", "n": "Orientação Profissional II"},
+    {"c": "6.7", "semCodigo": true, "t": 6, "cr": 4, "tipo": "OBR", "n": "Clínica Psicanalítica I", "pre": ["4.6", "5.7"], "co": ["6.1"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "6.8", "semCodigo": true, "t": 6, "cr": 4, "tipo": "SLOT", "n": "Optativa", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "7.1", "semCodigo": true, "t": 7, "cr": 4, "tipo": "OBR", "n": "Análise do Comportamento Aplicada à Saúde", "pre": ["6.2"]},
+    {"c": "7.2", "semCodigo": true, "t": 7, "cr": 2, "tipo": "OBR", "n": "Atividades Extensionistas em Clínica e Saúde I", "pre": ["6.2"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "7.3", "semCodigo": true, "t": 7, "cr": 2, "tipo": "OBR", "n": "Psicologia e Inclusão"},
+    {"c": "7.4", "semCodigo": true, "t": 7, "cr": 2, "tipo": "OBR", "n": "Intervenção e Processos Grupais"},
+    {"c": "7.5", "semCodigo": true, "t": 7, "cr": 4, "tipo": "OBR", "n": "Psicologia e Comunidade", "extras": [["Extensão", 2, "cr"]]},
+    {"c": "7.6", "semCodigo": true, "t": 7, "cr": 4, "tipo": "OBR", "n": "Psicologia Organizacional e do Trabalho I"},
+    {"c": "7.7", "semCodigo": true, "t": 7, "cr": 4, "tipo": "OBR", "n": "Clínica Psicanalítica II", "pre": ["6.7", "6.1"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "7.8", "semCodigo": true, "t": 7, "cr": 4, "tipo": "SLOT", "n": "Optativa", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "8.1", "semCodigo": true, "t": 8, "cr": 4, "tipo": "OBR", "n": "Desenvolvimento e Educação Sexual", "pre": ["1.3", "4.7"]},
+    {"c": "8.2", "semCodigo": true, "t": 8, "cr": 4, "tipo": "OBR", "n": "Psicopatologia e Clínica Existencial", "pre": ["6.1"], "co": ["8.7"]},
+    {"c": "8.3", "semCodigo": true, "t": 8, "cr": 4, "tipo": "OBR", "n": "Ética Profissional"},
+    {"c": "8.4", "semCodigo": true, "t": 8, "cr": 2, "tipo": "OBR", "n": "Laboratório de Análise do Comportamento Aplicada aos Processos Clínicos", "pre": ["7.1"]},
+    {"c": "8.5", "semCodigo": true, "t": 8, "cr": 2, "tipo": "OBR", "n": "Atividades Extensionistas em Clínica e Saúde II", "pre": ["7.2"], "extras": [["Extensão", 2, "cr"]]},
+    {"c": "8.6", "semCodigo": true, "t": 8, "cr": 4, "tipo": "OBR", "n": "Psicologia Organizacional e do Trabalho II", "co": ["7.6"]},
+    {"c": "8.7", "semCodigo": true, "t": 8, "cr": 4, "tipo": "OBR", "n": "Clínica Psicanalítica III", "pre": ["7.7"], "co": ["8.2"]},
+    {"c": "8.8", "semCodigo": true, "t": 8, "cr": 2, "tipo": "OBR", "n": "Atividades Complementares", "extras": [["Atividade extraclasse ou prática", 2, "cr"]]},
+    {"c": "9.1", "semCodigo": true, "t": 9, "cr": 18, "tipo": "EST", "n": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Clínica e da Saúde*", "anual": true, "extras": [["Atividade extraclasse ou prática", 8, "cr"], ["Extensão", 2, "cr"]]},
+    {"c": "9.2", "semCodigo": true, "t": 9, "cr": 18, "tipo": "EST", "n": "Disciplinas do Programa de Estágio Supervisionado em Psicologia e Educação*", "anual": true, "extras": [["Atividade extraclasse ou prática", 8, "cr"], ["Extensão", 2, "cr"]]},
+    {"c": "9.3", "semCodigo": true, "t": 9, "cr": 18, "tipo": "EST", "n": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Organizacional e do Trabalho*", "anual": true, "extras": [["Atividade extraclasse ou prática", 8, "cr"], ["Extensão", 2, "cr"]]},
+    {"c": "9.4", "semCodigo": true, "t": 9, "cr": 18, "tipo": "EST", "n": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Social*", "anual": true, "extras": [["Atividade extraclasse ou prática", 8, "cr"], ["Extensão", 2, "cr"]]}
+  ],
+  "optativas": {
+    "exigencia": ["A matriz prevê duas optativas (6º e 7º semestres). A relação de optativas não consta do documento publicado."],
+    "lista": [
+    ]
+  },
+  "avisos": [
+    "Estágios específicos (9º e 10º semestres, anuais): *São Contabilizadas Apenas o Referente a 3 opções de Estágio. No documento, os semestres aparecem como “9 e 10”, “10 e 10”, “11 e 10” e “12 e 10”; aqui os quatro programas ficam no 9º termo.",
+    "“Análise do Comportamento Aplicada: Processos Educativos I” não tem semestre informado no documento; está no 4º termo, posição que ocupa na tabela.",
+    "As colunas “Atividade Extraclasse ou Prática” e “Extensão” aparecem ao lado dos créditos de cada disciplina, como no documento.",
+    "Laboratório de Análise Experimental do Comportamento I: o documento indica a própria disciplina como co-requisito.",
+    "Análise Experimental do Comportamento I: o documento indica a própria disciplina como co-requisito.",
+    "Teorias e Práticas Sistêmicas e Complexas: requisito citado como “Fundamentos das Teorias Sistêmicas e Complexas” ligado a “Fundamentos das Teorias Sistêmica e Complexa”.",
+    "Atividades Extensionistas em Educação e Sociedade I (5º termo) tem como pré-requisito “Análise do Comportamento Aplicada: Delineamentos Culturais”, do 5º termo, como está no documento.",
+    "Análise do Comportamento Aplicada: Educação Especial e Inclusiva: pré-requisito “Análise do Comportamento Aplicada: Processos Educativos” não corresponde a nenhuma disciplina desta matriz; mantido como texto."
+  ],
+  "correcoes": [
+    {"de": "DIsciplinas do Programa de Estágio Supervisionado em Psicologia Social*", "para": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Social*", "motivo": "maiúscula indevida", "cod": null}
+  ]
+});

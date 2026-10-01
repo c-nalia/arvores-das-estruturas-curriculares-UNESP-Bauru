@@ -1,12 +1,31 @@
-# Árvore de Grade — Departamento de Computação · FC/Unesp Bauru
+# Árvore de Grade — Cursos de graduação · Unesp Bauru
 
-Ferramenta de consulta às matrizes curriculares dos cursos de graduação, com as relações de
-pré-requisito e co-requisito entre as disciplinas. Nesta versão estão implementados:
+Ferramenta de consulta às matrizes curriculares dos cursos de graduação do Câmpus de Bauru, com as
+relações de pré-requisito e co-requisito entre as disciplinas. Esta versão cobre **20 cursos
+(28 currículos)** das três unidades do câmpus:
 
-| Curso | Currículo | Vigência | Pasta |
+| Unidade | Curso | Currículo(s) | Pasta |
 |---|---|---|---|
-| Bacharelado em Ciência da Computação (BCC) | 2105 | ingressantes a partir de 2023 | `bcc/` |
-| Bacharelado em Sistemas de Informação (BSI) | 2804 | ingressantes a partir de 2023 | `bsi/` |
+| FC | Ciência da Computação | 2105 | `fc/bcc/` |
+| FC | Sistemas de Informação | 2804 | `fc/bsi/` |
+| FC | Ciências Biológicas | 2710 (bacharelado, integral) · 2711 (licenciatura, noturno) | `fc/ciencias-biologicas/` |
+| FC | Educação Física | 2610 (integral) · 2611 (noturno), bacharelado e licenciatura | `fc/educacao-fisica/` |
+| FC | Física | 1606: licenciatura · bacharelado em Física de Materiais · bacharelado em Física Computacional | `fc/fisica/` |
+| FC | Matemática (licenciatura) | 1507 | `fc/matematica/` |
+| FC | Meteorologia | 1702 | `fc/meteorologia/` |
+| FC | Pedagogia | matriz 2023 | `fc/pedagogia/` |
+| FC | Psicologia | 1212/1213 | `fc/psicologia/` |
+| FC | Química | licenciatura · bacharelado em Química Tecnológica (matrizes 2023) | `fc/quimica/` |
+| FAAC | Arquitetura e Urbanismo | ingressantes a partir de 2023 | `faac/arquitetura-e-urbanismo/` |
+| FAAC | Artes Visuais | 2504 (núcleo básico) + bacharelado / licenciatura | `faac/artes-visuais/` |
+| FAAC | Comunicação: Rádio, TV e Internet | 1104I | `faac/comunicacao-audiovisual/` |
+| FAAC | Design | estrutura 2023 (ingressantes a partir de 2024) | `faac/design/` |
+| FAAC | Jornalismo | 2205 | `faac/jornalismo/` |
+| FAAC | Relações Públicas | ingressantes a partir de 2023 | `faac/relacoes-publicas/` |
+| FEB | Engenharia Civil | 0104 | `feb/engenharia-civil/` |
+| FEB | Engenharia de Produção | 4403 | `feb/engenharia-de-producao/` |
+| FEB | Engenharia Elétrica | 0304 | `feb/engenharia-eletrica/` |
+| FEB | Engenharia Mecânica | 0204 | `feb/engenharia-mecanica/` |
 
 Funcionalidades:
 
@@ -14,81 +33,95 @@ Funcionalidades:
 - painel com ementa (quando publicada), pré-requisitos, co-requisitos e dependentes;
 - busca por nome ou código;
 - lista por termo: é a visualização acessível e a que se imprime, e é o padrão em telas estreitas;
-- simulação de percurso, com as disciplinas aptas para matrícula, os co-requisitos, o requisito
-  percentual do TCC do BCC e aviso de marcações inconsistentes;
-- quadro de disciplinas optativas nos dois cursos;
-- quadro-resumo da integralização (BCC).
+- simulação de percurso, em horas, créditos ou componentes, conforme o que o documento informa;
+- **seletor de currículos** quando o curso tem modalidades ou turnos (Física, Química, Biologia,
+  Educação Física, Artes Visuais);
+- **quadro de optativas** sempre que o documento traz a relação (BSI, Meteorologia, Rádio-TV) ou a
+  exigência de carga optativa (BCC, Arquitetura, Artes Visuais, Engenharia Elétrica, Educação
+  Física, Psicologia, Design, Física);
+- quadro-resumo da integralização, quando o documento o apresenta;
+- avisos sobre divergências do próprio documento (totais que não fecham, requisitos que não
+  correspondem a nenhuma disciplina, nomes repetidos).
 
-**Regra de fidelidade.** Nomes, códigos, cargas, tipos, requisitos e textos são transcritos
-literalmente dos documentos oficiais, inclusive grafias que pareçam incorretas. A única exceção é
-uma correção autorizada e registrada em `testes/referencia/` (hoje, apenas a 4609). Correções de nome
-devem ser feitas primeiro na fonte oficial e só depois nos dados. `testes/validar-dados.mjs`
-compara os dados, caractere a caractere, com transcrições independentes dessas fontes.
+**Regras dos dados.**
+
+1. **Nenhum número é alterado.** Códigos, créditos, cargas horárias, termos e tipos são os do
+   documento oficial, mesmo quando o documento soma errado. Divergências viram aviso na página.
+2. **Erros de grafia são corrigidos e registrados.** Cada correção (ex.: `lsostática` →
+   `Isostática`, `Computacão` → `Computação`, `ll` → `II`) fica no campo `correcoes` do arquivo de
+   dados, com o texto original e o motivo, e aparece no rodapé da página ("Grafias corrigidas em
+   relação ao documento"). A tabela de correções está em `ferramentas/construir.py`.
+3. **O que a fonte não traz, o arquivo não inventa.** Sem código no documento, a disciplina fica sem
+   código; sem requisito, sem aresta; sem carga (Design), a árvore conta componentes.
 
 ---
 
 ## 1. Estrutura de pastas
 
 ```
-arvore-de-grade/
-├── index.html                  página de avaliação (lista os cursos) — não publicar
+├── index.html                    página de avaliação (lista os 20 cursos) — não publicar
 ├── README.md
 ├── assets/
-│   ├── arvore-grade.js         componente (sem dependências)
-│   ├── arvore-grade.css        estilos, todos escopados em .ag
-│   └── previa-portal.css       SOMENTE pré-visualização
-├── bcc/
-│   ├── dados-bcc-2105.js       dados do currículo 2105
-│   ├── index.html              página da árvore (autônoma ou dentro de iframe)
-│   └── previa-no-portal.html   pré-visualização no leiaute do portal — não publicar
-├── bsi/
-│   ├── dados-bsi-2804.js
-│   ├── index.html
-│   └── previa-no-portal.html
-├── testes/
-│   ├── validar-dados.mjs       integridade e fidelidade dos dados (Node, sem dependências)
-│   ├── e2e.mjs                 testes em navegador (Playwright)
-│   └── referencia/             transcrições independentes das fontes oficiais
-└── revisao/
-    └── relatorio-de-revisao.md achados da revisão técnica e situação de cada um
+│   ├── arvore-grade.js           componente (sem dependências)
+│   ├── arvore-grade.css          estilos, todos escopados em .ag
+│   └── previa-portal.css         SOMENTE pré-visualização
+├── fc/   faac/   feb/            uma pasta por curso:
+│   └── <curso>/
+│       ├── dados-<id>.js         dados de cada currículo
+│       ├── index.html            página da árvore (autônoma ou dentro de iframe)
+│       └── previa-no-portal.html só BCC e BSI — pré-visualização, não publicar
+├── ferramentas/
+│   ├── construir.py              gera os dados e as páginas a partir de "planos de ensino/"
+│   ├── fontes_sg.py              leitura dos CSV/PDF do Sistema de Graduação
+│   ├── transcricoes.py           matrizes publicadas como imagem ou tabela sem códigos
+│   └── fontes.json               endereço oficial de cada documento
+├── planos de ensino/             documentos oficiais baixados (fonte de tudo)
+└── testes/
+    ├── validar-dados.mjs         integridade e fidelidade dos dados (Node, sem dependências)
+    ├── conferir_fontes.py        confere os dados gerados, número a número, com as fontes
+    ├── e2e.mjs                   testes em navegador (Playwright)
+    └── referencia/               transcrições independentes e totais por termo
 ```
 
-**O que publicar:** `assets/arvore-grade.js`, `assets/arvore-grade.css`, `bcc/index.html`,
-`bcc/dados-bcc-2105.js`, `bsi/index.html` e `bsi/dados-bsi-2804.js`. Os demais arquivos servem à
-avaliação e à manutenção.
+**O que publicar:** `assets/arvore-grade.js`, `assets/arvore-grade.css` e, de cada curso,
+`index.html` e os `dados-*.js` da pasta. O restante serve à avaliação e à manutenção.
+
+**BCC e BSI** são mantidos à mão (foram conferidos linha a linha na revisão anterior).
+**Os demais cursos são gerados** por `python3 ferramentas/construir.py`: não edite os `dados-*.js`
+gerados; corrija a fonte, a transcrição ou a tabela de correções e gere de novo.
 
 ## 2. Publicação no Portal Unesp
 
-As páginas de curso do portal são rotas `#!/…` de uma aplicação AngularJS (Portal Unesp 2.9).
-Endereços propostos:
+As páginas de curso dos portais (www.fc, www.faac, www.feb) são rotas `#!/…` de uma aplicação
+AngularJS (Portal Unesp 2.9). Cada curso ganha uma página "Árvore de grade" no seu menu, por
+exemplo:
 
 - `https://www.fc.unesp.br/#!/departamentos/computacao/cursos-de-graduao/bacharelado-em-ciencia-da-computacao/arvore-de-grade/`
-- `https://www.fc.unesp.br/#!/departamentos/computacao/cursos-de-graduao/bacharelado-em-sistemas-de-informacao/arvore-de-grade/`
+- `https://www.feb.unesp.br/#!/graduacao/secao-de-graduacao/cursos-de-graduacao/engenharia-civil/arvore-de-grade/`
 
 ### Opção A — iframe (recomendada)
 
-1. Enviar os arquivos listados acima para a área de arquivos do site, mantendo a estrutura de
-   pastas. Exemplo: `https://www.fc.unesp.br/Home/Departamentos/Computacao/arvore-de-grade/`,
-   o mesmo local dos PDFs de currículo. A viabilidade de hospedar HTML nessa área deve ser
-   confirmada com a equipe do portal.
-2. Criar a página "Árvore de grade" no menu lateral de cada curso.
-3. Inserir no conteúdo da página:
+1. Enviar `assets/` e a pasta do curso para a área de arquivos do site, mantendo a estrutura
+   (ex.: `https://www.fc.unesp.br/Home/arvore-de-grade/fc/bcc/`). A viabilidade de hospedar HTML
+   nessa área deve ser confirmada com a equipe do portal. Um único local pode servir aos três
+   portais.
+2. Criar a página "Árvore de grade" no menu do curso.
+3. Inserir no conteúdo da página (trocar o caminho do curso):
 
 ```html
 <iframe class="arvore-grade"
-        src="/Home/Departamentos/Computacao/arvore-de-grade/bcc/index.html?embed=1"
-        title="Árvore de pré-requisitos do Bacharelado em Ciência da Computação"
+        src="/Home/arvore-de-grade/fc/bcc/index.html?embed=1"
+        title="Árvore de pré-requisitos do curso"
         style="display:block;width:100%;height:85vh;min-height:640px;border:0"></iframe>
-<p><a href="/Home/Departamentos/Computacao/arvore-de-grade/bcc/index.html" target="_blank">Abrir a árvore em página própria</a></p>
+<p><a href="/Home/arvore-de-grade/fc/bcc/index.html" target="_blank">Abrir a árvore em página própria</a></p>
 ```
 
-`?embed=1` oculta o título interno, pois a página do portal já exibe o seu. Com altura em `vh`,
-o conteúdo rola dentro do quadro em qualquer tamanho de tela. O link abaixo do quadro atende quem
-prefere a página inteira, sobretudo no celular.
+`?embed=1` oculta o título interno. Em cursos com mais de um currículo, `?curriculo=<id>` abre
+direto num deles (ex.: `fc/fisica/index.html?embed=1&curriculo=fisica-1606-computacional`), o que
+permite que cada modalidade tenha sua própria página no portal.
 
 **Ajuste automático de altura (opcional).** Se o portal permitir scripts no *modelo* da página
-(e não apenas no conteúdo editável), a altura do iframe pode acompanhar o conteúdo. Nesse caso,
-use `style="…;height:auto;min-height:640px"` e o script abaixo:
+(não no conteúdo editável, onde scripts não rodam), a altura do iframe pode acompanhar o conteúdo:
 
 ```html
 <script>
@@ -101,156 +134,169 @@ use `style="…;height:auto;min-height:640px"` e o script abaixo:
 </script>
 ```
 
-O componente informa a altura real do conteúdo, que aumenta e diminui conforme a vista, a
-seleção e a simulação.
-
-Um `<script>` colocado no conteúdo de uma página AngularJS **não é executado**. Por isso a altura
-em `vh` é o padrão.
-
 ### Opção B — incorporação direta (depende de acesso ao modelo do portal)
 
-Só é viável se o arquivo JavaScript puder ser carregado pelo modelo do site. O mesmo vale para o
-script da Opção A: scripts inseridos no conteúdo editável não rodam. Nesse cenário:
-
 ```html
-<link rel="stylesheet" href="/Home/Departamentos/Computacao/arvore-de-grade/assets/arvore-grade.css">
-<script src="/Home/Departamentos/Computacao/arvore-de-grade/assets/arvore-grade.js"></script>
-<script src="/Home/Departamentos/Computacao/arvore-de-grade/bcc/dados-bcc-2105.js"></script>
+<link rel="stylesheet" href="/Home/arvore-de-grade/assets/arvore-grade.css">
+<script src="/Home/arvore-de-grade/assets/arvore-grade.js"></script>
+<script src="/Home/arvore-de-grade/fc/fisica/dados-fisica-1606-licenciatura.js"></script>
+<script src="/Home/arvore-de-grade/fc/fisica/dados-fisica-1606-materiais.js"></script>
 ```
 
-No conteúdo da página, basta então `<div data-arvore-grade="bcc-2105" data-titulo="nao"></div>`.
-O componente observa o documento e monta o elemento sempre que a rota `#!` o insere, inclusive
-ao navegar entre páginas. Ele também não altera o endereço em rotas `#!`. Os estilos são
-escopados em `.ag`, mas o CSS global do portal (Bootstrap) pode interferir. Por isso a Opção A
-continua preferível.
+No conteúdo: `<div data-arvore-grade="fisica-1606-licenciatura,fisica-1606-materiais" data-titulo="nao"></div>`.
+Um id só monta um currículo; vários ids separados por vírgula mostram o seletor. O componente
+monta o elemento sempre que a rota `#!` o insere e não altera o endereço em rotas `#!`.
 
 ### Opção C — link direto
 
-`bcc/index.html` e `bsi/index.html` funcionam como páginas autônomas e aceitam `#d=<código>` para
-abrir com uma disciplina selecionada (ex.: `bcc/index.html#d=4617`). Âncoras de outro tipo são
-preservadas.
+Toda `index.html` funciona como página autônoma e aceita `#d=<código>` para abrir com uma
+disciplina selecionada (ex.: `fc/bcc/index.html#d=4617`; em matrizes sem código, o identificador
+é `termo.posição`, ex.: `#d=3.2`).
 
 ### Pré-visualização
 
-`bcc/previa-no-portal.html` e `bsi/previa-no-portal.html` mostram a ferramenta dentro de uma
-reprodução simplificada do leiaute do portal. O menu lateral usa os itens e endereços reais de
-cada curso. As páginas trazem aviso de que não são oficiais e um espaço reservado no lugar do
-logotipo. **Não publicar.**
+`fc/bcc/previa-no-portal.html` e `fc/bsi/previa-no-portal.html` mostram a ferramenta dentro de uma
+reprodução simplificada do leiaute do portal. **Não publicar.**
 
 ## 3. Identidade visual
 
-Valores medidos em www.fc.unesp.br (setembro/2026):
+Valores medidos em www.fc.unesp.br (setembro/2026), os mesmos dos portais da FAAC e da FEB:
 
 | Elemento | Valor no portal | Uso na ferramenta |
 |---|---|---|
 | Fonte | Raleway | toda a interface, com algarismos alinhados e tabulares |
 | Azul institucional | `#1e3b50` | títulos, cabeçalhos de termo, cadeia de pré-requisitos |
 | Ciano | `#00acfa` | filetes e disciplinas dependentes; em texto usa-se `#0070a6` (contraste AA) |
-| Cinza de menu | `#f5f5f5` | ficha do curso, cabeçalhos de tabela |
+| Cinza de menu | `#f5f5f5` | ficha do curso, cabeçalhos de tabela, avisos |
 | Texto | `#1a1a1a` | corpo; texto secundário `#4d4d4d` e `#5f6871` |
-
-Não há modo escuro: o portal é exclusivamente claro e a ferramenta acompanha a página hospedeira.
 
 ## 4. Acessibilidade
 
 - **Teclado:** toda a interface é operável por teclado (Tab, Enter/Espaço; Esc limpa a seleção
-  ou a busca). Ao escolher uma disciplina no painel, o foco vai para o cartão correspondente.
-  Na lista por termo, vai para o título do painel.
-- **Não depende só de cor:** a relação de cada cartão com a disciplina selecionada é informada
-  também em texto ("pré-requisito direto", "requer esta disciplina", "co-requisito").
-- **Leitor de tela:**
-  - a lista por termo apresenta o mesmo conteúdo em tabelas;
-  - cada termo é uma lista rotulada pelo seu cabeçalho;
-  - a seleção é anunciada numa região discreta ("Selecionada: … N disciplinas anteriores…");
-  - a busca anuncia o número de resultados.
-- **Contraste:** o texto tem ≥ 4,5:1 em todos os fundos usados. Contornos de campos, caixas de
-  seleção e arestas do grafo têm ≥ 3:1. Os cartões fora da cadeia selecionada ficam
-  esmaecidos de propósito, para destacar a cadeia; a mesma informação está disponível, com
-  contraste pleno, na lista por termo.
-- **Movimento:** `prefers-reduced-motion` é respeitado.
-- **Impressão:** gera a lista por termo completa, independentemente da vista ou da busca ativas.
+  ou a busca), inclusive o seletor de currículos.
+- **Não depende só de cor:** a relação de cada cartão com a disciplina selecionada também é
+  informada em texto.
+- **Leitor de tela:** a lista por termo apresenta o mesmo conteúdo em tabelas; a seleção e a busca
+  são anunciadas.
+- **Contraste:** texto ≥ 4,5:1; contornos e arestas ≥ 3:1.
+- **Impressão:** gera a lista por termo completa, com a lista de correções aberta.
 
 ## 5. Formato dos dados
-
-Cada curso tem um arquivo `dados-<curso>-<currículo>.js`. Os campos espelham as colunas do
-documento-fonte: o que a fonte não traz, o arquivo não inventa.
 
 ```js
 ArvoreGrade.registrar({
   id: "xxx-0000",                 // único; é o valor de data-arvore-grade
-  sigla: "XXX",
+  sigla: "Nome curto",
+  rotuloSeletor: "Licenciatura",  // texto do botão no seletor de currículos
   curso: "Nome completo do curso",
-  curriculo: "0000",
+  curriculo: "0000",              // opcional (omitido quando o documento não informa)
   vigencia: "Ingressantes a partir de 20XX",
-  atualizadoEm: "AAAA-MM-DD",     // data da última conferência
-  fonte:   { titulo: "...", url: "..." },                 // documento oficial
-  contato: { titulo: "Conselho de Curso", url: "..." },   // página do Conselho
-  creditosNoDocumento: true,      // exibe créditos (= horas ÷ 15) só se a fonte os imprime
+  unidade: "Faculdade de … · Câmpus de Bauru",
+  atualizadoEm: "AAAA-MM-DD",
+  fonte:   { titulo: "...", url: "..." },        // documento oficial
+  pagina:  { titulo: "página do curso", url: "..." },
+  contato: { titulo: "...", url: "..." },
+  creditosNoDocumento: true,      // exibe créditos só se a fonte os imprime
   tiposNoDocumento: true,         // exibe o tipo (OBR/TRA/…) só se a fonte o informa
-  rotuloTermo: "serie-periodo",   // opcional: "Série x · Período y" sob cada termo
-  quadroResumo: { linhas: [["Componente", créditos, horas], ...], total: [créditos, horas] },
+  rotuloTermo: "serie-periodo",   // ou "ano-semestre"
+  semCarga: true,                 // a fonte não informa cargas: a árvore conta componentes
+  quadroResumo: { titulo, cabecalho, colunas: ["Créditos", "Horas"], linhas: [[rótulo, ...valores]], total, nota },
   regras: { "CÓDIGO": { tipo: "percentualObrigatorias", valor: 0.70, texto: "texto literal" } },
   disciplinas: [
-    { c: "4600", t: 1, n: "Cálculo I", ch: 60, tipo: "OBR", d: "MAT",
-      pre: ["..."], co: ["..."], aceu: 0, ementa: "...", classificacao: "extensao" }
+    { c: "4600", cod: "…", semCodigo: true, t: 1, n: "Cálculo I", ch: 60, cr: 4, aceu: 0, tipo: "OBR",
+      d: "MAT", pre: ["..."], co: ["..."], preTexto: "...", coTexto: "...", anual: true,
+      extras: [["Extensão", 2, "cr"]], ementa: "...", classificacao: "extensao", tipoDoc: "ACE" }
   ],
-  optativas: {
-    fonte: { titulo: "...", url: "..." },
-    lista: [ { c: "4552", n: "...", ch: 60, tipo: "OPT", pre: ["..."] } ],
-    oferta: { periodo: "1º semestre de 2026", fonte: {...},
-              itens: [ { c: "49187", d: "COM", n: "...", cr: 4, termos: [5, 7] } ] }
-  }
+  optativas: { fonte, exigencia: ["texto"], nota, lista: [ { c, n, ch, cr, tipo: "OPT", d, pre, co } ], oferta },
+  avisos: ["divergências e particularidades do documento"],
+  correcoes: [ { cod, campo, de: "texto original", para: "texto corrigido", motivo } ]
 });
 ```
 
 | Campo | Significado |
 |---|---|
-| `c` | código (vagas de optativa usam um identificador, ex.: `OPT-I`) |
-| `t` | termo; no BSI, Série/Período em sequência (Série 1 · Período 1 = 1, …) |
-| `n` | nome, **como no documento** |
-| `ch` | carga horária, como no documento (coluna "Horas" ou "Carga Horária") |
-| `aceu` | coluna "CH ACEU" do Sistema de Graduação (horas de extensão) |
-| `tipo` | `OBR`, `TRA` (literal da fonte), ou `SLOT` para a linha "Optativa" da matriz |
-| `d` | departamento, só quando a fonte informa |
-| `pre` / `co` | códigos de pré-requisitos e co-requisitos |
-| `ementa` | ementa publicada (opcional) |
-| `classificacao` | `"extensao"`: fica fora da soma das obrigatórias na simulação, sem mudar a exibição |
+| `c` / `cod` | identificador / código exibido. Sem código no documento: `semCodigo` e `c` = `termo.posição` |
+| `t` | termo (Série/Período ou ano/semestre em sequência: 1º ano · 1º semestre = 1, …) |
+| `ch` / `cr` | horas / créditos, como no documento (um ou outro, ou ambos) |
+| `aceu` | coluna "CH ACEU" (horas de extensão) |
+| `tipo` | `OBR`, `TRA`, `EST`, `OPT` (como no documento) ou `SLOT` (vaga de optativa da matriz) |
+| `tipoDoc` | tipo literal quando não é um dos acima (ex.: `ACE`, `ACEU` na Arquitetura) |
+| `pre` / `co` | requisitos que correspondem a disciplinas da matriz |
+| `preTexto` / `coTexto` | requisitos citados que **não** correspondem a disciplina da matriz |
+| `anual` | disciplina anual; aparece nos dois termos, como no documento |
+| `extras` | colunas adicionais de carga (Psicologia: extraclasse e extensão) |
 
-**Convenções de carga.**
+## 6. Gerar os dados
 
-- **Cabeçalho de cada termo:** soma o que o documento lista no termo, incluindo vagas de optativa
-  e CH ACEU.
-- **Barra da simulação:** usa as horas obrigatórias do quadro-resumo, quando existe. Sem ele,
-  soma as disciplinas OBR e TRA, excluindo as classificadas como extensão.
+```
+python3 ferramentas/construir.py
+```
 
-O componente registra no console qualquer requisito que aponte para código inexistente e qualquer
-diferença entre a soma das obrigatórias e o quadro-resumo.
+Requer Python 3 com `pdfplumber` e `pandas`, `pdftotext` (poppler) e, para os `.doc` da Educação
+Física, LibreOffice (`soffice`). O script imprime, por currículo, quantos termos conferem com os
+totais do documento, e lista cada correção de grafia e cada aviso.
 
-## 6. Testes
+**Fontes por tipo de documento:**
+
+- **Sistema de Graduação (CSV da FAAC, PDF da FEB):** lidos automaticamente (`fontes_sg.py`).
+- **PDF com tabela de texto (Psicologia, Pedagogia, Biologia, Física, Design):** transcritos em
+  `transcricoes.py`, com as somas conferidas com os totais impressos.
+- **Imagem (Química, Meteorologia):** transcritos em `transcricoes.py` a partir das imagens.
+- **DOC (Educação Física):** convertidos pelo LibreOffice e lidos automaticamente.
+- **CSV da página (Matemática):** lido automaticamente.
+
+## 7. Divergências encontradas nos documentos
+
+Mantidas como publicadas (os números não foram alterados) e exibidas como aviso na página de cada
+curso:
+
+- **Educação Física 2611 (bacharelado):** 4º termo soma 20 créditos e o documento diz 22; 5º soma
+  22 e o documento diz 20. No quadro do 2610 (bacharelado), "147 Créditos – 2005 H/A" (147 × 15 = 2205).
+- **Química:** a soma da matriz da licenciatura (3705 h) difere da carga declarada (3735 h).
+- **Meteorologia:** dois códigos com o mesmo nome (7005 e 7050, "Energia e Sustentabilidade
+  Ambiental"); a Micrometeorologia exige "Física II", que não existe na grade; a soma da grade
+  (197 créditos) difere do total de obrigatórias da página (187).
+- **Física:** "Química Geral II" tem 4 créditos na tabela e 2 no cabeçalho da ementa.
+- **Psicologia:** duas disciplinas citam a si mesmas como co-requisito; os semestres dos estágios
+  aparecem como "10 e 10", "11 e 10", "12 e 10"; um requisito cita "Processos Educativos" sem
+  número; uma disciplina sem semestre informado; um pré-requisito no mesmo semestre.
+- **Engenharia de Produção (2º e 5º termos) e Artes Visuais (8º termo):** o total impresso não
+  inclui a CH ACEU, ao contrário dos demais termos.
+- **Biologia 2711:** os co-requisitos das Metodologias e Práticas de Ensino são estágios que não
+  constam da matriz.
+- **Design:** o documento não informa cargas, códigos nem requisitos.
+- **Relações Públicas, Arquitetura:** o documento não informa o número do currículo.
+
+## 8. Testes
 
 ```
 node testes/validar-dados.mjs                             # sem dependências
+python3 testes/conferir_fontes.py                         # relê as fontes oficiais
 npm i -D playwright && npx playwright install chromium
 node testes/e2e.mjs
 ```
 
-- **`validar-dados.mjs`:** confere a integridade do grafo e compara nomes, cargas, tipos, termos,
-  requisitos, texto da regra do TCC, quadro-resumo, ementas e oferta de optativas com as
-  transcrições em `testes/referencia/`.
-- **`e2e.mjs`:** cobre desenho das arestas, destaque da cadeia, impressão, simulação (inclusive
-  co-requisitos e regra de 70%), altura do iframe, montagem tardia, teclado, ARIA, celular e
-  injeção de HTML.
+- **`validar-dados.mjs`:** integridade do grafo de todos os currículos, coerência das correções
+  registradas, somas por termo × documento e, para BCC e BSI, comparação caractere a caractere com
+  as transcrições em `testes/referencia/`.
+- **`conferir_fontes.py`:** confere cada código (termo, carga, CH ACEU, tipo, requisitos) contra os
+  CSV/PDF do Sistema de Graduação e cada disciplina transcrita contra a transcrição.
+- **`e2e.mjs`:** arestas, destaque da cadeia e acessibilidade em todos os currículos; impressão,
+  simulação, link profundo, teclado e iframe em BCC e BSI; seletor de currículos, modo créditos,
+  modo componentes, correções e índice.
 
-## 7. Privacidade e dependências externas
+## 9. Privacidade e dependências externas
 
-- Nenhum dado é enviado a servidores. A simulação e a preferência de visualização ficam apenas no
-  `localStorage` do navegador do usuário.
+- Nenhum dado é enviado a servidores. A simulação e as preferências ficam apenas no `localStorage`
+  do navegador.
 - Sem ferramentas de análise ou rastreamento.
-- Única dependência externa: a fonte Raleway via Google Fonts, a mesma usada pelo portal.
+- Única dependência externa: a fonte Raleway via Google Fonts, a mesma usada pelos portais.
 
-## 8. Manutenção
+## 10. Manutenção
 
-- **Mudança de currículo:** criar um novo arquivo de dados (ex.: `dados-bcc-2106.js`) em vez de
-  editar o anterior, preservando a árvore dos ingressantes antigos.
-- **Após cada conferência:** atualizar `atualizadoEm` e rodar `node testes/validar-dados.mjs`.
-- **Oferta de optativas:** atualizar a cada semestre com os horários publicados.
+- **Mudança de currículo:** baixar o novo documento para `planos de ensino/`, ajustar
+  `construir.py` (ou a transcrição) e gerar de novo, preservando o arquivo do currículo anterior.
+- **Nova correção de grafia:** acrescentar à lista `CORRECOES` em `construir.py`; nunca editar o
+  número de nada.
+- **Após cada conferência:** atualizar `ATUALIZADO` em `construir.py` e rodar os três testes.
+- **Oferta de optativas do BCC:** atualizar a cada semestre com os horários publicados.

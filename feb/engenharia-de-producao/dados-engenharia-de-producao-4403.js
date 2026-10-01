@@ -1,0 +1,92 @@
+/*
+ * Árvore de Grade — dados do curso
+ * Engenharia de Produção · Currículo 4403
+ * Faculdade de Engenharia de Bauru · Câmpus de Bauru
+ *
+ * ARQUIVO GERADO por ferramentas/construir.py a partir de "planos de ensino/FEB/DEP/Engenharia_de_Producao".
+ * Não edite à mão: corrija a fonte, a transcrição ou a tabela de correções e gere de novo.
+ * Números (códigos, créditos, horas) são os do documento oficial. Correções de grafia
+ * aplicadas aos nomes estão listadas no campo "correcoes".
+ */
+ArvoreGrade.registrar({
+  "id": "engenharia-de-producao-4403",
+  "sigla": "Engenharia de Produção",
+  "curso": "Engenharia de Produção",
+  "curriculo": "4403",
+  "vigencia": "Ingressantes a partir de 2023",
+  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru",
+  "atualizadoEm": "2026-09-30",
+  "rotuloTermo": "serie-periodo",
+  "tiposNoDocumento": true,
+  "fonte": {"titulo": "Estrutura curricular vigente (a partir de 2023)", "url": "https://www.feb.unesp.br/Home/Graduacao137/secaodegraduacao/cursosdegraduacao/eproducao.pdf"},
+  "pagina": {"titulo": "página do curso", "url": "https://www.feb.unesp.br/#!/graduacao/secao-de-graduacao/cursos-de-graduacao/engenharia-de-producao/"},
+  "contato": {"titulo": "página do curso", "url": "https://www.feb.unesp.br/#!/graduacao/secao-de-graduacao/cursos-de-graduacao/engenharia-de-producao/"},
+  "disciplinas": [
+    {"c": "AG1109P23", "t": 1, "ch": 60, "tipo": "OBR", "n": "Desenho Técnico"},
+    {"c": "DF1103F23", "t": 1, "ch": 60, "tipo": "OBR", "n": "Física I"},
+    {"c": "DF1104F23", "t": 1, "ch": 30, "tipo": "OBR", "n": "Laboratório de Física I", "co": ["DF1103F23"]},
+    {"c": "DM1101F23", "t": 1, "ch": 60, "tipo": "OBR", "n": "Cálculo Diferencial e Integral I"},
+    {"c": "DM1102F23", "t": 1, "ch": 60, "tipo": "OBR", "n": "Cálculo Vetorial e Geometria Analítica"},
+    {"c": "DQ1105P23", "t": 1, "ch": 30, "tipo": "OBR", "n": "Fundamentos de Química para Engenharia"},
+    {"c": "DQ1106P23", "t": 1, "ch": 30, "tipo": "OBR", "n": "Química Experimental para Engenharia de Produção", "co": ["DQ1105P23"]},
+    {"c": "EP1107P23", "t": 1, "ch": 30, "tipo": "OBR", "n": "Introdução à Engenharia de Produção"},
+    {"c": "EP1108P23", "t": 1, "ch": 60, "tipo": "OBR", "n": "Introdução à Ciência da Computação"},
+    {"c": "DF1202F23", "t": 2, "ch": 60, "tipo": "OBR", "n": "Física II"},
+    {"c": "DF1203F23", "t": 2, "ch": 30, "tipo": "OBR", "n": "Laboratório de Física II", "co": ["DF1202F23"]},
+    {"c": "DM1201F23", "t": 2, "ch": 60, "tipo": "OBR", "n": "Cálculo Diferencial e Integral II"},
+    {"c": "DM1204F23", "t": 2, "ch": 60, "tipo": "OBR", "n": "Álgebra Linear"},
+    {"c": "EP1205P23", "t": 2, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Estatística I", "co": ["EP1208P23"]},
+    {"c": "EP1206P23", "t": 2, "ch": 24, "aceu": 6, "tipo": "OBR", "n": "Metodologia Científica", "co": ["EP1208P23"]},
+    {"c": "EP1207P23", "t": 2, "ch": 24, "aceu": 6, "tipo": "OBR", "n": "Desenvolvimento Econômico e Social", "co": ["EP1208P23"]},
+    {"c": "EP1208P23", "t": 2, "ch": 0, "aceu": 120, "tipo": "OBR", "n": "Projeto Integrado em Engenharia de Produção I", "co": ["EP1205P23", "EP1206P23", "EP1207P23"]},
+    {"c": "EP1209P23", "t": 2, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Economia", "co": ["EP1208P23"]},
+    {"c": "DF2102F23", "t": 3, "ch": 60, "tipo": "OBR", "n": "Física III"},
+    {"c": "DF2103F23", "t": 3, "ch": 30, "tipo": "OBR", "n": "Laboratório de Física III", "co": ["DF2102F23"]},
+    {"c": "DM2101F23", "t": 3, "ch": 90, "tipo": "OBR", "n": "Cálculo de Múltiplas Variáveis", "pre": ["DM1101F23", "DM1201F23"]},
+    {"c": "EC2106P23", "t": 3, "ch": 60, "tipo": "OBR", "n": "Resistência dos Materiais"},
+    {"c": "EE2105P23", "t": 3, "ch": 60, "tipo": "OBR", "n": "Eletricidade Básica e Uso Racional de Energia Elétrica"},
+    {"c": "EP2104P23", "t": 3, "ch": 30, "tipo": "OBR", "n": "Economia Industrial"},
+    {"c": "EP2107P23", "t": 3, "ch": 60, "tipo": "OBR", "n": "Pesquisa Operacional I", "pre": ["DM1204F23"]},
+    {"c": "EP2108P23", "t": 3, "ch": 30, "tipo": "OBR", "n": "Teoria das Organizações"},
+    {"c": "EP2109P23", "t": 3, "ch": 60, "tipo": "OBR", "n": "Estatística II", "pre": ["EP1205P23"]},
+    {"c": "DM2201F23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Equações Diferenciais Ordinárias", "pre": ["DM1101F23", "DM1201F23"]},
+    {"c": "EE2202P23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Automação Industrial"},
+    {"c": "EP2203P23", "t": 4, "ch": 30, "tipo": "OBR", "n": "Estratégia Empresarial"},
+    {"c": "EP2204P23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Ciência e Tecnologia dos Materiais", "pre": ["DQ1105P23"]},
+    {"c": "EP2205P23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Marketing"},
+    {"c": "EP2206P23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Pesquisa Operacional II", "pre": ["EP2107P23"]},
+    {"c": "EP2207P23", "t": 4, "ch": 60, "tipo": "OBR", "n": "Gestão Ambiental"},
+    {"c": "DM3101F23", "t": 5, "ch": 60, "tipo": "OBR", "n": "Cálculo Numérico Computacional"},
+    {"c": "EM3102P23", "t": 5, "ch": 60, "tipo": "OBR", "n": "Fenômenos de Transporte", "pre": ["DM1201F23"]},
+    {"c": "EP3103P23", "t": 5, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Sistemas de Produção", "co": ["EP3109P23"]},
+    {"c": "EP3104P23", "t": 5, "ch": 24, "aceu": 6, "tipo": "OBR", "n": "Teoria das Filas e Simulação", "co": ["EP3109P23"]},
+    {"c": "EP3105P23", "t": 5, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Gestão da Qualidade", "co": ["EP3109P23"]},
+    {"c": "EP3106P23", "t": 5, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Inovação e Empreendedorismo", "co": ["EP3109P23"]},
+    {"c": "EP3107P23", "t": 5, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Engenharia Econômica", "co": ["EP3109P23"]},
+    {"c": "EP3108P23", "t": 5, "ch": 48, "aceu": 12, "tipo": "OBR", "n": "Processos de Fabricação", "co": ["EP3109P23"]},
+    {"c": "EP3109P23", "t": 5, "ch": 0, "aceu": 120, "tipo": "OBR", "n": "Projeto Integrado em Engenharia de Produção II", "pre": ["EP1208P23"], "co": ["EP3103P23", "EP3104P23", "EP3105P23", "EP3106P23", "EP3107P23", "EP3108P23"]},
+    {"c": "AG3203P23", "t": 6, "ch": 60, "tipo": "OBR", "n": "Ergonomia e Segurança do Trabalho"},
+    {"c": "EP3201P23", "t": 6, "ch": 60, "tipo": "OBR", "n": "Controle de Qualidade"},
+    {"c": "EP3202P23", "t": 6, "ch": 60, "tipo": "OBR", "n": "Planejamento e Controle da Produção I"},
+    {"c": "EP3204P23", "t": 6, "ch": 30, "tipo": "OBR", "n": "Engenharia de Métodos"},
+    {"c": "EP3205P23", "t": 6, "ch": 60, "tipo": "OBR", "n": "Gestão de Projetos"},
+    {"c": "EP3206P23", "t": 6, "ch": 60, "tipo": "OBR", "n": "Gestão de Custos"},
+    {"c": "EP3207P23", "t": 6, "ch": 120, "tipo": "OPT", "n": "Projeto Integrado em Engenharia de Produção III (optativa)", "pre": ["EP3109P23"], "co": ["EP3201P23", "EP3202P23", "AG3203P23", "EP3204P23", "EP3205P23"]},
+    {"c": "DP4102P23", "t": 7, "ch": 30, "tipo": "OBR", "n": "Gestão de Pessoas", "co": ["EP3206P23"]},
+    {"c": "EP4101P23", "t": 7, "ch": 60, "tipo": "OBR", "n": "Planejamento e Controle da Produção II", "pre": ["EP3202P23"]},
+    {"c": "EP4103P23", "t": 7, "ch": 30, "tipo": "OBR", "n": "Projeto da Fábrica", "pre": ["EP3103P23"]},
+    {"c": "EP4104P23", "t": 7, "ch": 60, "tipo": "OBR", "n": "Projeto do Produto e do Processo", "pre": ["AG1109P23", "EP3108P23"]},
+    {"c": "EP4105P23", "t": 7, "ch": 60, "tipo": "OBR", "n": "Logística e Gestão da Cadeia de Suprimentos"},
+    {"c": "EP4106P23", "t": 7, "ch": 60, "tipo": "OBR", "n": "Sistemas de Informações Gerenciais I"},
+    {"c": "EP4107P23", "t": 7, "ch": 120, "tipo": "OPT", "n": "Projeto Integrado em Engenharia de Produção IV (optativa)", "pre": ["EP3207P23"], "co": ["EP4101P23", "DP4102P23", "EP4103P23", "EP4104P23", "EP4105P23", "EP4106P23"]},
+    {"c": "CH0001F23", "t": 8, "ch": 30, "tipo": "OBR", "n": "Direito, Legislação e Ética"},
+    {"c": "EP4201P23", "t": 8, "ch": 60, "tipo": "OBR", "n": "Sistemas de Informações Gerenciais II"},
+    {"c": "EP4202P23", "t": 8, "ch": 60, "tipo": "OBR", "n": "Gestão da Manutenção", "pre": ["EP3103P23"]},
+    {"c": "EP4203P23", "t": 8, "ch": 60, "tipo": "OBR", "n": "Planejamento e Controle da Produção III", "pre": ["EP4101P23"]}
+  ],
+  "avisos": [
+    "Disciplinas do tipo OPT aparecem na grade porque o documento as posiciona num termo e as inclui no total do termo.",
+    "2º termo: o total impresso no documento (354 h) soma apenas a coluna Carga Horária, sem os 156 h de CH ACEU das disciplinas do termo.",
+    "5º termo: o total impresso no documento (384 h) soma apenas a coluna Carga Horária, sem os 186 h de CH ACEU das disciplinas do termo."
+  ]
+});
