@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 12 de 17 — Arquitetura e Urbanismo
+
+Título: Nome diferente entre SG e Resolução - ARQ-E 08
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O nome da disciplina ARQ-E 08 não é igual nos dois documentos oficiais:
+    Sistema de Graduação (usado no site): “Fundamentos Socioeconômicos I: Cidade e Cidadania”
+    Resolução Unesp 123/2023:              “Fundamentos Socioeconômicos I – Cidade e Cidadania”
+A diferença é de pontuação (dois-pontos, hífen, travessão) ou de maiúsculas.
+
+EVIDÊNCIA
+revisao/relatorio-de-revisao-expansao.md, A1; comparação do anexo da Resolução (69 disciplinas) com os dados.
+
+CORREÇÃO NECESSÁRIA
+Padronizar o nome nos dois documentos. O site segue o Sistema de Graduação e acompanha a forma que for adotada.
+
+Referência: Relatório, A1
+Situação: pendente

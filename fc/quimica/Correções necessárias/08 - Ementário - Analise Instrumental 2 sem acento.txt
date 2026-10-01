@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 8 — Química
+
+Título: Ementário - “Analise Instrumental 2” sem acento
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No ementário, o título da ementa está grafado “Analise Instrumental 2” (sem acento). Na matriz, o nome da disciplina é “Análise Instrumental 2”.
+
+EVIDÊNCIA
+2-matrizes-e-ementario-quimica.pdf, pág. 6 (início do ementário). O site não exibe o ementário da Química.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o título no ementário.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

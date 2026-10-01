@@ -1,0 +1,832 @@
+{
+ "linhas": [
+  {
+   "sem": "1",
+   "nome": "Introdução à Psicologia como Ciência e Profissão",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Constituição Histórica da Psicologia",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Psicologia do Desenvolvimento: Ciclo Vital",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Bases Biológicas do Comportamento",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Sociologia",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Filosofia",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Metodologia Científica I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "1",
+   "nome": "Fundamentos da Análise do Comportamento",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Neurofisiologia",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Estatística Aplicada à Psicologia",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Metodologia Científica II",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Metodologia Científica I",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Antropologia I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Laboratório de Análise Experimental do Comportamento I",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Fundamentos da Análise do Comportamento",
+   "co": "Laboratório de Análise Experimental do Comportamento I"
+  },
+  {
+   "sem": "2",
+   "nome": "Análise Experimental do Comportamento I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Fundamentos da Análise do Comportamento",
+   "co": "Análise Experimental do Comportamento I"
+  },
+  {
+   "sem": "2",
+   "nome": "Análise Histórico-Social do Desenvolvimento Humano",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Fundamentos Epistemológicos da Psicologia Sócio-histórica",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "2",
+   "nome": "Fundamentos das Teorias Sistêmica e Complexa",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Antropologia II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Antropologia I",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Estágio Básico - Pesquisa 1",
+   "creditos": 2,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Metodologia Científica II",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Introdução à Extensão",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": 4,
+   "divisao": "SIM",
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Análise do Comportamento Verbal",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Experimental do Comportamento I",
+   "co": "Análise Experimental do Comportamento II"
+  },
+  {
+   "sem": "3",
+   "nome": "Laboratório de Análise Experimental do Comportamento II",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Análise Experimental do Comportamento I",
+   "co": "Análise Experimental do Comportamento II"
+  },
+  {
+   "sem": "3",
+   "nome": "Análise Experimental do Comportamento II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Experimental do Comportamento I",
+   "co": "Laboratório de Análise Experimental do Comportamento II"
+  },
+  {
+   "sem": "3",
+   "nome": "Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Fundamentos Epistemológicos da Psicologia Sócio-histórica, Análise Histórico-Social do Desenvolvimento Humano",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Psicologia da Educação: Fundamentos Filosóficos",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Fundamentos Epistemológicos da Psicologia Sócio-histórica, Análise Histórico-Social do Desenvolvimento Humano",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Teorias e Práticas Sistêmicas e Complexas",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": 1,
+   "divisao": null,
+   "pre": "Fundamentos das Teorias Sistêmicas e Complexas",
+   "co": ""
+  },
+  {
+   "sem": "3",
+   "nome": "Fundamentos da Psicanálise",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Avaliação Psicológica I",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Estágio Básico - Pesquisa 2",
+   "creditos": 2,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Análise Comportamental do Desenvolvimento Humano",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Experimental do Comportamento II, Análise do Comportamento Verbal",
+   "co": ""
+  },
+  {
+   "sem": "",
+   "nome": "Análise do Comportamento Aplicada: Processos Educativos I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Experimental do Comportamento II, Laboratório de Análise Experimental do Comportamento II",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica II",
+   "creditos": 6,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica I",
+   "co": "Introdução à extensão"
+  },
+  {
+   "sem": "4",
+   "nome": "Políticas Públicas, Instituições e Saúde",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Psicologia Escolar I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Psicologia da Educação: Fundamentos Filosóficos",
+   "co": ""
+  },
+  {
+   "sem": "4",
+   "nome": "Teorias Psicanalíticas I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Fundamentos da Psicanálise",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Avaliação Psicológica II",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Avaliação psicológica I",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Análise do Comportamento Aplicada: Processos Educativos II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise do Comportamento Aplicada: Processos Educativos I",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Análise do Comportamento Aplicada: Delineamentos Culturais",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Experimental do Comportamento II",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Atividades Extensionistas em Educação e Sociedade I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Análise do comportamento Aplicada: Processos Educativos I; Análise do comportamento Aplicada: Delineamentos Culturais",
+   "co": "Análise do Comportamento Aplicada: Processos Educativos II"
+  },
+  {
+   "sem": "5",
+   "nome": "Psicologia Escolar II",
+   "creditos": 6,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Psicologia Escolar I",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Psicologia Social I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": "Fenômenos e processos Psicológicos: Psicologia Sócio-Histórica II, Políticas Públicas, Instituições e Saúde"
+  },
+  {
+   "sem": "5",
+   "nome": "Teorias Psicanalíticas II",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Teorias Psicanalíticas I",
+   "co": ""
+  },
+  {
+   "sem": "5",
+   "nome": "Orientação Profissional I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Teorias e Práticas Sistêmicas e Complexas, Avaliação Psicológica I",
+   "co": ""
+  },
+  {
+   "sem": "6",
+   "nome": "Psicopatologia",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Teorias Psicanalíticas II; Psicologia do Desenvolvimento: Ciclo Vital",
+   "co": "Terapia Comportamental, Clínica Psicanalítica I"
+  },
+  {
+   "sem": "6",
+   "nome": "Terapia Comportamental",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Comportamental do Desenvolvimento Humano; Avaliação Psicológica II",
+   "co": "Psicopatologia"
+  },
+  {
+   "sem": "6",
+   "nome": "Análise do Comportamento Aplicada: Educação Especial e Inclusiva",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Análise Comportamental do Desenvolvimento Humano; Análise do Comportamento Aplicada: Processos Educativos",
+   "co": "Psicopatologia"
+  },
+  {
+   "sem": "6",
+   "nome": "Atividades Extensionistas em Educação e Sociedade II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Atividades Extensionistas em Educação e Sociedade I",
+   "co": "Análise do comportamento Aplicada: Educação Especial e Inclusiva"
+  },
+  {
+   "sem": "6",
+   "nome": "Psicologia Social II",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Psicologia Social I",
+   "co": ""
+  },
+  {
+   "sem": "6",
+   "nome": "Orientação Profissional II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "6",
+   "nome": "Clínica Psicanalítica I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Políticas Públicas, Instituições e Saúde; Teorias Psicanalíticas II",
+   "co": "Psicopatologia"
+  },
+  {
+   "sem": "6",
+   "nome": "Optativa",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Análise do Comportamento Aplicada à Saúde",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Terapia Comportamental",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Atividades Extensionistas em Clínica e Saúde I",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Terapia Comportamental",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Psicologia e Inclusão",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Intervenção e Processos Grupais",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Psicologia e Comunidade",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Psicologia Organizacional e do Trabalho I",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Clínica Psicanalítica II",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Clínica Psicanalítica I, Psicopatologia",
+   "co": ""
+  },
+  {
+   "sem": "7",
+   "nome": "Optativa",
+   "creditos": 4,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "8",
+   "nome": "Desenvolvimento e Educação Sexual",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Psicologia do Desenvolvimento: Ciclo Vital, Psicologia Escolar I",
+   "co": ""
+  },
+  {
+   "sem": "8",
+   "nome": "Psicopatologia e Clínica Existencial",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Psicopatologia",
+   "co": "Clínica Psicanalítica III"
+  },
+  {
+   "sem": "8",
+   "nome": "Ética Profissional",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "8",
+   "nome": "Laboratório de Análise do Comportamento Aplicada aos Processos Clínicos",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": "SIM",
+   "pre": "Análise do Comportamento Aplicada à Saúde",
+   "co": ""
+  },
+  {
+   "sem": "8",
+   "nome": "Atividades Extensionistas em Clínica e Saúde II",
+   "creditos": 2,
+   "extraclasse": null,
+   "extensao": 2,
+   "divisao": null,
+   "pre": "Atividades Extensionistas em Clínica e Saúde I",
+   "co": ""
+  },
+  {
+   "sem": "8",
+   "nome": "Psicologia Organizacional e do Trabalho II",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": "Psicologia Organizacional e do Trabalho I"
+  },
+  {
+   "sem": "8",
+   "nome": "Clínica Psicanalítica III",
+   "creditos": 4,
+   "extraclasse": null,
+   "extensao": null,
+   "divisao": null,
+   "pre": "Clínica Psicanalítica II",
+   "co": "Psicopatologia e Clínica Existencial"
+  },
+  {
+   "sem": "8",
+   "nome": "Atividades Complementares",
+   "creditos": 2,
+   "extraclasse": 2,
+   "extensao": null,
+   "divisao": null,
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "9 e 10 (Anual)",
+   "nome": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Clínica e da Saúde*",
+   "creditos": 18,
+   "extraclasse": 8,
+   "extensao": 2,
+   "divisao": "Sim",
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "10 e 10 (Anual)",
+   "nome": "Disciplinas do Programa de Estágio Supervisionado em Psicologia e Educação*",
+   "creditos": 18,
+   "extraclasse": 8,
+   "extensao": 2,
+   "divisao": "Sim",
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "11 e 10 (Anual)",
+   "nome": "Disciplinas do Programa de Estágio Supervisionado em Psicologia Organizacional e do Trabalho*",
+   "creditos": 18,
+   "extraclasse": 8,
+   "extensao": 2,
+   "divisao": "Sim",
+   "pre": "",
+   "co": ""
+  },
+  {
+   "sem": "12 e 10 (Anual)",
+   "nome": "DIsciplinas do Programa de Estágio Supervisionado em Psicologia Social*",
+   "creditos": 18,
+   "extraclasse": 8,
+   "extensao": 2,
+   "divisao": "Sim",
+   "pre": "",
+   "co": ""
+  }
+ ],
+ "obs": "*São Contabilizadas Apenas o Referente a 3 opções de Estágio",
+ "resumo": [
+  [
+   "CARGA HORÁRIA TOTAL — Práticas (EST+AACC)",
+   54,
+   810
+  ],
+  [
+   "CARGA HORÁRIA TOTAL — Aula (Sala +AE)",
+   189,
+   2835
+  ],
+  [
+   "CARGA HORÁRIA TOTAL — Extensão",
+   29,
+   435
+  ],
+  [
+   "CARGA HORÁRIA TOTAL — TOTAL",
+   272,
+   4080
+  ],
+  [
+   "DISCIPLINAS TEÓRICAS E TEÓRICO-PRÁTICAS",
+   189,
+   2835,
+   "69,5",
+   ""
+  ],
+  [
+   "Em Sala de Aula",
+   143,
+   2145,
+   "",
+   ""
+  ],
+  [
+   "Em Atividade Extra-Classe",
+   46,
+   690,
+   "",
+   ""
+  ],
+  [
+   "PRÁTICAS",
+   54,
+   810,
+   "",
+   ""
+  ],
+  [
+   "Estágio Básico",
+   4,
+   60,
+   "19,9",
+   "Até 20%"
+  ],
+  [
+   "Estágio Específico",
+   48,
+   720,
+   "",
+   ""
+  ],
+  [
+   "AACC",
+   2,
+   30,
+   "",
+   ""
+  ],
+  [
+   "EXTENSÃO",
+   29,
+   435,
+   "10,7",
+   "Pelo menos 10%"
+  ],
+  [
+   "TOTAL",
+   272,
+   4080,
+   "100,0",
+   "Pelo menos 4000"
+  ]
+ ],
+ "resumo_titulo": "CURSO DE PSICOLOGIA - UNESP BAURU - AJUSTE PPP - CARGA HORÁRIA SEGUNDO DCN",
+ "resumo_nota": "Linhas 1–4 transpõem o quadro 'CARGA HORÁRIA TOTAL' (linhas Créditos/Horas × colunas Práticas (EST+AACC), Aula (Sala +AE), Extensão, TOTAL); demais linhas são 'DETALHAMENTO POR MODALIDADE' com colunas Descrição, Credito, Horas, %, Limites. O % 19,9 está impresso na linha 'Estágio Básico' (refere-se ao bloco PRÁTICAS: 54/272).",
+ "titulo": "1212/1213 – GRADUAÇÃO EM PSICOLOGIA (INTEGRAL E NOTURNO) – UNESP/BAURU",
+ "observacoes": [
+  "Soma de créditos por SEM (literal): '1': 26; '2': 28; '3': 30; '4': 26; '': 2; '5': 26; '6': 28; '7': 26; '8': 26; '9 e 10 (Anual)': 18; '10 e 10 (Anual)': 18; '11 e 10 (Anual)': 18; '12 e 10 (Anual)': 18. A linha 'Análise do Comportamento Aplicada: Processos Educativos I' (2 cr) não tem SEM impresso; está entre linhas do SEM 4 — com ela o 4º sem soma 28, sem ela 26.",
+  "Sems 1–8 (incluindo a linha sem SEM): 218 créditos; + 3 estágios × 18 = 54 → 272, igual ao TOTAL 272 da tabela-resumo (só 3 das 4 opções de estágio contam, conforme OBS).",
+  "Extensão (coluna) sems 1–8 = 23; + 3 estágios × 2 = 6 → 29, igual a EXTENSÃO 29 do resumo.",
+  "Extraclasse/prática (coluna) sems 1–8 = 22; + 3 estágios × 8 = 24 → 46, igual a 'Em Atividade Extra-Classe' 46 do resumo.",
+  "Práticas 54 = Estágio Básico 4 (EB-Pesquisa 1 + 2) + Estágio Específico 48 (= 3 × (18 − 2 de extensão)) + AACC 2; Aula 189 = 143 sala + 46 extraclasse; 54+189+29 = 272; ×15 h = 4080.",
+  "SEM dos estágios impresso literalmente como '9 e 10 (Anual)', '10 e 10 (Anual)', '11 e 10 (Anual)', '12 e 10 (Anual)' — provavelmente erro de digitação (todos deveriam ser '9 e 10'); transcrito como está.",
+  "Células cujo conteúdo está SOMENTE na coluna Correquisitos (Pré vazio): 'Psicologia Social I' (5º) e 'Psicologia Organizacional e do Trabalho II' (8º).",
+  "Célula de Pré-Requisitos de 'Terapia Comportamental' atravessa a quebra pág. 3→4: 'Análise Comportamental do Desenvolvimento' (pág. 3) + 'Humano; Avaliação Psicológica II' (pág. 4). A célula 'Análise Experimental do Comportamento II' (pág. 2) é uma linha inteira que começa no topo da pág. 2 (a última linha da pág. 1 é o Laboratório II).",
+  "Grafias literais a notar: 'Fundamentos das Teorias Sistêmica e Complexa' (nome da disciplina, 2º sem) vs 'Fundamentos das Teorias Sistêmicas e Complexas' (pré-req de Teorias e Práticas...); 'Avaliação psicológica I' (p minúsculo) em pré de Avaliação Psicológica II; 'Introdução à extensão' (e minúsculo) em co de FPP Sócio-histórica II; 'Análise do comportamento Aplicada' (c minúsculo) em AEES I e II; 'Fenômenos e processos Psicológicos: Psicologia Sócio-Histórica II' em co de Psicologia Social I; 'DIsciplinas' (I maiúsculo) no estágio Social.",
+  "Pré-requisito de 'Análise do Comportamento Aplicada: Educação Especial e Inclusiva' termina em 'Aplicada: Processos Educativos' sem numeral (I ou II).",
+  "Correquisitos auto-referentes: 'Laboratório de Análise Experimental do Comportamento I' tem co 'Laboratório de Análise Experimental do Comportamento I' (ele mesmo) e 'Análise Experimental do Comportamento I' tem co 'Análise Experimental do Comportamento I' (ele mesmo) — provavelmente deveriam ser cruzados (Lab I ↔ AEC I), como ocorre no par Lab II ↔ AEC II.",
+  "Coluna Divisão de Turma: 'SIM' (maiúsculas) nas disciplinas; 'Sim' nos estágios."
+ ],
+ "soma_por_sem": {
+  "1": 26,
+  "2": 28,
+  "3": 30,
+  "4": 26,
+  "": 2,
+  "5": 26,
+  "6": 28,
+  "7": 26,
+  "8": 26,
+  "9 e 10 (Anual)": 18,
+  "10 e 10 (Anual)": 18,
+  "11 e 10 (Anual)": 18,
+  "12 e 10 (Anual)": 18
+ }
+}

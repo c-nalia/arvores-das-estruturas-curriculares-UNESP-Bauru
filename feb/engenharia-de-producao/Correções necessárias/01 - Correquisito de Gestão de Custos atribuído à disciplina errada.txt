@@ -1,0 +1,22 @@
+CORREÇÃO NECESSÁRIA nº 01 de 8 — Engenharia de Produção
+
+Título: Correquisito de Gestão de Custos atribuído à disciplina errada
+Gravidade: CRÍTICA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+No documento, “Correquisito: EP3206P23 - Gestão de Custos” pertence a EP3207P23 - Projeto Integrado em Engenharia de Produção III (optativa), do 6º termo.
+No site, esse correquisito aparece em DP4102P23 - Gestão de Pessoas (7º termo), que não tem requisito nenhum no documento. E EP3207P23 fica sem ele.
+
+EVIDÊNCIA
+PDF eproducao.pdf, fim da pág. 3 e topo da pág. 4: a linha “Correquisito: EP3206P23 - Gestão de Custos” vem antes de “Total de Carga Horária: 450.0” do 6º termo.
+Conferido pela leitura visual independente (revisao/transcricoes-independentes/feb-producao.json) e por revisao/comparar_feb.py (2 diferenças).
+
+CORREÇÃO NECESSÁRIA
+1) Em ferramentas/fontes_sg.py (ler_pdf_sg), ligar ao último registro da página anterior todo bloco de requisitos que vier antes do primeiro código da página e antes do “Total” do termo.
+2) Regerar (python3 ferramentas/construir.py).
+3) Conferir: EP3207P23 com 6 correquisitos (EP3201P23, EP3202P23, AG3203P23, EP3204P23, EP3205P23, EP3206P23) e DP4102P23 sem requisitos; revisao/comparar_feb.py deve dar 0 diferenças.
+
+Referência: Relatório, C1
+Situação: pendente

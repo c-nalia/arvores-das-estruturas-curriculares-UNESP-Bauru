@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 12 de 15 — Meteorologia
+
+Título: Requisito a confirmar - 7010
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Física III tem “Física I” como correquisito (o esperado seria pré-requisito, já que Física I é do 1º semestre do curso). O site reproduz o documento como está.
+
+EVIDÊNCIA
+Tabelas da página do curso (colunas Correquisito e Pré-requisito); apontado pela transcrição independente.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve confirmar se o requisito está na coluna certa e com a disciplina certa.
+
+Referência: Relatório, seção 6
+Situação: pendente

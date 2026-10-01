@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 17 — Psicologia
+
+Título: Disciplina aparece como apta com requisito não verificável
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+“Análise do Comportamento Aplicada: Educação Especial e Inclusiva” tem um pré-requisito que o site guarda só como texto (“Análise do Comportamento Aplicada: Processos Educativos”, sem I ou II). A simulação ignora esse texto e pode mostrar a disciplina como “apta para matrícula”.
+
+EVIDÊNCIA
+Mesmo defeito do teste X04 (Meteorologia) em revisao/exploratorio.mjs.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js, criar o estado “requisito a confirmar” para disciplinas com preTexto/coTexto.
+
+Referência: Relatório, A6
+Situação: pendente

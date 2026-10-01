@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 10 de 21 — Educação Física
+
+Título: Marca “A” da coluna Cód. descartada (2610 Licenciatura)
+Gravidade: BAIXA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+No documento do 2610 Licenciatura, a linha do TCC II do 7º termo traz “A” na coluna Cód. (provavelmente “Anual”). O gerador ignora essa célula.
+
+EVIDÊNCIA
+curriculo-2610---licenciatura-integral-a-partir-de-2015.doc, 7º termo.
+
+CORREÇÃO NECESSÁRIA
+Tratar “A” na coluna Cód. como indicação de disciplina anual (após confirmação da coordenação).
+
+Referência: Relatório, M1
+Situação: pendente

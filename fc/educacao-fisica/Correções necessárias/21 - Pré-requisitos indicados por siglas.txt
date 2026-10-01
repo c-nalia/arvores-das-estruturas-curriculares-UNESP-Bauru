@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 21 de 21 — Educação Física
+
+Título: Pré-requisitos indicados por siglas
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A coluna Pré-Requisito usa siglas sem legenda: “PPCCEF -I” e “FE - I”. O site as ligou a “Processos de Produção do Conhecimento Científico em Educação Física I” e “Fisiologia do Exercício I”, por dedução.
+
+EVIDÊNCIA
+Os quatro documentos .doc. O site mostra aviso com a interpretação.
+
+CORREÇÃO NECESSÁRIA
+Escrever o nome completo das disciplinas (ou incluir legenda) e confirmar a interpretação usada no site.
+
+Referência: Relatório, seção 6
+Situação: pendente

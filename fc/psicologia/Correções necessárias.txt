@@ -1,0 +1,47 @@
+CORREÇÕES NECESSÁRIAS — Psicologia
+Pasta: fc/psicologia
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 17 correção(ões) — 2 alta(s), 5 média(s), 10 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Simulação conta 4 programas de estágio (o aluno cursa 3)
+      arquivo: Correções necessárias/01 - Simulação conta 4 programas de estágio (o aluno cursa 3).txt
+02. [ALTA] [SITE] Disciplina aparece como apta com requisito não verificável
+      arquivo: Correções necessárias/02 - Disciplina aparece como apta com requisito não verificável.txt
+03. [MÉDIA] [DECISÃO] Erro de concordância não corrigido - Teorias Sistêmica e Complexa
+      arquivo: Correções necessárias/03 - Erro de concordância não corrigido - Teorias Sistêmica e Complexa.txt
+04. [MÉDIA] [DOCUMENTO] Correquisito aponta para a própria disciplina - Laboratório de Análise Experimental do Compor
+      arquivo: Correções necessárias/04 - Correquisito aponta para a própria disciplina - Laboratório de Análise Experimental do Com.txt
+05. [MÉDIA] [DOCUMENTO] Correquisito aponta para a própria disciplina - Análise Experimental do Comportamento I
+      arquivo: Correções necessárias/05 - Correquisito aponta para a própria disciplina - Análise Experimental do Comportamento I.txt
+06. [MÉDIA] [DOCUMENTO] Requisito na coluna de correquisitos - Psicologia Social I
+      arquivo: Correções necessárias/06 - Requisito na coluna de correquisitos - Psicologia Social I.txt
+07. [MÉDIA] [DOCUMENTO] Requisito na coluna de correquisitos - Psicologia Organizacional e do Trabalho II
+      arquivo: Correções necessárias/07 - Requisito na coluna de correquisitos - Psicologia Organizacional e do Trabalho II.txt
+08. [BAIXA] [DOCUMENTO] Grafia no documento - DIsciplinas do Programa de Estágio Supervisionado em Psicolo
+      arquivo: Correções necessárias/08 - Grafia no documento - DIsciplinas do Programa de Estágio Supervisionado em Psicolo.txt
+09. [BAIXA] [DOCUMENTO] Semestre dos estágios grafado “10 e 10”, “11 e 10” e “12 e 10”
+      arquivo: Correções necessárias/09 - Semestre dos estágios grafado 10 e 10, 11 e 10 e 12 e 10.txt
+10. [BAIXA] [DOCUMENTO] Disciplina sem semestre - ACA Processos Educativos I
+      arquivo: Correções necessárias/10 - Disciplina sem semestre - ACA Processos Educativos I.txt
+11. [BAIXA] [DOCUMENTO] Pré-requisito incompleto - “Processos Educativos” sem I ou II
+      arquivo: Correções necessárias/11 - Pré-requisito incompleto - Processos Educativos sem I ou II.txt
+12. [BAIXA] [DOCUMENTO] Pré-requisito do mesmo semestre
+      arquivo: Correções necessárias/12 - Pré-requisito do mesmo semestre.txt
+13. [BAIXA] [DOCUMENTO] Nome citado com grafia diferente - Avaliação psicológica I
+      arquivo: Correções necessárias/13 - Nome citado com grafia diferente - Avaliação psicológica I.txt
+14. [BAIXA] [DOCUMENTO] Nome citado com grafia diferente - Introdução à extensão
+      arquivo: Correções necessárias/14 - Nome citado com grafia diferente - Introdução à extensão.txt
+15. [BAIXA] [DOCUMENTO] Nome citado com grafia diferente - Análise do comportamento Aplicada
+      arquivo: Correções necessárias/15 - Nome citado com grafia diferente - Análise do comportamento Aplicada.txt
+16. [BAIXA] [DOCUMENTO] Nome citado com grafia diferente - Fenômenos e processos Psicológicos: Ps
+      arquivo: Correções necessárias/16 - Nome citado com grafia diferente - Fenômenos e processos Psicológicos Ps.txt
+17. [BAIXA] [DOCUMENTO] “SIM” e “Sim” na coluna Divisão de Turma
+      arquivo: Correções necessárias/17 - SIM e Sim na coluna Divisão de Turma.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

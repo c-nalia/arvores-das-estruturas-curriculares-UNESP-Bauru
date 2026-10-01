@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 15 — Meteorologia
+
+Título: Códigos 7005 e 7050 com o mesmo nome
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No 1º ano / 2º semestre, 7005 (6 créditos, 90 h) e 7050 (4 créditos, 60 h) têm o mesmo nome: “Energia e Sustentabilidade Ambiental”. Pela posição (entre Física I, 7000, e Física III, 7010) e pela carga, o 7005 provavelmente é “Física II”.
+
+EVIDÊNCIA
+Imagem da tabela do 1º ano / 2º semestre na página do curso; duas transcrições independentes. O site mantém os dois nomes e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve corrigir o nome do 7005 na página do curso. Depois, atualizar a transcrição e regerar: o requisito da Micrometeorologia passa a ter destino.
+
+Referência: Relatório, seção 6
+Situação: pendente

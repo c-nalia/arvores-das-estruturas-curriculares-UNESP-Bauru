@@ -1,0 +1,19 @@
+CORREÇÕES NECESSÁRIAS — Engenharia Mecânica
+Pasta: feb/engenharia-mecanica
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 3 correção(ões) — 1 alta(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Quadro de integralização e exigência de optativas ausentes
+      arquivo: Correções necessárias/01 - Quadro de integralização e exigência de optativas ausentes.txt
+02. [BAIXA] [SITE] Nome da unidade redundante
+      arquivo: Correções necessárias/02 - Nome da unidade redundante.txt
+03. [BAIXA] [DOCUMENTO] PDF publicado mostra o nome de usuário de quem o gerou
+      arquivo: Correções necessárias/03 - PDF publicado mostra o nome de usuário de quem o gerou.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

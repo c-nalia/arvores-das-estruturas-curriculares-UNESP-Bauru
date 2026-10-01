@@ -1,0 +1,19 @@
+CORREÇÕES NECESSÁRIAS — Bacharelado em Sistemas de Informação
+Pasta: fc/bsi
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 3 correção(ões) — 3 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [BAIXA] [DECISÃO] Grafia no documento - Tópicos Especiais Aprendizado de Máquina
+      arquivo: Correções necessárias/01 - Grafia no documento - Tópicos Especiais Aprendizado de Máquina.txt
+02. [BAIXA] [DOCUMENTO] Grafia no documento - Teoria da Computacão e Linguagens Formais
+      arquivo: Correções necessárias/02 - Grafia no documento - Teoria da Computacão e Linguagens Formais.txt
+03. [BAIXA] [DOCUMENTO] Grafia no documento - Aprendizado de Máquina Aplicado à Sistemas de Informação
+      arquivo: Correções necessárias/03 - Grafia no documento - Aprendizado de Máquina Aplicado à Sistemas de Informação.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

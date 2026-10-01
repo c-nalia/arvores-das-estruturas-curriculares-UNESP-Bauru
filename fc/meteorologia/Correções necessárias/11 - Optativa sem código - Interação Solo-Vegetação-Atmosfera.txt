@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 11 de 15 — Meteorologia
+
+Título: Optativa sem código - Interação Solo-Vegetação-Atmosfera
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na tabela de disciplinas optativas, “Interação Solo-Vegetação-Atmosfera” está com a célula “Cód.” vazia.
+
+EVIDÊNCIA
+Imagem “Disciplinas Optativas” da página do curso. O site mostra “—” no lugar do código.
+
+CORREÇÃO NECESSÁRIA
+Informar o código da disciplina na página do curso; depois, atualizar a transcrição e regerar.
+
+Referência: Relatório, seção 6
+Situação: pendente

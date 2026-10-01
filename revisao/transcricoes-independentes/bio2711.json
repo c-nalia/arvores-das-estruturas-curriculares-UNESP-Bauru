@@ -1,0 +1,828 @@
+{
+ "curso": "Ciências Biológicas — Licenciatura Noturno (currículo 2711)",
+ "tabelas": [
+  {
+   "titulo": "1º ANO / 1º SEMESTRE",
+   "termo": 1,
+   "total": {
+    "creditos": 20,
+    "horas": 300
+   },
+   "linhas": [
+    {
+     "nome": "Anatomia Geral e Humana",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biologia Celular e Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Geologia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática Biológica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Química Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Física Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Morfologia Vegetal: Órgãos Vegetativos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ],
+   "sem_colunas_requisito": true
+  },
+  {
+   "titulo": "1º ANO / 2º SEMESTRE",
+   "termo": 2,
+   "total": {
+    "creditos": 24,
+    "horas": 360
+   },
+   "linhas": [
+    {
+     "nome": "Histologia Básica e Comparada",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Embriologia Comparada",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biofísica Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Morfologia Vegetal: Órgãos Reprodutivos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Direito, Legislação e Ética",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Química Orgânica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Protistas e Fungos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fundamentos de Extensão Universitária",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "2º ANO / 1º SEMESTRE",
+   "termo": 3,
+   "total": {
+    "creditos": 26,
+    "horas": 390
+   },
+   "linhas": [
+    {
+     "nome": "Bioquímica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática de Primoplantae sem sementes",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Zoologia dos Metazoa Basais e Lophotrochozoa",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Microbiologia Básica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Genética Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Políticas Públicas Em Educação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 1",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "2º ANO / 2º SEMESTRE",
+   "termo": 4,
+   "total": {
+    "creditos": 26,
+    "horas": 390
+   },
+   "linhas": [
+    {
+     "nome": "Zoologia de Ecdysozoa e Deuterostomia Basais",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Matemática",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática de Spermatophyta",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia Ciêntifica Aplicada ao Ensino e a pesquisa",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Psicologia da Educação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fundamentos de Educação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 1",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3º ANO / 1º SEMESTRE",
+   "termo": 5,
+   "total": {
+    "creditos": 24,
+    "horas": 360
+   },
+   "linhas": [
+    {
+     "nome": "Zoologia de Anamniota",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Vegetal: Metabolismo",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Educação Ambiental",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Imunologia Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Didática e Metodologia do Ensino de Ciências Naturais",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sociologia da Educação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 2",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3º ANO / 2º SEMESTRE",
+   "termo": 6,
+   "total": {
+    "creditos": 23,
+    "horas": 345
+   },
+   "linhas": [
+    {
+     "nome": "Zoologia de Amniota",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Vegetal: Desenvolvimento",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia Populações",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Parasitologia Geral e Humana",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia e Prática de Ensino de Ciências e Biologia: Estudo da Realidade Escolar",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "Estágio Supervisionado em Ensino de Ciências e Biologia: Estudo da Realidade Escolar",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 2",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4º ANO / 1º SEMESTRE",
+   "termo": 7,
+   "total": {
+    "creditos": 23,
+    "horas": 345
+   },
+   "linhas": [
+    {
+     "nome": "Genética Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Paleontologia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Educação Especial e Inclusiva",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "História e Filosofia das Ciências Naturais",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia e Prática de Ensino de Ciências e Biologia: Abordagens Didáticas e Recursos de Apoio",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "Estágio Supervisionado em Ensino de Ciências e Biologia: Abordagens Didáticas e Recursos de Apoio",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 3",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4º ANO / 2º SEMESTRE",
+   "termo": 8,
+   "total": {
+    "creditos": 19,
+    "horas": 285
+   },
+   "linhas": [
+    {
+     "nome": "Biologia Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia Comunidades",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Evolução",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia e Prática de Ensino de Ciências e Biologia: Sociedade, Escola e Ensino",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "Estágio Supervisionado em Ensino de Ciências e Biologia: Sociedade, Escola e Ensino",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 3",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "5º ANO / 1º SEMESTRE",
+   "termo": 9,
+   "total": {
+    "creditos": 15,
+    "horas": 225
+   },
+   "linhas": [
+    {
+     "nome": "Fisiologia Geral e Comparada: Regulação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia Ecossistemas",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Libras, Educação Especial e Inclusiva",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia e Prática de Ensino de Ciências e Biologia: Relações Ciência-Sociedade e Temas Ambientais",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "Estágio Supervisionado em Ensino de Ciências e Biologia: Relações Ciência-Sociedade e Temas Ambientais",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "5º ANO / 2º SEMESTRE",
+   "termo": 10,
+   "total": {
+    "creditos": 14,
+    "horas": 210
+   },
+   "linhas": [
+    {
+     "nome": "Fisiologia Geral e Comparada: Sistemas",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Elaboração de Material Didático",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "História da Educação Brasileira",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Metodologia e Prática de Ensino de Ciências e Biologia: Currículo e Processos de Avaliação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "Estágio Supervisionado em Ensino de Ciências e Biologia: Currículo e Processos de Avaliação",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "6º ANO / 1º SEMESTRE",
+   "termo": 11,
+   "total": {
+    "creditos": 0,
+    "horas": 0
+   },
+   "linhas": []
+  },
+  {
+   "titulo": "6º ANO / 2º SEMESTRE",
+   "termo": 12,
+   "total": {
+    "creditos": 0,
+    "horas": 0
+   },
+   "linhas": []
+  }
+ ],
+ "quadros": {
+  "tabela_semestre_creditos_horas": {
+   "cabecalho": [
+    "Semestre",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     "Estágio curricular",
+     27,
+     405
+    ],
+    [
+     "Trabalho de Conclusão de Curso",
+     null,
+     0
+    ],
+    [
+     "Atividades Teórico-práticas de aprofundamento",
+     14,
+     210
+    ]
+   ]
+  },
+  "tabela_ano_semestre": {
+   "cabecalho": [
+    "Ano",
+    "Semestre",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     1,
+     1,
+     20,
+     300
+    ],
+    [
+     1,
+     2,
+     24,
+     360
+    ],
+    [
+     2,
+     1,
+     26,
+     390
+    ],
+    [
+     2,
+     2,
+     26,
+     390
+    ],
+    [
+     3,
+     1,
+     24,
+     360
+    ],
+    [
+     3,
+     2,
+     23,
+     345
+    ],
+    [
+     4,
+     1,
+     23,
+     345
+    ],
+    [
+     4,
+     2,
+     19,
+     285
+    ],
+    [
+     5,
+     1,
+     15,
+     225
+    ],
+    [
+     5,
+     2,
+     14,
+     210
+    ],
+    [
+     6,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     2,
+     0,
+     0
+    ]
+   ],
+   "TOTAL": [
+    214,
+    3210
+   ]
+  },
+  "quadro_resumo": {
+   "titulo": "Quadro Resumo",
+   "cabecalho": [
+    "Componente Curricular",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     "Disciplinas Obrigatórias* (incluindo 392h de ACEUs)",
+     214,
+     3210
+    ],
+    [
+     "Estágio curricular",
+     27,
+     405
+    ],
+    [
+     "Trabalho de Conclusão de Curso",
+     null,
+     0
+    ],
+    [
+     "Atividades Teórico-práticas de aprofundamento",
+     14,
+     210
+    ]
+   ]
+  }
+ },
+ "observacoes": [
+  "Todas as somas de créditos e horas por tabela batem com o TOTAL impresso; a soma dos totais (214 cr / 3210 h) bate com a tabela Ano/Semestre e com o Quadro Resumo.",
+  "A tabela 1º ANO / 1º SEMESTRE não possui colunas Correquisito/Pré-requisito.",
+  "Todos os 5 textos de requisito estão na coluna Correquisito (réguas verticais: lado esquerdo Correquisito 343,2–372,5 pt / Pré-requisito 372,5–431,3 pt, textos com x0 343,9–353; lado direito Correquisito 659,2–698,4 / Pré-requisito 698,4–718,3, textos com x0 659,9 e x1 máx. 696,9). Nenhuma célula de Pré-requisito preenchida.",
+  "Os 5 correquisitos são 'Estágio Supervisionado em Ensino de Ciências e Biologia: <mesmo subtítulo>' das 5 'Metodologia e Prática de Ensino...'; esses estágios não aparecem como linhas nas tabelas (o estágio está no quadro: 27 cr/405 h). O texto do correquisito quebra em várias linhas na célula; foi juntado com espaços. Atribuição de linha: o bloco de texto está centrado verticalmente na linha da Metodologia e Prática (ex.: 3º/2º, texto de 267 a 283 pt, linha da disciplina em 275 pt; a linha anterior Parasitologia é alta mas vazia nessa coluna).",
+  "Tabelas do 6º ano (1º e 2º semestre) estão vazias, só linhas com Horas=0; TOTAL 0/0.",
+  "TCC: célula de Créditos vazia e Horas 0, tanto na tabela Semestre/Créditos/Horas quanto no Quadro Resumo (registrado como null).",
+  "Projetos Integradores 1, 2 e 3 são 'A' (anual) e aparecem nos dois semestres do respectivo ano (4 cr/60 h em cada).",
+  "Grafias literais notáveis: 'Metodologia Ciêntifica Aplicada ao Ensino e a pesquisa' (acento em 'Ciêntifica', 'pesquisa' minúsculo); 'Políticas Públicas Em Educação' ('Em' maiúsculo); 'Zoologia de Ecdysozoa e Deuterostomia Basais'; 'Ecologia Populações', 'Ecologia Comunidades', 'Ecologia Ecossistemas' (sem 'de'); 'Educação Especial e Inclusiva' (4º/1º) e 'Libras, Educação Especial e Inclusiva' (5º/1º) são linhas distintas.",
+  "Nas tabelas do 3º ao 6º ano o cabeçalho visível é só 'OB (obrigatória)'/'S (semestral)'; o texto 'OP (optativa)'/'A (anual)' existe no PDF oculto sob a 1ª linha (no 6º ano aparece numa linha vazia).",
+  "O asterisco de 'Disciplinas Obrigatórias*' não tem nota de rodapé na página.",
+  "Linhas vazias com Horas=0 ignoradas: 1 no 2º/2º, 1 no 4º/1º, 1 no 4º/2º, 4 em cada tabela do 6º ano."
+ ]
+}

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 2 — Matemática
+
+Título: 8101A com 06 créditos no 5º termo e 07 no 6º
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O código 8101A - Estágio Curricular Supervisionado I (anual) aparece com 06 créditos no 5º termo e 07 no 6º termo.
+
+EVIDÊNCIA
+grade-curricular-1507 (página do curso). O site reproduz e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Confirmar se a diferença é intencional; se não for, corrigir a tabela.
+
+Referência: Relatório, seção 6
+Situação: pendente

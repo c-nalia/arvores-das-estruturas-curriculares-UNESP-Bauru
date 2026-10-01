@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 10 de 21 — Física
+
+Título: Erro de digitação no documento - é divido em duas modalidades
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento “Grade das disciplinas por termos…”, 1º parágrafo, está escrito:
+    “é divido em duas modalidades”
+O correto é:
+    “é dividido em duas modalidades”
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf. O site não reproduz esse trecho.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto do documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

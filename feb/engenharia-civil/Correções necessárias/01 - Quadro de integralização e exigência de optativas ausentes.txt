@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 18 — Engenharia Civil
+
+Título: Quadro de integralização e exigência de optativas ausentes
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento traz, em imagem, a tabela “Componentes curriculares da estrutura proposta”. O site não mostra o quadro-resumo nem a carga de optativas exigida (150 h).
+
+EVIDÊNCIA
+Imagem na pág. 4 de ecivil.pdf (conferida visualmente): Disciplinas obrigatórias 225 créditos / 3.375 h; Disciplinas optativas 10 / 150; Atividades curriculares de Extensão Universitária 28 / 420; Estágio Supervisionado 11 / 165; Trabalho de Conclusão de Curso 2 / 30; Atividades Complementares 1 / 15; TOTAL 277 / 4.155.
+
+CORREÇÃO NECESSÁRIA
+Transcrever a tabela em ferramentas/transcricoes.py, incluir como quadroResumo e como exigência de optativas em construir.py e regerar.
+
+Referência: Relatório, A3
+Situação: pendente

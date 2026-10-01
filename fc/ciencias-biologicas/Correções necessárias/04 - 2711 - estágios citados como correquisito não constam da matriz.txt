@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 15 — Ciências Biológicas
+
+Título: 2711 - estágios citados como correquisito não constam da matriz
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Cinco estágios supervisionados (Estudo da Realidade Escolar; Abordagens Didáticas e Recursos de Apoio; Sociedade, Escola e Ensino; Relações Ciência-Sociedade e Temas Ambientais; Currículo e Processos de Avaliação) são citados na coluna Correquisito, mas não aparecem como linhas em nenhum semestre. O quadro resumo só traz “Estágio curricular 27 créditos / 405 h”.
+
+EVIDÊNCIA
+curriculo-2711-licenciatura-noturno.pdf; transcrição independente.
+
+CORREÇÃO NECESSÁRIA
+Incluir os estágios na planilha (semestre, créditos e horas de cada um).
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 16 de 21 — Física
+
+Título: Erro de digitação no documento - Cálculo Numérico I (4credidos
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento “Grade das disciplinas por termos…”, título da ementa de Cálculo Numérico I, está escrito:
+    “Cálculo Numérico I (4credidos”
+O correto é:
+    “Cálculo Numérico I (4 créditos”
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf. O site não reproduz esse trecho.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto do documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

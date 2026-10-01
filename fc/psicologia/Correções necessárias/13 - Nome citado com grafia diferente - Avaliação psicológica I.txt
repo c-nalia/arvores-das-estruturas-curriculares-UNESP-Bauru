@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 13 de 17 — Psicologia
+
+Título: Nome citado com grafia diferente - Avaliação psicológica I
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Nas colunas de requisitos, a disciplina é citada como “Avaliação psicológica I”; o nome na coluna DISCIPLINA é “Avaliação Psicológica I”.
+
+EVIDÊNCIA
+PDF, colunas Pré-Requisitos/Correquisitos. O site liga o requisito à disciplina certa.
+
+CORREÇÃO NECESSÁRIA
+Uniformizar a grafia no documento.
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 8 — Engenharia de Produção
+
+Título: Coluna de equivalências sem cabeçalho no 5º termo
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No 5º termo aparece, entre “Requisitos” e “Duração”, uma coluna sem cabeçalho com textos como “1: 0002412 - … (Não integraliza CH de ACEU)”. Pelo conteúdo são equivalências, mas o documento não diz.
+
+EVIDÊNCIA
+eproducao.pdf, pág. 3.
+
+CORREÇÃO NECESSÁRIA
+Incluir o cabeçalho “Equivalências” ou retirar a coluna do PDF publicado.
+
+Referência: Relatório, seção 6
+Situação: pendente

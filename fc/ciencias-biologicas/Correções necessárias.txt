@@ -1,0 +1,43 @@
+CORREÇÕES NECESSÁRIAS — Ciências Biológicas
+Pasta: fc/ciencias-biologicas
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 15 correção(ões) — 1 crítica(s), 1 alta(s), 2 média(s), 11 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+      arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
+02. [ALTA] [SITE] Metodologias e Práticas de Ensino aparecem como aptas sem o estágio correquisito
+      arquivo: Correções necessárias/02 - Metodologias e Práticas de Ensino aparecem como aptas sem o estágio correquisito.txt
+03. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+      arquivo: Correções necessárias/03 - Instâncias antigas continuam ativas a cada troca de currículo.txt
+04. [MÉDIA] [DOCUMENTO] 2711 - estágios citados como correquisito não constam da matriz
+      arquivo: Correções necessárias/04 - 2711 - estágios citados como correquisito não constam da matriz.txt
+05. [BAIXA] [DECISÃO] Grafia no documento - Ecologia Comunidades
+      arquivo: Correções necessárias/05 - Grafia no documento - Ecologia Comunidades.txt
+06. [BAIXA] [DECISÃO] Grafia no documento - Ecologia Populações
+      arquivo: Correções necessárias/06 - Grafia no documento - Ecologia Populações.txt
+07. [BAIXA] [DECISÃO] Grafia no documento - Ecologia Ecossistemas
+      arquivo: Correções necessárias/07 - Grafia no documento - Ecologia Ecossistemas.txt
+08. [BAIXA] [DOCUMENTO] Grafia no documento - Políticas Públicas Em Educação
+      arquivo: Correções necessárias/08 - Grafia no documento - Políticas Públicas Em Educação.txt
+09. [BAIXA] [DOCUMENTO] Grafia no documento - Metodologia Ciêntifica Aplicada ao Ensino e a pesquisa
+      arquivo: Correções necessárias/09 - Grafia no documento - Metodologia Ciêntifica Aplicada ao Ensino e a pesquisa.txt
+10. [BAIXA] [DOCUMENTO] 2710 - asterisco sem nota em “Disciplinas Obrigatórias*”
+      arquivo: Correções necessárias/10 - 2710 - asterisco sem nota em Disciplinas Obrigatórias.txt
+11. [BAIXA] [DOCUMENTO] 2711 - asterisco sem nota em “Disciplinas Obrigatórias*”
+      arquivo: Correções necessárias/11 - 2711 - asterisco sem nota em Disciplinas Obrigatórias.txt
+12. [BAIXA] [DOCUMENTO] 2711 - Trabalho de Conclusão de Curso sem créditos no quadro
+      arquivo: Correções necessárias/12 - 2711 - Trabalho de Conclusão de Curso sem créditos no quadro.txt
+13. [BAIXA] [DOCUMENTO] 2710 - dois espaços em “Anatomia Geral e  Humana”
+      arquivo: Correções necessárias/13 - 2710 - dois espaços em Anatomia Geral e Humana.txt
+14. [BAIXA] [DOCUMENTO] Cabeçalho “OP (optativa) / A (anual)” escondido nas tabelas
+      arquivo: Correções necessárias/14 - Cabeçalho OP (optativa) A (anual) escondido nas tabelas.txt
+15. [BAIXA] [DOCUMENTO] Nome diferente entre 2710 e 2711 - Deuterostomia
+      arquivo: Correções necessárias/15 - Nome diferente entre 2710 e 2711 - Deuterostomia.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

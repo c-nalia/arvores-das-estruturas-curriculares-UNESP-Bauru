@@ -1,0 +1,822 @@
+{
+ "cabecalho": "4403 - Curso: Engenharia de Produção",
+ "disciplinas": [
+  {
+   "t": 1,
+   "cod": "AG1109P23",
+   "n": "Desenho Técnico",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DF1103F23",
+   "n": "Física I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DF1104F23",
+   "n": "Laboratório de Física I",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1103F23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "DM1101F23",
+   "n": "Cálculo Diferencial e Integral I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DM1102F23",
+   "n": "Cálculo Vetorial e Geometria Analítica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1105P23",
+   "n": "Fundamentos de Química para Engenharia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1106P23",
+   "n": "Química Experimental para Engenharia de Produção",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DQ1105P23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "EP1107P23",
+   "n": "Introdução à Engenharia de Produção",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "EP1108P23",
+   "n": "Introdução à Ciência da Computação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1202F23",
+   "n": "Física II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1203F23",
+   "n": "Laboratório de Física II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "DM1201F23",
+   "n": "Cálculo Diferencial e Integral II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DM1204F23",
+   "n": "Álgebra Linear",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EP1205P23",
+   "n": "Estatística I",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP1208P23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EP1206P23",
+   "n": "Metodologia Científica",
+   "aceu": 6.0,
+   "ch": 24.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP1208P23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EP1207P23",
+   "n": "Desenvolvimento Econômico e Social",
+   "aceu": 6.0,
+   "ch": 24.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP1208P23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EP1208P23",
+   "n": "Projeto Integrado em Engenharia de Produção I",
+   "aceu": 120.0,
+   "ch": 0.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP1205P23"
+    ],
+    [
+     "Correquisito",
+     "EP1206P23"
+    ],
+    [
+     "Correquisito",
+     "EP1207P23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EP1209P23",
+   "n": "Economia",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP1208P23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "DF2102F23",
+   "n": "Física III",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2103F23",
+   "n": "Laboratório de Física III",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF2102F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "DM2101F23",
+   "n": "Cálculo de Múltiplas Variáveis",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EC2106P23",
+   "n": "Resistência dos Materiais",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EE2105P23",
+   "n": "Eletricidade Básica e Uso Racional de Energia Elétrica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EP2104P23",
+   "n": "Economia Industrial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EP2107P23",
+   "n": "Pesquisa Operacional I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1204F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EP2108P23",
+   "n": "Teoria das Organizações",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EP2109P23",
+   "n": "Estatística II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP1205P23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "DM2201F23",
+   "n": "Equações Diferenciais Ordinárias",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2202P23",
+   "n": "Automação Industrial",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EP2203P23",
+   "n": "Estratégia Empresarial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EP2204P23",
+   "n": "Ciência e Tecnologia dos Materiais",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DQ1105P23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EP2205P23",
+   "n": "Marketing",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EP2206P23",
+   "n": "Pesquisa Operacional II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP2107P23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EP2207P23",
+   "n": "Gestão Ambiental",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "DM3101F23",
+   "n": "Cálculo Numérico Computacional",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "EM3102P23",
+   "n": "Fenômenos de Transporte",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3103P23",
+   "n": "Sistemas de Produção",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3104P23",
+   "n": "Teoria das Filas e Simulação",
+   "aceu": 6.0,
+   "ch": 24.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3105P23",
+   "n": "Gestão da Qualidade",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3106P23",
+   "n": "Inovação e Empreendedorismo",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3107P23",
+   "n": "Engenharia Econômica",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3108P23",
+   "n": "Processos de Fabricação",
+   "aceu": 12.0,
+   "ch": 48.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EP3109P23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP3109P23",
+   "n": "Projeto Integrado em Engenharia de Produção II",
+   "aceu": 120.0,
+   "ch": 0.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP1208P23"
+    ],
+    [
+     "Correquisito",
+     "EP3103P23"
+    ],
+    [
+     "Correquisito",
+     "EP3104P23"
+    ],
+    [
+     "Correquisito",
+     "EP3105P23"
+    ],
+    [
+     "Correquisito",
+     "EP3106P23"
+    ],
+    [
+     "Correquisito",
+     "EP3107P23"
+    ],
+    [
+     "Correquisito",
+     "EP3108P23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "AG3203P23",
+   "n": "Ergonomia e Segurança do Trabalho",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3201P23",
+   "n": "Controle de Qualidade",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3202P23",
+   "n": "Planejamento e Controle da Produção I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3204P23",
+   "n": "Engenharia de Métodos",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3205P23",
+   "n": "Gestão de Projetos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3206P23",
+   "n": "Gestão de Custos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EP3207P23",
+   "n": "Projeto Integrado em Engenharia de Produção III (optativa)",
+   "aceu": null,
+   "ch": 120.0,
+   "tipo": "OPT",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP3109P23"
+    ],
+    [
+     "Correquisito",
+     "EP3201P23"
+    ],
+    [
+     "Correquisito",
+     "EP3202P23"
+    ],
+    [
+     "Correquisito",
+     "AG3203P23"
+    ],
+    [
+     "Correquisito",
+     "EP3204P23"
+    ],
+    [
+     "Correquisito",
+     "EP3205P23"
+    ],
+    [
+     "Correquisito",
+     "EP3206P23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "DP4102P23",
+   "n": "Gestão de Pessoas",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EP4101P23",
+   "n": "Planejamento e Controle da Produção II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP3202P23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EP4103P23",
+   "n": "Projeto da Fábrica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP3103P23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EP4104P23",
+   "n": "Projeto do Produto e do Processo",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "AG1109P23"
+    ],
+    [
+     "Pré-Requisito",
+     "EP3108P23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EP4105P23",
+   "n": "Logística e Gestão da Cadeia de Suprimentos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EP4106P23",
+   "n": "Sistemas de Informações Gerenciais I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EP4107P23",
+   "n": "Projeto Integrado em Engenharia de Produção IV (optativa)",
+   "aceu": null,
+   "ch": 120.0,
+   "tipo": "OPT",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP3207P23"
+    ],
+    [
+     "Correquisito",
+     "EP4101P23"
+    ],
+    [
+     "Correquisito",
+     "DP4102P23"
+    ],
+    [
+     "Correquisito",
+     "EP4103P23"
+    ],
+    [
+     "Correquisito",
+     "EP4104P23"
+    ],
+    [
+     "Correquisito",
+     "EP4105P23"
+    ],
+    [
+     "Correquisito",
+     "EP4106P23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "CH0001F23",
+   "n": "Direito, Legislação e Ética",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 8,
+   "cod": "EP4201P23",
+   "n": "Sistemas de Informações Gerenciais II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 8,
+   "cod": "EP4202P23",
+   "n": "Gestão da Manutenção",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP3103P23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EP4203P23",
+   "n": "Planejamento e Controle da Produção III",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EP4101P23"
+    ]
+   ]
+  }
+ ],
+ "totais": {
+  "1": 420.0,
+  "2": 354.0,
+  "3": 480.0,
+  "4": 390.0,
+  "5": 384.0,
+  "6": 450.0,
+  "7": 420.0,
+  "8": 210.0
+ },
+ "resumo": [
+  "Tabela (imagem) \"Componentes curriculares da estrutura proposta\" | Créditos | Horas: Disciplinas obrigatórias 214 | 3210; Disciplinas optativas 12 | 180; Atividades curriculares de Extensão Universitária 4 | 60; Estágio Supervisionado 12 | 180; Trabalho de Conclusão de Curso 2 | 30; Atividades Complementares 4 | 60; TOTAL 248 | 3720"
+ ],
+ "observacoes": [
+  "Não há linhas \"Total Carga Horária Obrigatória do Curso\" nem \"...Optativas do Curso\" no fim deste documento; após o termo 8 há só uma linha de tabela vazia e, na pág. 5, a tabela-imagem de componentes curriculares.",
+  "Documento lista apenas Séries 1 a 4 (termos 1-8); termo 8 tem só 4 disciplinas (210.0).",
+  "CH Aceu preenchida em: EP1205P23 12.0, EP1206P23 6.0, EP1207P23 6.0, EP1208P23 120.0 (CH 0.0), EP1209P23 12.0 (t2); EP3103P23 12.0, EP3104P23 6.0, EP3105P23 12.0, EP3106P23 12.0, EP3107P23 12.0, EP3108P23 12.0, EP3109P23 120.0 (CH 0.0) (t5).",
+  "O \"Total de Carga Horária\" impresso soma SÓ a coluna Carga Horária (não inclui CH Aceu): t2 CH=354 (Aceu 156, CH+Aceu=510) vs impresso 354.0; t5 CH=384 (Aceu 186, CH+Aceu=570) vs impresso 384.0. Nos demais termos Aceu é vazio e CH+Aceu = total.",
+  "Optativas: EP3207P23 (t6) e EP4107P23 (t7), ambas OPT 120.0 na coluna Carga Horária (Aceu vazio), nome com sufixo \"(optativa)\"; os totais impressos dos termos 6 (450.0) e 7 (420.0) incluem esses 120.0.",
+  "AG3203P23 - Ergonomia e Segurança do Trabalho (t6): coluna Duração em branco (única disciplina sem \"Semestral\").",
+  "Coluna sem cabeçalho entre Requisitos e Duração (provavelmente equivalências) com texto em t5: EM3102P23 \"1: 0002463 - Fenômenos de Transporte, 0002409 - Termodinâmica\"; EP3103P23 \"1: 0002412 - Administração da Produção I (Não integraliza CH de ACEU)\"; EP3105P23 \"1: 0002435 - Qualidade I (Não integraliza CH de ACEU)\"; EP3106P23 \"1: 0002423 - Empreendedorismo (Não integraliza CH de ACEU)\"; EP3107P23 \"1: 0002021 - Engenharia Econômica (Não integraliza CH de ACEU)\"; EP3108P23 \"1: 0002415 - Processos de Fabricação (Não integraliza CH de ACEU)\". Não registrado como requisito.",
+  "Quebra de página 3->4 dentro do requisito de EP3207P23: \"Correquisito: EP3205P23 -\" no fim da pág. 3 e \"Gestão de Projetos / Correquisito: EP3206P23 - Gestão de Custos\" no topo da pág. 4 — ambos atribuídos a EP3207P23 (sem outra disciplina no intervalo). O bloco de requisitos de EP3207P23 é alinhado ao topo (não centrado), começando na linha do 120.0.",
+  "Cabeçalho do termo 8 tem colunas extras \"Alterar\" e \"Excluir\" (vazias).",
+  "EP1208P23 e EP3109P23 têm correquisitos mútuos com as disciplinas do mesmo termo; EP3109P23 também Pré-Requisito EP1208P23.",
+  "Nenhuma troca l/I detectada na camada de texto."
+ ]
+}

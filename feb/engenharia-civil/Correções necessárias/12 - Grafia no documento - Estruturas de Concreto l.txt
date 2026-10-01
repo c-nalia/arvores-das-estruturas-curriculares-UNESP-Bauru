@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 12 de 18 — Engenharia Civil
+
+Título: Grafia no documento - Estruturas de Concreto l
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina EC3202C23 está grafado:
+    “Estruturas de Concreto l”
+O site já exibe a forma corrigida:
+    “Estruturas de Concreto I”
+Motivo da correção: numeral romano grafado com a letra l.
+
+EVIDÊNCIA
+Currículo(s): Engenharia Civil.
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

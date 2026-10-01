@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 4 — Pedagogia
+
+Título: Documento vigente ainda se intitula “Proposta de Reestruturação”
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A matriz publicada como vigente (ingressantes a partir de 2023) tem no título “Proposta de Reestruturação 2023”, o que sugere documento ainda não aprovado.
+
+EVIDÊNCIA
+Título do PDF.
+
+CORREÇÃO NECESSÁRIA
+Publicar a versão aprovada, com o número do currículo.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

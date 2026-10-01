@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 08 de 17 — Psicologia
+
+Título: Grafia no documento - DIsciplinas do Programa de Estágio Supervisionado em Psicolo
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina está grafado:
+    “DIsciplinas do Programa de Estágio Supervisionado em Psicologia Social*”
+O site já exibe a forma corrigida:
+    “Disciplinas do Programa de Estágio Supervisionado em Psicologia Social*”
+Motivo da correção: maiúscula indevida.
+
+EVIDÊNCIA
+Currículo(s): Graduação em Psicologia (integral e noturno).
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

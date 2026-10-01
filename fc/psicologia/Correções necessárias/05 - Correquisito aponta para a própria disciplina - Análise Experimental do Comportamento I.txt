@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 05 de 17 — Psicologia
+
+Título: Correquisito aponta para a própria disciplina - Análise Experimental do Comportamento I
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na coluna Correquisitos de “Análise Experimental do Comportamento I” está o nome da própria disciplina. No par II a relação é cruzada (Laboratório II ↔ Análise Experimental II); no par I os nomes parecem trocados.
+
+EVIDÊNCIA
+PDF, pág. 1, 2º semestre. O site mostra aviso e mantém o texto.
+
+CORREÇÃO NECESSÁRIA
+Corrigir a coluna: o correquisito do Laboratório I deve ser “Análise Experimental do Comportamento I”, e vice-versa (confirmar com a coordenação). Depois, atualizar a transcrição e regerar.
+
+Referência: Relatório, seção 6
+Situação: pendente

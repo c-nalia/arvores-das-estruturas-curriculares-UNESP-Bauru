@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 21 de 23 — Bacharelado em Ciência da Computação
+
+Título: PDF do currículo grafa “A0lgebra Linear”
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No PDF oficial do currículo 2105, a disciplina 4609 está impressa como “A0lgebra Linear”. O site exibe “Álgebra Linear” (correção autorizada).
+
+EVIDÊNCIA
+bcc-curriculo-2105-com-quadro-resumo.pdf, 2º termo.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o PDF publicado.
+
+Referência: Relatório da 1ª revisão (correção autorizada 4609)
+Situação: pendente

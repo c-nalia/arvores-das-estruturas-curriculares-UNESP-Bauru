@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 12 de 15 — Ciências Biológicas
+
+Título: 2711 - Trabalho de Conclusão de Curso sem créditos no quadro
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No Quadro Resumo do 2711, “Trabalho de Conclusão de Curso” está com os créditos em branco (horas 0).
+
+EVIDÊNCIA
+curriculo-2711-licenciatura-noturno.pdf. O site mostra 0 créditos e “—” em horas.
+
+CORREÇÃO NECESSÁRIA
+Preencher ou retirar a linha.
+
+Referência: Relatório, seção 6
+Situação: pendente

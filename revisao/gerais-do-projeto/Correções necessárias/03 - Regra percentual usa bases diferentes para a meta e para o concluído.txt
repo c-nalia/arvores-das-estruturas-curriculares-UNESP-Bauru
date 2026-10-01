@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 3 — Itens gerais do projeto (não pertencem a um curso)
+
+Título: Regra percentual usa bases diferentes para a meta e para o concluído
+Gravidade: BAIXA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+Em assets/arvore-grade.js, a meta da regra percentual é calculada sobre a carga de OBR + TRA + EST, mas as horas concluídas contam só OBR. Hoje nenhum curso com regra percentual tem TRA/EST na grade, então o resultado está certo; fica errado no primeiro curso que tiver.
+
+EVIDÊNCIA
+Funções regraAtendida e horasConcluidas(true).
+
+CORREÇÃO NECESSÁRIA
+Usar a mesma base nos dois lados.
+
+Referência: Relatório, B5
+Situação: pendente

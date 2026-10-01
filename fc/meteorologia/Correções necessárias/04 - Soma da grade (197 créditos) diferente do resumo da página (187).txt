@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 15 — Meteorologia
+
+Título: Soma da grade (197 créditos) diferente do resumo da página (187)
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A página informa: disciplinas obrigatórias 2.805 h (187 créditos), estágio 60 h (4), atividades complementares 195 h (13), total 3.150 h (210). As oito tabelas somam 197 créditos / 2.955 h; sem o estágio, 193 / 2.895. Sobram 6 créditos / 90 h, exatamente o tamanho do 7005.
+
+EVIDÊNCIA
+Somas conferidas por duas transcrições. O site mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Resolver junto com o item do 7005 (uma das duas “Energia e Sustentabilidade Ambiental” pode estar sobrando) e corrigir o resumo ou a grade.
+
+Referência: Relatório, seção 6
+Situação: pendente

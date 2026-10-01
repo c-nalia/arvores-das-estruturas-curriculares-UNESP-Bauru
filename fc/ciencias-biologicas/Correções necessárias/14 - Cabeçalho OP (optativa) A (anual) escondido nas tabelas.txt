@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 14 de 15 — Ciências Biológicas
+
+Título: Cabeçalho “OP (optativa) / A (anual)” escondido nas tabelas
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No 2710 (3º e 4º anos) e no 2711 (3º ao 6º ano), a legenda “OP (optativa)” e “A (anual)” existe no arquivo, mas fica escondida atrás da primeira linha da tabela. Só se vê “OB (obrigatória)” e “S (semestral)”.
+
+EVIDÊNCIA
+Texto extraído dos PDFs × imagem.
+
+CORREÇÃO NECESSÁRIA
+Ajustar a altura da linha de cabeçalho na planilha e gerar o PDF de novo.
+
+Referência: Relatório, seção 6
+Situação: pendente

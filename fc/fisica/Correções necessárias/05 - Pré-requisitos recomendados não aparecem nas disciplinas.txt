@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 05 de 21 — Física
+
+Título: Pré-requisitos recomendados não aparecem nas disciplinas
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento indica um pré-requisito recomendado para quase todas as disciplinas (ex.: Cálculo Diferencial e Integral II ← Cálculo Diferencial e Integral I; Física Moderna II ← Física Moderna I; Simulações Computacionais II ← Simulações Computacionais I). O site não mostra nenhum, e a árvore da Física fica sem ligações.
+
+EVIDÊNCIA
+Ementas do PDF (texto entre parênteses ao fim de cada ementa).
+
+CORREÇÃO NECESSÁRIA
+Transcrever a recomendação de cada disciplina e exibi-la como texto (“pré-requisito recomendado: …”), sem bloquear a simulação. A coordenação deve confirmar se as recomendações devem aparecer como ligações.
+
+Referência: Relatório, M5 / A8
+Situação: pendente

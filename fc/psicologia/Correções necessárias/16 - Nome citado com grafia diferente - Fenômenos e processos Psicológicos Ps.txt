@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 16 de 17 — Psicologia
+
+Título: Nome citado com grafia diferente - Fenômenos e processos Psicológicos: Ps
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Nas colunas de requisitos, a disciplina é citada como “Fenômenos e processos Psicológicos: Psicologia Sócio-Histórica II”; o nome na coluna DISCIPLINA é “Fenômenos e Processos Psicológicos: Psicologia Sócio-histórica II”.
+
+EVIDÊNCIA
+PDF, colunas Pré-Requisitos/Correquisitos. O site liga o requisito à disciplina certa.
+
+CORREÇÃO NECESSÁRIA
+Uniformizar a grafia no documento.
+
+Referência: Relatório, seção 6
+Situação: pendente

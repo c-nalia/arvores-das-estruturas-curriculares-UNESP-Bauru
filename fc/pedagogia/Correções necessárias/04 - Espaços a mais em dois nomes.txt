@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 4 — Pedagogia
+
+Título: Espaços a mais em dois nomes
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+“Expressão Oral    e Escrita na Educação Infantil” e “Corporeidade   e Educação” estão digitados com vários espaços antes do “e”.
+
+EVIDÊNCIA
+Texto do PDF. O site exibe com um espaço.
+
+CORREÇÃO NECESSÁRIA
+Retirar os espaços a mais.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

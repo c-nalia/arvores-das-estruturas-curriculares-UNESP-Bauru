@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 12 de 21 — Educação Física
+
+Título: Maiúsculas não uniformes - hipertensão e cardiovascular (2610 Bacharelado)
+Gravidade: BAIXA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+No 2610 Bacharelado, as disciplinas “Fisiopatologia e Tratamento pelo Exercício: hipertensão e cardiovascular - I/II” (e os estágios correspondentes) usam minúsculas depois dos dois-pontos; as demais usam maiúsculas (“Obesidade e Diabetes”, “Distúrbios do Aparelho Locomotor”). O site uniformizou “prescrição” → “Prescrição”, mas não este caso.
+
+EVIDÊNCIA
+Documento .doc do currículo.
+
+CORREÇÃO NECESSÁRIA
+Definir o critério de maiúsculas. Se for uniformizar: “Hipertensão e Cardiovascular” no documento e registro da correção no site.
+
+Referência: Relatório, M3
+Situação: pendente

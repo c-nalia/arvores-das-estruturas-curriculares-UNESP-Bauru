@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 11 de 15 — Ciências Biológicas
+
+Título: 2711 - asterisco sem nota em “Disciplinas Obrigatórias*”
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No Quadro Resumo do currículo 2711, a linha “Disciplinas Obrigatórias* (incluindo 392h de ACEUs)” tem um asterisco, mas o documento não traz a nota correspondente. Também não informa em quais disciplinas estão as horas de ACEU.
+
+EVIDÊNCIA
+curriculo-2711-…pdf, Quadro Resumo.
+
+CORREÇÃO NECESSÁRIA
+Incluir a nota do asterisco e a distribuição das horas de ACEU por disciplina.
+
+Referência: Relatório, seção 6
+Situação: pendente

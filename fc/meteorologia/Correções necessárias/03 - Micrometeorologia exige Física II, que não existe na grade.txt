@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 15 — Meteorologia
+
+Título: Micrometeorologia exige “Física II”, que não existe na grade
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+7034 - Micrometeorologia tem como pré-requisito “Física II”. Nenhuma disciplina da grade tem esse nome (ver o item dos códigos 7005 e 7050).
+
+EVIDÊNCIA
+Tabela do 3º ano / 1º semestre.
+
+CORREÇÃO NECESSÁRIA
+Resolver junto com o nome do 7005.
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 3 — Engenharia Mecânica
+
+Título: Nome da unidade redundante
+Gravidade: BAIXA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A ficha do curso mostra a unidade como “Faculdade de Engenharia de Bauru · Câmpus de Bauru”: “de Bauru” aparece duas vezes.
+
+EVIDÊNCIA
+Campo “unidade” do arquivo de dados; definido em ferramentas/construir.py (UNIDADES["FEB"]).
+
+CORREÇÃO NECESSÁRIA
+Usar “Faculdade de Engenharia · Câmpus de Bauru” (ou “Faculdade de Engenharia de Bauru (FEB)”) e regerar.
+
+Referência: Relatório, B2
+Situação: pendente

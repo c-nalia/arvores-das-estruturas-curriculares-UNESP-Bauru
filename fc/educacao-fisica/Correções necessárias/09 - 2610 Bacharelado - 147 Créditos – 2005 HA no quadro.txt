@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 09 de 21 — Educação Física
+
+Título: 2610 Bacharelado - “147 Créditos – 2005 H/A” no quadro
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O quadro final do 2610 Bacharelado diz “Créditos em Disciplinas do Currículo 147 Créditos – 2005 H/A”. 147 × 15 = 2.205; o 2611 Bacharelado traz 2205 para os mesmos 147 créditos.
+
+EVIDÊNCIA
+curriculo-2610---bacharelado-integral-a-partir-de-2015.doc. O site reproduz 2005 e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Corrigir para 2205 H/A no documento. Depois, regerar o site.
+
+Referência: Relatório, seção 6
+Situação: pendente

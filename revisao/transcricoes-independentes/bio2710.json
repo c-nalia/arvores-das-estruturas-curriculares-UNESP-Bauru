@@ -1,0 +1,782 @@
+{
+ "curso": "Ciências Biológicas — Bacharelado Integral (currículo 2710)",
+ "tabelas": [
+  {
+   "titulo": "1º ANO / 1º SEMESTRE",
+   "termo": 1,
+   "total": {
+    "creditos": 20,
+    "horas": 300
+   },
+   "linhas": [
+    {
+     "nome": "Anatomia Geral e  Humana",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biologia Celular e Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Geologia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática Biológica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Química Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Física Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Morfologia Vegetal: Órgãos Vegetativos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ],
+   "sem_colunas_requisito": true
+  },
+  {
+   "titulo": "1º ANO / 2º SEMESTRE",
+   "termo": 2,
+   "total": {
+    "creditos": 28,
+    "horas": 420
+   },
+   "linhas": [
+    {
+     "nome": "Histologia Básica e Comparada",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Embriologia Comparada",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biofísica Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Matemática",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Química Orgânica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Morfologia Vegetal: Órgãos Reprodutivos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Protistas e Fungos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Direito, Legislação e Ética",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fundamentos de Extensão Universitária",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "2º ANO / 1º SEMESTRE",
+   "termo": 3,
+   "total": {
+    "creditos": 29,
+    "horas": 435
+   },
+   "linhas": [
+    {
+     "nome": "Bioquímica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Genética Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Geral e Comparada: Regulação",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Zoologia dos Metazoa Basais e Lophotrochozoa",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática de Primoplantae sem sementes",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Imunologia Geral",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Microbiologia Básica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Bioquímica Experimental",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 1,
+     "horas": 15,
+     "co": "Bioquímica",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 1",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "2º ANO / 2º SEMESTRE",
+   "termo": 4,
+   "total": {
+    "creditos": 31,
+    "horas": 465
+   },
+   "linhas": [
+    {
+     "nome": "Metodologia Científica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Geral e Comparada: Sistemas",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Zoologia de Ecdysozoa e Deuterostomia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Sistemática de Spermatophyta",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Parasitologia Geral e Humana",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biologia Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia de Populações",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Nanobiotecnologia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biossegurança",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 1",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3º ANO / 1º SEMESTRE",
+   "termo": 5,
+   "total": {
+    "creditos": 27,
+    "horas": 405
+   },
+   "linhas": [
+    {
+     "nome": "Zoologia de Anamniota",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Paleontologia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Vegetal: Metabolismo",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Educação Ambiental",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Genética Molecular",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Conservação e Manejo",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Bioestatística",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 2",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3º ANO / 2º SEMESTRE",
+   "termo": 6,
+   "total": {
+    "creditos": 35,
+    "horas": 525
+   },
+   "linhas": [
+    {
+     "nome": "Zoologia de Amniota",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Fisiologia Vegetal: Desenvolvimento",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Evolução",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia Comunidades",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Paleoecologia Evolutiva",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biodiversidade Animal",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Bioindicadores",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Planejamento e Gestão Ambiental",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 2",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4º ANO / 1º SEMESTRE",
+   "termo": 7,
+   "total": {
+    "creditos": 19,
+    "horas": 285
+   },
+   "linhas": [
+    {
+     "nome": "Ecologia de Ecossistemas",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 3,
+     "horas": 45,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Biogeografia",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Ecologia de Campo",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Gestão Ambiental de Resíduos Sólidos",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Legislação do Profissional Biólogo",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 3",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4º ANO / 2º SEMESTRE",
+   "termo": 8,
+   "total": {
+    "creditos": 16,
+    "horas": 240
+   },
+   "linhas": [
+    {
+     "nome": "Fundamentos de Ciências Humanas",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Impacto das Mudanças Climáticas na Biodiversidade",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Produção Vegetal Sustentável",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Evolução da Diversidade Biológica",
+     "ob_op": "OB",
+     "s_a": "S",
+     "creditos": 2,
+     "horas": 30,
+     "co": "",
+     "pre": ""
+    },
+    {
+     "nome": "Projeto Integrador 3",
+     "ob_op": "OB",
+     "s_a": "A",
+     "creditos": 4,
+     "horas": 60,
+     "co": "",
+     "pre": ""
+    }
+   ]
+  }
+ ],
+ "quadros": {
+  "tabela_semestre_creditos_horas": {
+   "cabecalho": [
+    "Semestre",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     "Estágio curricular",
+     24,
+     360
+    ],
+    [
+     "Trabalho de Conclusão de Curso",
+     4,
+     60
+    ],
+    [
+     "Atividades Complementares",
+     14,
+     210
+    ]
+   ]
+  },
+  "tabela_ano_semestre": {
+   "cabecalho": [
+    "Ano",
+    "Semestre",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     1,
+     1,
+     20,
+     300
+    ],
+    [
+     1,
+     2,
+     28,
+     420
+    ],
+    [
+     2,
+     1,
+     29,
+     435
+    ],
+    [
+     2,
+     2,
+     31,
+     465
+    ],
+    [
+     3,
+     1,
+     27,
+     405
+    ],
+    [
+     3,
+     2,
+     35,
+     525
+    ],
+    [
+     4,
+     1,
+     19,
+     285
+    ],
+    [
+     4,
+     2,
+     16,
+     240
+    ]
+   ],
+   "TOTAL": [
+    205,
+    3075
+   ]
+  },
+  "quadro_resumo": {
+   "titulo": "Quadro Resumo",
+   "cabecalho": [
+    "Componente Curricular",
+    "Créditos",
+    "Horas"
+   ],
+   "linhas": [
+    [
+     "Disciplinas Obrigatórias* (incluindo 390h de ACEUs)",
+     205,
+     3075
+    ],
+    [
+     "Estágio curricular",
+     24,
+     360
+    ],
+    [
+     "Trabalho de Conclusão de Curso",
+     4,
+     60
+    ],
+    [
+     "Atividades Complementares",
+     14,
+     210
+    ]
+   ]
+  }
+ },
+ "observacoes": [
+  "Todas as somas de créditos e horas por tabela batem com o TOTAL impresso; a soma dos 8 totais (205 cr / 3075 h) bate com a tabela Ano/Semestre e com o Quadro Resumo.",
+  "A tabela 1º ANO / 1º SEMESTRE não possui colunas Correquisito/Pré-requisito.",
+  "Único requisito do documento: Bioquímica Experimental (2º ano/1º sem) tem 'Bioquímica' na coluna Correquisito (x da palavra 666 pt, coluna Correquisito entre as réguas; cabeçalho Correquisito x=664, Pré-requisito x=691). Nenhuma célula de Pré-requisito preenchida.",
+  "Projetos Integradores 1, 2 e 3 são marcados 'A' (anual) e aparecem nas duas tabelas semestrais do respectivo ano, com 4 cr/60 h contados em cada semestre (8 cr/120 h por ano).",
+  "Nas tabelas do 3º e 4º anos o cabeçalho visível é só 'OB (obrigatória)' e 'S (semestral)'; o texto 'OP (optativa)'/'A (anual)' existe no PDF mas fica oculto sobreposto à 1ª linha.",
+  "Grafia literal 'Anatomia Geral e  Humana' com dois espaços entre 'e' e 'Humana' (confirmado nos caracteres do PDF).",
+  "O asterisco de 'Disciplinas Obrigatórias*' não tem nota de rodapé correspondente na página.",
+  "Na tabela Semestre/Créditos/Horas o rótulo da 1ª coluna é 'Semestre', mas as linhas são componentes (Estágio, TCC, Atividades Complementares).",
+  "Linhas vazias com Horas=0 foram ignoradas (3 no 1º/1º, 1 no 1º/2º, 1 no 2º/1º, 2 no 3º/1º, 1 no 3º/2º, 4 no 4º/1º, 5 no 4º/2º)."
+ ]
+}

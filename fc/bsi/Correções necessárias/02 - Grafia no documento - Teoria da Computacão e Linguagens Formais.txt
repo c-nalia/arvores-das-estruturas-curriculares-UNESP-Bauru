@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 02 de 3 — Bacharelado em Sistemas de Informação
+
+Título: Grafia no documento - Teoria da Computacão e Linguagens Formais
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina 4623 está grafado:
+    “Teoria da Computacão e Linguagens Formais”
+O site já exibe a forma corrigida:
+    “Teoria da Computação e Linguagens Formais”
+Motivo da correção: ortografia (cedilha).
+
+EVIDÊNCIA
+Currículo(s): Bacharelado em Sistemas de Informação.
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

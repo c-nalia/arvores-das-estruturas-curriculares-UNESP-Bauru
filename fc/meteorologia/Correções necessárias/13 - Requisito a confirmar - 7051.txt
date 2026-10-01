@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 13 de 15 — Meteorologia
+
+Título: Requisito a confirmar - 7051
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Cálculo Diferencial e Integral de Várias Variáveis I tem “Pré-Cálculo” como correquisito, embora Pré-Cálculo seja do 1º semestre. O site reproduz o documento como está.
+
+EVIDÊNCIA
+Tabelas da página do curso (colunas Correquisito e Pré-requisito); apontado pela transcrição independente.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve confirmar se o requisito está na coluna certa e com a disciplina certa.
+
+Referência: Relatório, seção 6
+Situação: pendente

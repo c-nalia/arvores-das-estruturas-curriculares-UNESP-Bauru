@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 21 — Educação Física
+
+Título: 2611 Bacharelado - total do 5º termo (20) diferente da soma (22)
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O 5º termo lista disciplinas que somam 22 créditos, mas a linha “Créditos” diz 20.
+
+EVIDÊNCIA
+curriculo-2611---bacharelado-noturno-a-partir-de-2015.doc. O site mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o total (os totais do 4º e do 5º termos parecem trocados).
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,21 @@
+CORREÇÕES NECESSÁRIAS — Pedagogia
+Pasta: fc/pedagogia
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 4 correção(ões) — 4 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [BAIXA] [SITE] Rótulo “Currículo 2023” não consta do documento
+      arquivo: Correções necessárias/01 - Rótulo Currículo 2023 não consta do documento.txt
+02. [BAIXA] [DOCUMENTO] Documento vigente ainda se intitula “Proposta de Reestruturação”
+      arquivo: Correções necessárias/02 - Documento vigente ainda se intitula Proposta de Reestruturação.txt
+03. [BAIXA] [DOCUMENTO] Matriz sem códigos e sem pré-requisitos
+      arquivo: Correções necessárias/03 - Matriz sem códigos e sem pré-requisitos.txt
+04. [BAIXA] [DOCUMENTO] Espaços a mais em dois nomes
+      arquivo: Correções necessárias/04 - Espaços a mais em dois nomes.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

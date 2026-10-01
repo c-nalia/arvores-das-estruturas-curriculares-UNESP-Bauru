@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 3 — Design
+
+Título: Documento não informa cargas, códigos nem pré-requisitos
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A estrutura curricular publicada traz só os nomes dos componentes por termo. Sem cargas, códigos e requisitos, a árvore do Design não tem ligações, e a simulação conta componentes em vez de horas.
+
+EVIDÊNCIA
+matriz-curricular-2023-design-unesp.pdf (1 página). Conferido pela transcrição independente.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve publicar a matriz completa (códigos, cargas horárias, pré-requisitos e relação de optativas). Com ela, o site pode ser gerado como o dos outros cursos.
+
+Referência: Relatório, seção 6
+Situação: pendente

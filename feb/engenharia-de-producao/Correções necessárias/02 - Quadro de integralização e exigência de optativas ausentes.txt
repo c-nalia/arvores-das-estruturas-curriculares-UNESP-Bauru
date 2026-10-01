@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 8 — Engenharia de Produção
+
+Título: Quadro de integralização e exigência de optativas ausentes
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento traz, em imagem, a tabela “Componentes curriculares da estrutura proposta”. O site não mostra o quadro-resumo nem a carga de optativas exigida.
+
+EVIDÊNCIA
+Valores lidos da imagem (revisao/transcricoes-independentes/feb-producao.json): Disciplinas obrigatórias 214 créditos / 3.210 h; Disciplinas optativas 12 / 180; Atividades curriculares de Extensão Universitária 4 / 60; Estágio Supervisionado 12 / 180; Trabalho de Conclusão de Curso 2 / 30; Atividades Complementares 4 / 60; TOTAL 248 / 3.720.
+
+CORREÇÃO NECESSÁRIA
+Transcrever a tabela em ferramentas/transcricoes.py, incluir como quadroResumo e como exigência de optativas (180 h) em construir.py e regerar. Conferir os valores na imagem antes de publicar.
+
+Referência: Relatório, A3
+Situação: pendente

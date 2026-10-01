@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 17 — Psicologia
+
+Título: Simulação conta 4 programas de estágio (o aluno cursa 3)
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento diz: “São contabilizadas apenas o referente a 3 opções de Estágio”. A simulação soma os quatro programas (18 créditos cada) e mostra “de 282 créditos”. O correto é 264 (210 das disciplinas dos semestres 1 a 8, sem as duas optativas, + 54 de três estágios). O percentual exibido fica menor do que o real.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X05.
+
+CORREÇÃO NECESSÁRIA
+Marcar os quatro estágios como grupo “cursar 3 de 4” (campo novo no arquivo de dados) e contar só os exigidos, em assets/arvore-grade.js e ferramentas/construir.py.
+
+Referência: Relatório, A5
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 8 — Artes Visuais
+
+Título: Maiúsculas não uniformes - Antropologia visual
+Gravidade: BAIXA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+ART-E 26 está grafada “Antropologia visual” (v minúsculo). As demais seguem maiúsculas nos nomes (“Antropologia da Arte”, “Sociologia da Arte”), e a própria equivalência do documento traz “Antropologia Visual”. O site corrigiu maiúsculas em outros cursos, mas não aqui.
+
+EVIDÊNCIA
+artes-visuais-estrutura-curricular-basico.csv, Série 2 - Período 2.
+
+CORREÇÃO NECESSÁRIA
+Definir o critério de maiúsculas para todos os cursos. Se for uniformizar: corrigir para “Antropologia Visual” no cadastro e registrar a correção no site.
+
+Referência: Relatório, M3
+Situação: pendente

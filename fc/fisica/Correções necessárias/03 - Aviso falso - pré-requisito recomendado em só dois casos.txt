@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 21 — Física
+
+Título: Aviso falso - “pré-requisito recomendado” em só dois casos
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+As três páginas da Física dizem: “O documento não estabelece pré-requisitos formais: as ementas indicam apenas a seriação ideal (e, em dois casos, um ‘pré-requisito recomendado’)”. Isso está errado: o documento traz “pré-requisito recomendado” (ou “recomentado”) em 47 ementas, e “Pré-requisito:” sem “recomendado” em 6 (as cinco de TCC, “ver regulamento geral do TCC”, e Introdução à Pesquisa em Ensino de Ciências).
+
+EVIDÊNCIA
+Contagem no texto do PDF: 22 ocorrências de “recomendado” + 25 de “recomentado”.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o aviso em ferramentas/construir.py e regerar.
+
+Referência: Novo - relatório, A8 (substitui M5)
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 21 — Física
+
+Título: Pré-requisito formal ausente - Introdução à Pesquisa em Ensino de Ciências
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+Na Licenciatura, a ementa de “Introdução à Pesquisa em Ensino de Ciências” (7º termo) termina com “Pré-requisito: Metodologias e Práticas de Ensino de Física I, II, III e IV”. É um pré-requisito sem a palavra “recomendado”. O site mostra a disciplina sem requisito e sem ligações.
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf, ementa da disciplina (“(Pré-requisito: Metodologias e Práticas de Ensino de Física I, II, III e IV – Seriação ideal: sétimo termo da Licenciatura em Física)”).
+
+CORREÇÃO NECESSÁRIA
+Em ferramentas/transcricoes.py, incluir como pré-requisitos as quatro “Metodologia e Prática de Ensino de Física” (I a IV) e regerar. Confirmar com a coordenação que o requisito é obrigatório.
+
+Referência: Novo (encontrado ao detalhar as correções) - acrescentado ao relatório como A8
+Situação: pendente

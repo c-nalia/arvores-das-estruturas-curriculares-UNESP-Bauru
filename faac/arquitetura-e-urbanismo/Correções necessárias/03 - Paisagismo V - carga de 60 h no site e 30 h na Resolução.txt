@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 17 — Arquitetura e Urbanismo
+
+Título: Paisagismo V - carga de 60 h no site e 30 h na Resolução
+Gravidade: ALTA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+ARQ-E 56 - Paisagismo V - Ecologia da Paisagem aparece no site com 60 h (como na relação do Sistema de Graduação publicada na página do curso). O anexo da Resolução Unesp 123/2023 dá 2 créditos (30 h).
+
+EVIDÊNCIA
+Resolução Unesp 123/2023, anexo, pág. 2: “Paisagismo V - Ecologia da Paisagem 2”. Relação do SG (página do curso): “ARQ-E 56 … 60.0”. As outras 68 disciplinas do anexo conferem com o site.
+
+CORREÇÃO NECESSÁRIA
+O Conselho de Curso deve dizer qual fonte prevalece. O site NÃO deve mudar o número por conta própria: até a decisão, manter 60 h e exibir um aviso da divergência.
+
+Referência: Relatório, A1
+Situação: pendente

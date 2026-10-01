@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 17 — Psicologia
+
+Título: Erro de concordância não corrigido - Teorias Sistêmica e Complexa
+Gravidade: MÉDIA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+A disciplina do 2º semestre está grafada “Fundamentos das Teorias Sistêmica e Complexa”. O próprio documento, ao citá-la como pré-requisito, escreve “Fundamentos das Teorias Sistêmicas e Complexas”. O site corrigiu grafias em outros nomes, mas deixou este.
+
+EVIDÊNCIA
+grade-curricular-curso-de-psicologia-1212-1213.pdf, pág. 1 (nome) e pág. 2 (coluna Pré-Requisitos de “Teorias e Práticas Sistêmicas e Complexas”).
+
+CORREÇÃO NECESSÁRIA
+Confirmar o nome com a coordenação. Se for “Sistêmicas e Complexas”: corrigir o documento e acrescentar a correção em CORRECOES (ferramentas/construir.py).
+
+Referência: Relatório, M3
+Situação: pendente

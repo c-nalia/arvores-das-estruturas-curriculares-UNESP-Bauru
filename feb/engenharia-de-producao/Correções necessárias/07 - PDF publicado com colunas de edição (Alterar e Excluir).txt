@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 07 de 8 — Engenharia de Produção
+
+Título: PDF publicado com colunas de edição (Alterar e Excluir)
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O cabeçalho da tabela do 8º termo traz as colunas “Alterar” e “Excluir”, que são botões da tela de edição do sistema, não informação do currículo.
+
+EVIDÊNCIA
+eproducao.pdf, pág. 4, tabela “Série: 4 - Período: 2”.
+
+CORREÇÃO NECESSÁRIA
+Gerar o PDF de novo pela tela de consulta (sem as colunas de edição) e republicar.
+
+Referência: Relatório, seção 6
+Situação: pendente

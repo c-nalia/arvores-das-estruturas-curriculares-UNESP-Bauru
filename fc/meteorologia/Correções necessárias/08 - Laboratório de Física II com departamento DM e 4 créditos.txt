@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 15 — Meteorologia
+
+Título: Laboratório de Física II com departamento DM e 4 créditos
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+7047 - Laboratório de Física II está com departamento “DM” e 4 créditos / 60 h. Os Laboratórios de Física I (7044) e III (7052) são do DFM, com 2 créditos / 30 h.
+
+EVIDÊNCIA
+Tabela do 1º ano / 2º semestre (transcrição independente, observações). O site reproduz o documento e não tem aviso para este ponto.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve confirmar departamento e créditos do 7047 e corrigir a tabela se for o caso. No site, acrescentar aviso enquanto não houver confirmação.
+
+Referência: Relatório, seção 6
+Situação: pendente

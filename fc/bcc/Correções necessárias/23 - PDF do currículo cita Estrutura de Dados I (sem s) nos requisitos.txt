@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 23 de 23 — Bacharelado em Ciência da Computação
+
+Título: PDF do currículo cita “Estrutura de Dados I” (sem s) nos requisitos
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Em duas linhas da coluna Pré-Requisito aparece “Estrutura de Dados I”; o nome da disciplina 4617 é “Estruturas de Dados I”.
+
+EVIDÊNCIA
+bcc-curriculo-2105-com-quadro-resumo.pdf (duas ocorrências). O site liga o requisito à disciplina certa.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o PDF publicado.
+
+Referência: Relatório da 1ª revisão
+Situação: pendente

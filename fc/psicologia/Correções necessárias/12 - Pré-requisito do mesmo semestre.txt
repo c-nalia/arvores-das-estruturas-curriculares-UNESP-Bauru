@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 12 de 17 — Psicologia
+
+Título: Pré-requisito do mesmo semestre
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+“Atividades Extensionistas em Educação e Sociedade I” (5º semestre) tem como pré-requisito “Análise do comportamento Aplicada: Delineamentos Culturais”, que também é do 5º semestre.
+
+EVIDÊNCIA
+PDF, pág. 3. O site mantém e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Confirmar se é pré-requisito ou correquisito.
+
+Referência: Relatório, seção 7
+Situação: pendente

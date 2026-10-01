@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 8 — Química
+
+Título: Correção de grafia falsa - Bacharelado
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O rodapé da página (Bacharelado em Química Tecnológica) afirma que o documento oficial grafa “Introdução à Metodologia da Pesquisa Cientifica” (sem acento) e que o site corrigiu para “Científica”. O documento JÁ grafa “Científica”, com acento. O erro foi da transcrição usada pelo gerador, e o site atribui ao documento um erro que ele não tem.
+
+EVIDÊNCIA
+Imagem da matriz a 400 dpi, pág. 5 (3º ano, 1º semestre); transcrição independente (revisao/transcricoes-independentes/quimica.json); revisao/exploratorio.mjs, teste X13.
+
+CORREÇÃO NECESSÁRIA
+Em ferramentas/transcricoes.py, trocar “Cientifica” por “Científica” (QUI_LIC e QUI_BACH) e regerar. O registro em “correcoes” deve desaparecer. O nome exibido não muda.
+
+Referência: Relatório, A2
+Situação: pendente

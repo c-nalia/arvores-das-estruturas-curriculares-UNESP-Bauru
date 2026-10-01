@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 21 — Educação Física
+
+Título: TCC II repetido sem indicação de anual - 2610 Bacharelado (integral)
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+No currículo 2610 Bacharelado (integral), “Trabalho de Conclusão de Curso II” aparece em dois termos seguidos (7º e 8º), com 2 créditos em cada. O site mostra dois cartões iguais, sem selo “anual” e sem aviso; a simulação exige marcar os dois.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X06; revisao/comparar_edf.py.
+
+CORREÇÃO NECESSÁRIA
+Confirmar com a coordenação se a disciplina é anual. Se for, marcar as duas ocorrências como anual em ferramentas/construir.py (ler_edf) e acrescentar aviso. Regerar.
+
+Referência: Relatório, M1
+Situação: pendente

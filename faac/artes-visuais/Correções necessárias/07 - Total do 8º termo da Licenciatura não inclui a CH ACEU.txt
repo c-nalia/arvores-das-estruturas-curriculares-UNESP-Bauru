@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 07 de 8 — Artes Visuais
+
+Título: Total do 8º termo da Licenciatura não inclui a CH ACEU
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na relação da Licenciatura (2504L), o 8º termo traz “Total de Carga Horária: 174.0”, que soma só a coluna Carga Horária. Há ainda 6 h de CH ACEU no termo.
+
+EVIDÊNCIA
+artes-visuais-estrutura-curricular-licenciatura.csv/.html. O site mantém os números e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+A Seção de Graduação deve conferir o total do termo (174 h ou 180 h) e corrigir o relatório.
+
+Referência: Relatório, seção 6
+Situação: pendente

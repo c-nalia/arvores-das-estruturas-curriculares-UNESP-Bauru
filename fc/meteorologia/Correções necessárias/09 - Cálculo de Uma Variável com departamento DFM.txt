@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 09 de 15 — Meteorologia
+
+Título: Cálculo de Uma Variável com departamento DFM
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+7046 - Cálculo Diferencial e Integral de Uma Variável está com departamento “DFM”. As demais disciplinas de Cálculo (7003, 7043, 7051, 7055, 7057) são do DM. Na mesma tabela, o Laboratório de Física II está como DM: os dois departamentos parecem trocados.
+
+EVIDÊNCIA
+Tabela do 1º ano / 2º semestre.
+
+CORREÇÃO NECESSÁRIA
+Confirmar e corrigir os departamentos de 7046 e 7047.
+
+Referência: Relatório, seção 6
+Situação: pendente

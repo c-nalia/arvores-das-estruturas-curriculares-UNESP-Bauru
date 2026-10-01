@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 15 — Meteorologia
+
+Título: Micrometeorologia aparece como apta sem o requisito “Física II”
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+7034 - Micrometeorologia exige “Física II”, que não existe na grade com esse nome. O site guarda o requisito só como texto, e a simulação o ignora: a disciplina aparece como “apta para matrícula”.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X04.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js, disciplinas com requisito em texto (preTexto/coTexto) devem ficar num estado próprio (“requisito a confirmar com o Conselho de Curso”), não como aptas.
+
+Referência: Relatório, A6
+Situação: pendente

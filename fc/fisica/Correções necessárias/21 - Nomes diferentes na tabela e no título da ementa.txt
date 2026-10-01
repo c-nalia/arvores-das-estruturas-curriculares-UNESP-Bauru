@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 21 de 21 — Física
+
+Título: Nomes diferentes na tabela e no título da ementa
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Algumas disciplinas têm um nome na tabela do termo e outro no título da ementa:
+  “Estágio - I” × “Estágio Física Computacional - I”
+  “Estágio II” × “Estágio II da Física Computacional”
+  “Computação Quântica” × “Computação Quântica -”
+  “Trabalho de Conclusão de Curso I” × “Trabalho de Conclusão de Curso I – bacharelado - I” e “… I - Licenciatura”
+  “Trabalho de Conclusão de Curso III” × “Trabalho de Conclusão de Curso III- Licenciatura”
+
+EVIDÊNCIA
+Tabelas dos termos 7 a 10 e títulos das ementas.
+
+CORREÇÃO NECESSÁRIA
+Usar o mesmo nome nos dois lugares.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

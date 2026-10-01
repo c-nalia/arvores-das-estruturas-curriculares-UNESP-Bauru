@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 15 de 17 — Psicologia
+
+Título: Nome citado com grafia diferente - Análise do comportamento Aplicada
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Nas colunas de requisitos, a disciplina é citada como “Análise do comportamento Aplicada”; o nome na coluna DISCIPLINA é “Análise do Comportamento Aplicada”.
+
+EVIDÊNCIA
+PDF, colunas Pré-Requisitos/Correquisitos. O site liga o requisito à disciplina certa.
+
+CORREÇÃO NECESSÁRIA
+Uniformizar a grafia no documento.
+
+Referência: Relatório, seção 6
+Situação: pendente

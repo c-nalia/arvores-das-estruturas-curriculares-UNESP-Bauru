@@ -1,0 +1,655 @@
+{
+ "tabelas": [
+  {
+   "titulo": "1° Ano - 1° Semestre",
+   "termo": 1,
+   "total_impresso": {
+    "creditos": 24,
+    "horas": 360
+   },
+   "linhas": [
+    {
+     "cod": "7000",
+     "dep": "DFM",
+     "nome": "Física I",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7003",
+     "dep": "DM",
+     "nome": "Cálculo Vetorial e Geometria Analítica",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7008",
+     "dep": "DFM",
+     "nome": "Meteorologia Básica",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7042",
+     "dep": "DFM",
+     "nome": "Meteorologia e Sociedade",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7043",
+     "dep": "DM",
+     "nome": "Pré-Cálculo",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7044",
+     "dep": "DFM",
+     "nome": "Laboratório de Física I",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "1° Ano - 2° Semestre",
+   "termo": 2,
+   "total_impresso": {
+    "creditos": 26,
+    "horas": 390
+   },
+   "linhas": [
+    {
+     "cod": "7005",
+     "dep": "DFM",
+     "nome": "Energia e Sustentabilidade Ambiental",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7046",
+     "dep": "DFM",
+     "nome": "Cálculo Diferencial e Integral de Uma Variável",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7047",
+     "dep": "DM",
+     "nome": "Laboratório de Física II",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7048",
+     "dep": "DFM",
+     "nome": "Observações Meteorológicas",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7049",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária I",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7050",
+     "dep": "DFM",
+     "nome": "Energia e Sustentabilidade Ambiental",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "2° Ano - 1° Semestre",
+   "termo": 3,
+   "total_impresso": {
+    "creditos": 28,
+    "horas": 420
+   },
+   "linhas": [
+    {
+     "cod": "7010",
+     "dep": "DFM",
+     "nome": "Física III",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "Física I",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7013",
+     "dep": "EP",
+     "nome": "Estatística Aplicada",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7051",
+     "dep": "DM",
+     "nome": "Cálculo Diferencial e Integral de Várias Variáveis I",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "Pré-Cálculo",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7052",
+     "dep": "DFM",
+     "nome": "Laboratório de Física III",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "Laboratório de Física I",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7053",
+     "dep": "DFM",
+     "nome": "Introdução às Linguagens de Programação",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7054",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária II",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49183",
+     "dep": "DFM",
+     "nome": "Mecânica dos Fluidos para atmosfera",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "Cálculo Diferencial e Integral de Várias Variáveis I",
+     "prerequisito": "Cálculo Vetorial e Geometria Analítica"
+    }
+   ]
+  },
+  {
+   "titulo": "2° Ano - 2° Semestre",
+   "termo": 4,
+   "total_impresso": {
+    "creditos": 24,
+    "horas": 360
+   },
+   "linhas": [
+    {
+     "cod": "7023",
+     "dep": "DFM",
+     "nome": "Meteorologia Física I",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7055",
+     "dep": "DM",
+     "nome": "Cálculo Diferencial e Integral de várias variáveis II",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7056",
+     "dep": "DFM",
+     "nome": "Métodos Matemáticos em Meteorologia e Climatologia",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Cálculo Vetorial e Geometria Analítica; Cálculo Diferencial e Integral de Várias Variáveis I"
+    },
+    {
+     "cod": "7057",
+     "dep": "DM",
+     "nome": "Séries e Equações Diferenciais",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Cálculo Diferencial e Integral de Várias Variáveis I"
+    },
+    {
+     "cod": "7058",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária III",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3° Ano - 1° Semestre",
+   "termo": 5,
+   "total_impresso": {
+    "creditos": 28,
+    "horas": 420
+   },
+   "linhas": [
+    {
+     "cod": "7021",
+     "dep": "DFM",
+     "nome": "Meteorologia Dinâmica I",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Métodos Matemáticos em Meteorologia e Climatologia"
+    },
+    {
+     "cod": "7030",
+     "dep": "DFM",
+     "nome": "Meteorologia Física II",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Cálculo Diferencial e Integral de Uma Variável"
+    },
+    {
+     "cod": "7034",
+     "dep": "DFM",
+     "nome": "Micrometeorologia",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "Meteorologia Dinâmica I",
+     "prerequisito": "Física II"
+    },
+    {
+     "cod": "7036",
+     "dep": "DFM",
+     "nome": "Métodos Estatísticos em Meteorologia e Climatologia",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "Climatologia",
+     "prerequisito": "Estatística Aplicada"
+    },
+    {
+     "cod": "7059",
+     "dep": "DFM",
+     "nome": "Climatologia",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "Estatística Aplicada",
+     "prerequisito": "Meteorologia Básica; Meteorologia Física I"
+    },
+    {
+     "cod": "7060",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária IV",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "3° Ano - 2° Semestre",
+   "termo": 6,
+   "total_impresso": {
+    "creditos": 27,
+    "horas": 405
+   },
+   "linhas": [
+    {
+     "cod": "7026",
+     "dep": "DFM",
+     "nome": "Meteorologia Dinâmica II",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Dinâmica I"
+    },
+    {
+     "cod": "7027",
+     "dep": "DFM",
+     "nome": "Meteorologia Sinótica I",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "Meteorologia Dinâmica II",
+     "prerequisito": "Meteorologia Física I; Meteorologia Dinâmica I"
+    },
+    {
+     "cod": "7038",
+     "dep": "DFM",
+     "nome": "Meteorologia com Radar e Satélite",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Física II"
+    },
+    {
+     "cod": "7061",
+     "dep": "DFM",
+     "nome": "Hidrologia e Hidrometeorologia",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Estatística Aplicada; Meteorologia Básica"
+    },
+    {
+     "cod": "7062",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária V",
+     "creditos": 5,
+     "horas": 75,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4° Ano - 1° Semestre",
+   "termo": 7,
+   "total_impresso": {
+    "creditos": 22,
+    "horas": 330
+   },
+   "linhas": [
+    {
+     "cod": "7031",
+     "dep": "DFM",
+     "nome": "Poluição Atmosférica",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Física I; Micrometeorologia"
+    },
+    {
+     "cod": "7032",
+     "dep": "DFM",
+     "nome": "Meteorologia Sinótica II",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Sinótica I; Meteorologia Dinâmica II"
+    },
+    {
+     "cod": "7063",
+     "dep": "DE",
+     "nome": "Metodologia da Pesquisa Científica",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7064",
+     "dep": "DFM",
+     "nome": "Modelagem Numérica",
+     "creditos": 6,
+     "horas": 90,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Dinâmica II"
+    },
+    {
+     "cod": "7065",
+     "dep": "DFM",
+     "nome": "Trabalho de Conclusão de Curso I",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "Metodologia da Pesquisa Científica",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7066",
+     "dep": "DFM",
+     "nome": "Atividades Orientadas de Extensão Universitária VI",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "4° Ano - 2° Semestre",
+   "termo": 8,
+   "total_impresso": {
+    "creditos": 18,
+    "horas": 270
+   },
+   "linhas": [
+    {
+     "cod": "7028",
+     "dep": "DFM",
+     "nome": "Meteorologia Tropical",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Física I"
+    },
+    {
+     "cod": "7039",
+     "dep": "DFM",
+     "nome": "Técnicas de Comunicação Oral e Escrita em Meteorologia",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": "Meteorologia Básica; Meteorologia e Sociedade"
+    },
+    {
+     "cod": "7041",
+     "dep": "DFM",
+     "nome": "Estágio Profissionalizante",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "7067",
+     "dep": "DFM",
+     "nome": "Agrometeorologia",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": "Micrometeorologia"
+    },
+    {
+     "cod": "7068",
+     "dep": "DFM",
+     "nome": "Trabalho de Conclusão de Curso II",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "Trabalho de Conclusão de Curso I",
+     "prerequisito": ""
+    }
+   ]
+  },
+  {
+   "titulo": "Disciplinas Optativas",
+   "termo": 0,
+   "total_impresso": null,
+   "linhas": [
+    {
+     "cod": "4209",
+     "dep": "DQ",
+     "nome": "Química Geral e Inorgânica",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4210",
+     "dep": "DQ",
+     "nome": "Laboratório de Química Geral e Inorgânica",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4220",
+     "dep": "DFM",
+     "nome": "Termodinâmica",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4246",
+     "dep": "DFM",
+     "nome": "Físico-Química",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4918",
+     "dep": "DCo",
+     "nome": "Animação em 3D",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4981",
+     "dep": "DFM",
+     "nome": "Fundamentos de Astronomia",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "4983",
+     "dep": "DFM",
+     "nome": "Produção de Textos Científicos",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49112",
+     "dep": "DFM",
+     "nome": "Tópicos em Biometeorologia",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49131",
+     "dep": "DFM",
+     "nome": "Tópicos Especiais em Mudanças Climáticas e Modelagem de Clima",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49132",
+     "dep": "DFM",
+     "nome": "Interação Oceano-Atmosfera",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49160",
+     "dep": "DFM",
+     "nome": "Interação Biosfera Atmosfera",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "49189",
+     "dep": "DFM",
+     "nome": "Matemática Básica para Meteorologia",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "",
+     "prerequisito": ""
+    },
+    {
+     "cod": "",
+     "dep": "DFM",
+     "nome": "Meteorologia de Mesoescala",
+     "creditos": 4,
+     "horas": 60,
+     "correquisito": "Meteorologia Sinótica II",
+     "prerequisito": "Meteorologia Sinótica I; Meteorologia Dinâmica II"
+    },
+    {
+     "cod": "",
+     "dep": "DFM",
+     "nome": "Interação Solo-Vegetação-Atmosfera",
+     "creditos": 2,
+     "horas": 30,
+     "correquisito": "",
+     "prerequisito": "Observações Meteorológicas; Estatística Aplicada"
+    }
+   ]
+  }
+ ],
+ "resumo_pagina": "ESTRUTURA CURRICULAR - 1702 BACHARELADO EM METEOROLOGIA (Observação: Clique aqui para Estrutura Curricular 1701 - vigente até 2022) PERÍODO: Integral DURAÇÃO - IDEAL: 04 anos - MÁXIMA: 07 anos CARGA HORÁRIA EM DISCIPLINAS OBRIGATÓRIAS: 2805 horas (187 créditos) CARGA HORÁRIA EM ESTÁGIO CURRICULAR OBRIGATÓRIO: 60 horas (4 créditos) CARGA HORÁRIA EM ATIVIDADES COMPLEMENTARES: 195 horas (13 créditos) CARGA HORÁRIA TOTAL: 3150 horas (210 créditos) [Fonte: https://www.fc.unesp.br/#!/departamentos/fisica/cursos/meteorologia/grade-curricular/ · página atualizada em 24/Nov/2025 18:02]",
+ "observacoes": [
+  "1° Ano - 1° Semestre: 6 linhas; soma 24 cr/360 h vs impresso 24/360 -> OK",
+  "1° Ano - 2° Semestre: 6 linhas; soma 26 cr/390 h vs impresso 26/390 -> OK",
+  "2° Ano - 1° Semestre: 7 linhas; soma 28 cr/420 h vs impresso 28/420 -> OK",
+  "2° Ano - 2° Semestre: 5 linhas; soma 24 cr/360 h vs impresso 24/360 -> OK",
+  "3° Ano - 1° Semestre: 6 linhas; soma 28 cr/420 h vs impresso 28/420 -> OK",
+  "3° Ano - 2° Semestre: 5 linhas; soma 27 cr/405 h vs impresso 27/405 -> OK",
+  "4° Ano - 1° Semestre: 6 linhas; soma 22 cr/330 h vs impresso 22/330 -> OK",
+  "4° Ano - 2° Semestre: 5 linhas; soma 18 cr/270 h vs impresso 18/270 -> OK",
+  "Disciplinas Optativas: 14 linhas; soma 46 cr/690 h; sem linha TOTAL impressa",
+  "Soma dos 8 semestres obrigatórios: 197 créditos / 2955 h. Página declara disciplinas obrigatórias 2805 h (187 cr) + estágio 60 h (4 cr) = 2865 h (191 cr). Excluindo 7041 Estágio Profissionalizante (4 cr/60 h) as tabelas somam 193 cr/2895 h, ou seja 6 cr/90 h a mais que o declarado (coincide com 7005 de 6 cr/90 h).",
+  "Nome duplicado no 1° Ano - 2° Semestre: 7005 (6 cr/90 h) e 7050 (4 cr/60 h) aparecem ambos como 'Energia e Sustentabilidade Ambiental' — provável erro na tabela; 7005 de 6 cr/90 h parece ser 'Física II' (Física I=7000, Física III=7010), e 'Física II' é citada como pré-requisito de 7034 Micrometeorologia mas não aparece com esse nome em nenhuma tabela.",
+  "Departamentos possivelmente trocados no 1° Ano - 2° Semestre: 7046 'Cálculo Diferencial e Integral de Uma Variável' consta como DFM e 7047 'Laboratório de Física II' consta como DM (o esperado seria o inverso). Transcrito como impresso.",
+  "7047 Laboratório de Física II tem 4 cr/60 h, enquanto Laboratório de Física I e III têm 2 cr/30 h (transcrito como impresso).",
+  "7055: 'várias variáveis' em minúsculas (7051 usa 'Várias Variáveis'); 49183 'para atmosfera' em minúscula — transcritos como impressos.",
+  "Optativas: duas últimas linhas (Meteorologia de Mesoescala; Interação Solo-Vegetação-Atmosfera) têm a célula Cód. vazia.",
+  "Optativas: tabela sem linha TOTAL.",
+  "7027 pré-requisito: 'Meteorologia Dinâmica I' tem marca de corretor ortográfico (sublinhado verde) sob o 'I' — leitura 'I' é clara.",
+  "Correquisitos curiosos: 7010 Física III tem correquisito Física I (de semestre anterior); 7051 tem correquisito Pré-Cálculo; 7052 tem correquisito Laboratório de Física I; 7036 e 7059 são correquisitos cruzados (7036 corr. Climatologia; 7059 corr. Estatística Aplicada, que é do 2° Ano). Transcrito literalmente.",
+  "7030 Meteorologia Física II tem pré-requisito 'Cálculo Diferencial e Integral de Uma Variável' (e não Meteorologia Física I) — como impresso.",
+  "Títulos impressos usam sinal de grau '°' (não 'º'); cabeçalho completo de cada tabela: 'Bacharelado em Meteorologia  <Nº Ano - Nº Semestre>' / 'Bacharelado em Meteorologia  Disciplinas Optativas'.",
+  "Células com duas disciplinas separadas por ';' e quebra de linha foram unidas com '; ' numa única string; nomes quebrados em duas linhas foram unidos com espaço."
+ ]
+}

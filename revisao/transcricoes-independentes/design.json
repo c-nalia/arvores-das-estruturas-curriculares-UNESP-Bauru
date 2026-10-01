@@ -1,0 +1,146 @@
+{
+ "documento": "ESTRUTURA CURRICULAR BACHARELADO DESIGN | FAAC | UNESP | 2023",
+ "termos": [
+  {
+   "termo": 1,
+   "componentes": [
+    "Projeto Interdisciplinar 1",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 1",
+    "Design e Cultura 1",
+    "Expressão e Representação",
+    "Processos e Construção da Imagem",
+    "Tecnologia dos Materiais"
+   ]
+  },
+  {
+   "termo": 2,
+   "componentes": [
+    "Projeto Interdisciplinar 2",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 2",
+    "Design e Cultura 2",
+    "Desenho de Observação e Ilustração",
+    "Estudo das Linguagens",
+    "Tipografia",
+    "Tecnologias dos Processos 1"
+   ]
+  },
+  {
+   "termo": 3,
+   "componentes": [
+    "Projeto Interdisciplinar 3",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 3",
+    "Psicologia: Percepção e Cognição no Design",
+    "Expressão Gráfica",
+    "Linguagens Complexas",
+    "Planejamento Gráfico e Visual",
+    "Tecnologias dos Processos 2"
+   ]
+  },
+  {
+   "termo": 4,
+   "componentes": [
+    "Projeto Interdisciplinar 4",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 4",
+    "Sociologia e Design",
+    "Representação Gráfica",
+    "Design da Informação",
+    "Design Ergonômico",
+    "Tecnologias e Processos Digitais"
+   ]
+  },
+  {
+   "termo": 5,
+   "componentes": [
+    "Projeto Interdisciplinar 5",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 5",
+    "Filosofia: Estética e Design",
+    "Antropologia Cultural e Design",
+    "Representação Digital",
+    "Design e Experiência do Usuário",
+    "Design Inclusivo",
+    "Tecnologias Sociais"
+   ]
+  },
+  {
+   "termo": 6,
+   "componentes": [
+    "Projeto Interdisciplinar 6",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 6",
+    "Comunicação de Marketing",
+    "Processos Criativos e Expressivos",
+    "Design de Serviços",
+    "Design de Animação e Games",
+    "Tecnologias Assistivas"
+   ]
+  },
+  {
+   "termo": 7,
+   "componentes": [
+    "TCC 1",
+    "Laboratório Transdisciplinar de Ensino, Extensão e Pesquisa 7",
+    "OPTATIVA 1",
+    "Gestão do Design",
+    "Planejamento Estratégico"
+   ]
+  },
+  {
+   "termo": 8,
+   "componentes": [
+    "TCC 2",
+    "OPTATIVA 2",
+    "OPTATIVA 3"
+   ]
+  }
+ ],
+ "layout_colunas": {
+  "num_colunas_de_componentes": 8,
+  "celulas_vazias_hifen": {
+   "1": [
+    7,
+    8
+   ],
+   "2": [
+    8
+   ],
+   "3": [
+    8
+   ],
+   "4": [
+    8
+   ],
+   "5": [],
+   "6": [
+    8
+   ],
+   "7": [
+    6,
+    7
+   ],
+   "8": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "celulas_mescladas": {
+   "7": "OPTATIVA 1 ocupa colunas 3 e 4",
+   "8": "OPTATIVA 3 ocupa colunas 3 e 4"
+  }
+ },
+ "informa": {
+  "cargas": false,
+  "creditos": false,
+  "codigos": false,
+  "requisitos": false,
+  "ob_op": false,
+  "periodicidade": false
+ },
+ "observacoes": [
+  "Documento de 1 página, só uma grade termo x componentes sob 'COMPONENTES CURRICULARES'; sem cargas horárias, créditos, códigos, requisitos, nem distinção OB/OP além dos nomes 'OPTATIVA 1/2/3'.",
+  "Total de componentes nomeados: 6+7+7+7+8+7+5+3 = 50 (incluindo TCC 1, TCC 2 e OPTATIVA 1–3).",
+  "Nomes quebrados em várias linhas na célula foram juntados com espaço (ex.: 'Projeto Interdisciplinar 1').",
+  "Metadado Title do PDF é 'Matriz Curricular 2024' (gerado pelo Google Sheets), enquanto o título impresso diz 2023.",
+  "Nomes parecidos e distintos: 'Tecnologia dos Materiais' (singular, 1º), 'Tecnologias dos Processos 1/2', 'Tecnologias e Processos Digitais', 'Tecnologias Sociais', 'Tecnologias Assistivas'; 'Expressão e Representação' (1º), 'Expressão Gráfica' (3º), 'Representação Gráfica' (4º), 'Representação Digital' (5º)."
+ ]
+}

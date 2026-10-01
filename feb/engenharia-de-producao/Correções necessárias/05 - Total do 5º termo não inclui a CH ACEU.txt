@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 05 de 8 — Engenharia de Produção
+
+Título: Total do 5º termo não inclui a CH ACEU
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No 5º termo (Série 3 - Período 1), o “Total de Carga Horária: 384.0” soma só a coluna Carga Horária. As disciplinas do termo têm ainda 186 h de CH ACEU, que ficaram fora do total.
+
+EVIDÊNCIA
+eproducao.pdf, pág. 3. O site mantém os números do documento e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+A Seção de Graduação deve confirmar se o total do termo deve incluir a CH ACEU (570 h) e corrigir o relatório do Sistema de Graduação.
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 06 de 8 — Artes Visuais
+
+Título: Total do 8º termo do núcleo básico não inclui a CH ACEU
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na relação “Artes Visuais - Estrutura Curricular - Básico” (2504), o 8º termo (Série 4 - Período 2) traz “Total de Carga Horária: 93.0”, que soma só a coluna Carga Horária. Há ainda 27 h de CH ACEU no termo. Nos demais termos o total inclui a CH ACEU.
+
+EVIDÊNCIA
+artes-visuais-estrutura-curricular-basico.csv/.html. O site mantém os números e mostra aviso (Bacharelado e Licenciatura).
+
+CORREÇÃO NECESSÁRIA
+A Seção de Graduação deve conferir o total do termo (93 h ou 120 h) e corrigir o relatório.
+
+Referência: Relatório, seção 6
+Situação: pendente

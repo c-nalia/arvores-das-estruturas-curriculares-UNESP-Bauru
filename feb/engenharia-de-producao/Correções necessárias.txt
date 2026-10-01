@@ -1,0 +1,29 @@
+CORREÇÕES NECESSÁRIAS — Engenharia de Produção
+Pasta: feb/engenharia-de-producao
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 8 correção(ões) — 1 crítica(s), 1 alta(s), 6 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Correquisito de Gestão de Custos atribuído à disciplina errada
+      arquivo: Correções necessárias/01 - Correquisito de Gestão de Custos atribuído à disciplina errada.txt
+02. [ALTA] [SITE] Quadro de integralização e exigência de optativas ausentes
+      arquivo: Correções necessárias/02 - Quadro de integralização e exigência de optativas ausentes.txt
+03. [BAIXA] [SITE] Nome da unidade redundante
+      arquivo: Correções necessárias/03 - Nome da unidade redundante.txt
+04. [BAIXA] [DOCUMENTO] Total do 2º termo não inclui a CH ACEU
+      arquivo: Correções necessárias/04 - Total do 2º termo não inclui a CH ACEU.txt
+05. [BAIXA] [DOCUMENTO] Total do 5º termo não inclui a CH ACEU
+      arquivo: Correções necessárias/05 - Total do 5º termo não inclui a CH ACEU.txt
+06. [BAIXA] [DOCUMENTO] AG3203P23 sem a coluna Duração preenchida
+      arquivo: Correções necessárias/06 - AG3203P23 sem a coluna Duração preenchida.txt
+07. [BAIXA] [DOCUMENTO] PDF publicado com colunas de edição (Alterar e Excluir)
+      arquivo: Correções necessárias/07 - PDF publicado com colunas de edição (Alterar e Excluir).txt
+08. [BAIXA] [DOCUMENTO] Coluna de equivalências sem cabeçalho no 5º termo
+      arquivo: Correções necessárias/08 - Coluna de equivalências sem cabeçalho no 5º termo.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

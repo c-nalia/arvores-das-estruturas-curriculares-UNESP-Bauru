@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 14 de 21 — Educação Física
+
+Título: Grafia no documento - Práticas Formativas em Bases Teórico-Prática do Treinamento 
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina está grafado:
+    “Práticas Formativas em Bases Teórico-Prática do Treinamento Físico”
+O site já exibe a forma corrigida:
+    “Práticas Formativas em Bases Teórico-Práticas do Treinamento Físico”
+Motivo da correção: concordância (como no nome da disciplina teórica).
+
+EVIDÊNCIA
+Currículo(s): Bacharelado · integral (2610); Licenciatura · integral (2610); Bacharelado · noturno (2611); Licenciatura · noturno (2611).
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

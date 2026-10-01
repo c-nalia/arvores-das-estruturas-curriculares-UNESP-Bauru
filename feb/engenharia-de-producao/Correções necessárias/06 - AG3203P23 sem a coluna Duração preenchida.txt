@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 06 de 8 — Engenharia de Produção
+
+Título: AG3203P23 sem a coluna Duração preenchida
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A disciplina AG3203P23 - Ergonomia e Segurança do Trabalho está com a coluna “Duração” em branco; todas as outras trazem “Semestral”.
+
+EVIDÊNCIA
+eproducao.pdf, 6º termo (leitura visual independente, observações).
+
+CORREÇÃO NECESSÁRIA
+Preencher a duração no cadastro da disciplina.
+
+Referência: Relatório, seção 6
+Situação: pendente

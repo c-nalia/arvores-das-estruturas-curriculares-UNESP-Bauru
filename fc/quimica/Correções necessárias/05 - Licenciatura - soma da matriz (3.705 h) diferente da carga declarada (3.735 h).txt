@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 05 de 8 — Química
+
+Título: Licenciatura - soma da matriz (3.705 h) diferente da carga declarada (3.735 h)
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O documento declara “Carga horária: 3735 horas (249 créditos)” para a Licenciatura. A soma das cargas impressas na matriz é 3.495 h + 210 h de Atividades Teórico-Práticas de Aprofundamento = 3.705 h. Faltam 30 h (2 créditos).
+
+EVIDÊNCIA
+Matriz das págs. 2–3; somas conferidas por duas transcrições independentes. No Bacharelado a soma fecha (3.450 h). O site mantém os números e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve localizar a diferença de 30 h (uma disciplina com carga impressa a menos ou a carga declarada a mais) e corrigir o documento.
+
+Referência: Relatório, seção 6
+Situação: pendente

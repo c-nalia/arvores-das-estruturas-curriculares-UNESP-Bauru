@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 8 — Química
+
+Título: Instâncias antigas continuam ativas a cada troca de currículo
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A cada troca no seletor, a árvore anterior não é desmontada: o ouvinte de “resize”, o ResizeObserver e o envio de altura continuam ativos. O consumo cresce a cada troca e é a causa do erro do iframe com altura zero.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X02: ouvintes de “resize” passam de 1 para 7 depois de 6 trocas.
+
+CORREÇÃO NECESSÁRIA
+Mesma correção do item do iframe: desmontar a instância anterior (remover ouvintes e desconectar o ResizeObserver) antes de montar a nova.
+
+Referência: Relatório, C2
+Situação: pendente

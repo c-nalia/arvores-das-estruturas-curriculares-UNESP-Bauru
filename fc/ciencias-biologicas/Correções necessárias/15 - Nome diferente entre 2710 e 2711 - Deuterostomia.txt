@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 15 de 15 — Ciências Biológicas
+
+Título: Nome diferente entre 2710 e 2711 - Deuterostomia
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A mesma disciplina aparece como “Zoologia de Ecdysozoa e Deuterostomia” no 2710 e “Zoologia de Ecdysozoa e Deuterostomia Basais” no 2711.
+
+EVIDÊNCIA
+2º ano / 2º semestre dos dois PDFs.
+
+CORREÇÃO NECESSÁRIA
+Confirmar o nome e uniformizar.
+
+Referência: Relatório, seção 6
+Situação: pendente

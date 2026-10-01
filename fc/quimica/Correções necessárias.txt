@@ -1,0 +1,29 @@
+CORREÇÕES NECESSÁRIAS — Química
+Pasta: fc/quimica
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 8 correção(ões) — 1 crítica(s), 2 alta(s), 2 média(s), 3 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+      arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
+02. [ALTA] [SITE] Correção de grafia falsa - Licenciatura
+      arquivo: Correções necessárias/02 - Correção de grafia falsa - Licenciatura.txt
+03. [ALTA] [SITE] Correção de grafia falsa - Bacharelado
+      arquivo: Correções necessárias/03 - Correção de grafia falsa - Bacharelado.txt
+04. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+      arquivo: Correções necessárias/04 - Instâncias antigas continuam ativas a cada troca de currículo.txt
+05. [MÉDIA] [DOCUMENTO] Licenciatura - soma da matriz (3.705 h) diferente da carga declarada (3.735 h)
+      arquivo: Correções necessárias/05 - Licenciatura - soma da matriz (3.705 h) diferente da carga declarada (3.735 h).txt
+06. [BAIXA] [SITE] Rótulo “Currículo 2023” não consta do documento
+      arquivo: Correções necessárias/06 - Rótulo Currículo 2023 não consta do documento.txt
+07. [BAIXA] [DOCUMENTO] Ementário - “Analise Instrumental 1” sem acento
+      arquivo: Correções necessárias/07 - Ementário - Analise Instrumental 1 sem acento.txt
+08. [BAIXA] [DOCUMENTO] Ementário - “Analise Instrumental 2” sem acento
+      arquivo: Correções necessárias/08 - Ementário - Analise Instrumental 2 sem acento.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

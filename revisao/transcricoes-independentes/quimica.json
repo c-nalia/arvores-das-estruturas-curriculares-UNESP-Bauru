@@ -1,0 +1,688 @@
+{
+ "licenciatura": {
+  "carga_declarada": "Carga horária: 3735 horas (249 créditos)",
+  "linhas": [
+   {
+    "termo": 1,
+    "nome": "Química Geral 1",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Química Geral Experimental 1",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Pré-Cálculo",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "História e Filosofia da Ciência e Ensino de Ciências",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Prática de Leitura e Escrita",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Química Geral 2",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Química Geral Experimental 2",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Cálculo – Derivadas e Integrais em Uma Variável",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Cálculo Vetorial e Geometria Analítica",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Biologia Geral",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Extensão Universitária: diretrizes e princípios",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Química Inorgânica 1",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Química Inorgânica Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Fundamentos de Mineralogia e Cristalografia",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Cálculo – Derivadas Múltiplas",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Física 1",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Física Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Atividades Orientadas de Extensão Universitária 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Atividades Orientadas de Extensão Universitária 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Química Inorgânica 2",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Química Inorgânica Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 4,
+    "nome": "Físico-Química 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Fundamentos da Educação",
+    "ch": 30
+   },
+   {
+    "termo": 4,
+    "nome": "Física 2",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Física Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Físico-Química 2",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Físico-Química Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Química Ambiental 1",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Física 3",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Psicologia da Educação",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Política Educacional Brasileira para o Ensino Fundamental e Médio",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Atividades Orientadas de Extensão Universitária 2",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Atividades Orientadas de Extensão Universitária 2",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Físico-Química 3",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Físico-Química Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Química Analítica Qualitativa",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Química Analítica Qualitativa Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Didática das Ciências da Natureza",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Metodologia e Prática de Ensino de Ciências",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Estágio Supervisionado em Ensino de Ciências para o Ensino Fundamental",
+    "ch": 45
+   },
+   {
+    "termo": 7,
+    "nome": "Química Analítica Quantitativa",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Química Analítica Quantitativa Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Introdução à Metodologia da Pesquisa Científica",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Elaboração de Material Didático para o Ensino de Química e Ciências",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Metodologia e Prática de Ensino de Química 1",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Estágio Supervisionado em Ensino de Química 1",
+    "ch": 90
+   },
+   {
+    "termo": 8,
+    "nome": "Química Orgânica 1",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Química Orgânica Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 8,
+    "nome": "Instrumentação para o Ensino de Química e Ciências",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Metodologia e Prática de Ensino de Química 2",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Estágio Supervisionado em Ensino de Química 2",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Desenvolvimento da Pesquisa em Ensino de Química e Ciências",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Desenvolvimento da Pesquisa em Ensino de Química e Ciências",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Química Orgânica 2",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "Química Orgânica Experimental 2",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "História da Educação",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Metodologia e Prática de Ensino de Química 3",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Estágio Supervisionado em Ensino de Química 3",
+    "ch": 90
+   },
+   {
+    "termo": 9,
+    "nome": "LIBRAS, Educação Especial e Inclusiva",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "Monografia",
+    "ch": 60
+   },
+   {
+    "termo": 10,
+    "nome": "Monografia",
+    "ch": 60
+   },
+   {
+    "termo": 10,
+    "nome": "Bioquímica",
+    "ch": 60
+   },
+   {
+    "termo": 10,
+    "nome": "Bioquímica Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 10,
+    "nome": "Ensino de Ciências da Natureza: contextos éticos, educacionais, sociais e tecnológicos",
+    "ch": 90
+   },
+   {
+    "termo": 10,
+    "nome": "Orientações Curriculares Oficiais para o Ensino de Ciências e Química",
+    "ch": 30
+   },
+   {
+    "termo": 10,
+    "nome": "Metodologia e Prática de Ensino de Química 4",
+    "ch": 30
+   },
+   {
+    "termo": 10,
+    "nome": "Estágio Supervisionado em Ensino de Química 4",
+    "ch": 90
+   }
+  ],
+  "fora_dos_termos": [
+   {
+    "nome": "Atividades Teórico-Práticas de Aprofundamento",
+    "ch": 210
+   }
+  ]
+ },
+ "bacharelado": {
+  "carga_declarada": "Carga horária: 3450 horas (230 créditos)",
+  "linhas": [
+   {
+    "termo": 1,
+    "nome": "Química Geral 1",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Química Geral Experimental 1",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Pré-Cálculo",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "História e Filosofia da Ciência e Ensino de Ciências",
+    "ch": 60
+   },
+   {
+    "termo": 1,
+    "nome": "Prática de Leitura e Escrita",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Química Geral 2",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Química Geral Experimental 2",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Cálculo – Derivadas e Integrais em Uma Variável",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Cálculo Vetorial e Geometria Analítica",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Biologia Geral",
+    "ch": 60
+   },
+   {
+    "termo": 2,
+    "nome": "Extensão Universitária: diretrizes e princípios",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Química Inorgânica 1",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Química Inorgânica Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Fundamentos de Mineralogia e Cristalografia",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Cálculo – Derivadas Múltiplas",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Física 1",
+    "ch": 60
+   },
+   {
+    "termo": 3,
+    "nome": "Física Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 3,
+    "nome": "Atividades Orientadas de Extensão Universitária 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Atividades Orientadas de Extensão Universitária 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Química Inorgânica 2",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Química Inorgânica Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 4,
+    "nome": "Físico-Química 1",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Cálculo – Integrais Múltiplas",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Física 2",
+    "ch": 60
+   },
+   {
+    "termo": 4,
+    "nome": "Física Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Química Inorgânica 3",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Físico-Química 2",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Físico-Química Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Química Ambiental 1",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Introdução à Metodologia da Pesquisa Científica",
+    "ch": 30
+   },
+   {
+    "termo": 5,
+    "nome": "Física 3",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Fundamentos de Estatística",
+    "ch": 60
+   },
+   {
+    "termo": 5,
+    "nome": "Atividades Orientadas de Extensão Universitária 2",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Atividades Orientadas de Extensão Universitária 2",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Físico-Química 3",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Físico-Química Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Química Ambiental 2",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Química Analítica Qualitativa",
+    "ch": 30
+   },
+   {
+    "termo": 6,
+    "nome": "Química Analítica Qualitativa Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Química Orgânica 1",
+    "ch": 60
+   },
+   {
+    "termo": 6,
+    "nome": "Química Orgânica Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Físico-Química 4",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Química Orgânica 2",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Química Orgânica Experimental 2",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Química Analítica Quantitativa",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Química Analítica Quantitativa Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 7,
+    "nome": "Análise Instrumental 1",
+    "ch": 30
+   },
+   {
+    "termo": 7,
+    "nome": "Análise Instrumental Experimental 1",
+    "ch": 30
+   },
+   {
+    "termo": 8,
+    "nome": "Química Orgânica 3",
+    "ch": 30
+   },
+   {
+    "termo": 8,
+    "nome": "Análise Instrumental 2",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Análise Instrumental Experimental 2",
+    "ch": 30
+   },
+   {
+    "termo": 8,
+    "nome": "Bioquímica",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Bioquímica Experimental",
+    "ch": 60
+   },
+   {
+    "termo": 8,
+    "nome": "Tratamento e Descarte de Resíduos Químicos",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Microbiologia Industrial",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "Processos Industriais Orgânicos",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "Processos Industriais Inorgânicos",
+    "ch": 60
+   },
+   {
+    "termo": 9,
+    "nome": "Higiene e Segurança Industrial",
+    "ch": 30
+   },
+   {
+    "termo": 9,
+    "nome": "Operações Unitárias",
+    "ch": 90
+   },
+   {
+    "termo": 9,
+    "nome": "Estágio em Indústria",
+    "ch": 150
+   },
+   {
+    "termo": 10,
+    "nome": "Operações Unitárias",
+    "ch": 90
+   },
+   {
+    "termo": 10,
+    "nome": "Estágio em Indústria",
+    "ch": 150
+   },
+   {
+    "termo": 10,
+    "nome": "Processos Industriais Biotecnológicos",
+    "ch": 60
+   },
+   {
+    "termo": 10,
+    "nome": "Noções de Desenho Técnico na Indústria",
+    "ch": 60
+   }
+  ],
+  "fora_dos_termos": [
+   {
+    "nome": "Atividades Complementares",
+    "ch": 30
+   }
+  ]
+ },
+ "observacoes": [
+  "Fonte: paginas 2-5 do PDF (imagens), lidas em recortes a 250 dpi; carga declarada obtida por pdftotext (paginas 2 e 4).",
+  "Disciplinas repetidas em semestres consecutivos (cada ocorrencia transcrita com a CH impressa na propria linha): Lic - 'Atividades Orientadas de Extensão Universitária 1' (termos 3 e 4), 'Atividades Orientadas de Extensão Universitária 2' (5 e 6), 'Desenvolvimento da Pesquisa em Ensino de Química e Ciências' (8 e 9), 'Monografia' (9 e 10); Bach - AOEU 1 (3 e 4), AOEU 2 (5 e 6), 'Operações Unitárias' (9 e 10), 'Estágio em Indústria' (9 e 10).",
+  "Licenciatura: soma de todas as linhas (cada ocorrencia contada) = 3495 h nos termos + 210 h fora dos termos ('Atividades Teórico-Práticas de Aprofundamento') = 3705 h; declarado 3735 h (249 créditos). DIFERENCA de 30 h (2 créditos) a menos na matriz. Contando as repetidas uma unica vez: 3285 h.",
+  "Bacharelado: soma de todas as linhas (cada ocorrencia contada) = 3420 h nos termos + 30 h fora dos termos ('Atividades Complementares') = 3450 h; declarado 3450 h (230 créditos). CONFERE exatamente. Contando as repetidas uma unica vez: 3090 h. Isso indica que a CH de cada ocorrencia repetida e a CH daquele semestre (nao total anual duplicado).",
+  "Grafia: o travessao em 'Cálculo – ...' e um en dash (–) na imagem; 'LIBRAS' em maiusculas; 'Extensão Universitária: diretrizes e princípios' e 'Ensino de Ciências da Natureza: contextos éticos, educacionais, sociais e tecnológicos' com minusculas apos os dois-pontos. Nenhum erro de grafia evidente nas matrizes (no ementario em texto aparece 'Analise Instrumental' sem acento, mas nas matrizes esta 'Análise').",
+  "Licenciatura nao tem 'Cálculo – Integrais Múltiplas' (o Bach tem, termo 4, 60 h); no termo 4 da Lic o lugar e ocupado por 'Fundamentos da Educação' (30 h).",
+  "Leitura sem duvidas relevantes: todos os nomes e CHs ficaram nitidos nos recortes; a diferenca de 30 h na Lic nao parece ser erro de leitura (todas as CHs conferidas duas vezes)."
+ ]
+}

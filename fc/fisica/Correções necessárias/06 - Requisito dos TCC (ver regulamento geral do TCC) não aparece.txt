@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 06 de 21 — Física
+
+Título: Requisito dos TCC (“ver regulamento geral do TCC”) não aparece
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+As ementas dos Trabalhos de Conclusão de Curso (I, II e III da Licenciatura; I e II do Bacharelado) trazem “Pré-requisito: ver regulamento geral do TCC”. O site mostra os TCC sem nenhuma indicação de requisito.
+
+EVIDÊNCIA
+Ementas “Trabalho de Conclusão de Curso …” do PDF.
+
+CORREÇÃO NECESSÁRIA
+Exibir o texto como requisito (campo preTexto) nos cinco TCC e regerar.
+
+Referência: Novo - relatório, A8
+Situação: pendente

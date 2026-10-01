@@ -1,0 +1,59 @@
+CORREÇÕES NECESSÁRIAS — Bacharelado em Ciência da Computação
+Pasta: fc/bcc
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 23 correção(ões) — 23 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [BAIXA] [DOCUMENTO] Grafia no documento - Introdução a Lógica Seqüencial
+      arquivo: Correções necessárias/01 - Grafia no documento - Introdução a Lógica Seqüencial.txt
+02. [BAIXA] [DOCUMENTO] Grafia no documento - Aritméticos.Experimentos
+      arquivo: Correções necessárias/02 - Grafia no documento - Aritméticos.Experimentos.txt
+03. [BAIXA] [DOCUMENTO] Grafia no documento - Multivibradores Ástavel
+      arquivo: Correções necessárias/03 - Grafia no documento - Multivibradores Ástavel.txt
+04. [BAIXA] [DOCUMENTO] Grafia no documento - Digitais.Dispositivos
+      arquivo: Correções necessárias/04 - Grafia no documento - Digitais.Dispositivos.txt
+05. [BAIXA] [DOCUMENTO] Grafia no documento - processsadores
+      arquivo: Correções necessárias/05 - Grafia no documento - processsadores.txt
+06. [BAIXA] [DOCUMENTO] Grafia no documento - importancia
+      arquivo: Correções necessárias/06 - Grafia no documento - importancia.txt
+07. [BAIXA] [DOCUMENTO] Grafia no documento - software agil,
+      arquivo: Correções necessárias/07 - Grafia no documento - software agil,.txt
+08. [BAIXA] [DOCUMENTO] Grafia no documento - Metricas
+      arquivo: Correções necessárias/08 - Grafia no documento - Metricas.txt
+09. [BAIXA] [DOCUMENTO] Grafia no documento - esforco
+      arquivo: Correções necessárias/09 - Grafia no documento - esforco.txt
+10. [BAIXA] [DOCUMENTO] Grafia no documento - Gestao de projeto
+      arquivo: Correções necessárias/10 - Grafia no documento - Gestao de projeto.txt
+11. [BAIXA] [DOCUMENTO] Grafia no documento - Tendencias
+      arquivo: Correções necessárias/11 - Grafia no documento - Tendencias.txt
+12. [BAIXA] [DOCUMENTO] Grafia no documento - Estrategias
+      arquivo: Correções necessárias/12 - Grafia no documento - Estrategias.txt
+13. [BAIXA] [DOCUMENTO] Grafia no documento - Tecnicas
+      arquivo: Correções necessárias/13 - Grafia no documento - Tecnicas.txt
+14. [BAIXA] [DOCUMENTO] Grafia no documento - Manutencao
+      arquivo: Correções necessárias/14 - Grafia no documento - Manutencao.txt
+15. [BAIXA] [DOCUMENTO] Grafia no documento - Gestao de configuracao
+      arquivo: Correções necessárias/15 - Grafia no documento - Gestao de configuracao.txt
+16. [BAIXA] [DOCUMENTO] Grafia no documento - Seguranca
+      arquivo: Correções necessárias/16 - Grafia no documento - Seguranca.txt
+17. [BAIXA] [DOCUMENTO] Grafia no documento - baseada na nuvem
+      arquivo: Correções necessárias/17 - Grafia no documento - baseada na nuvem.txt
+18. [BAIXA] [DOCUMENTO] Grafia no documento - objetorelacionais
+      arquivo: Correções necessárias/18 - Grafia no documento - objetorelacionais.txt
+19. [BAIXA] [DOCUMENTO] Grafia no documento - Administracao
+      arquivo: Correções necessárias/19 - Grafia no documento - Administracao.txt
+20. [BAIXA] [DOCUMENTO] Grafia no documento - Negocios
+      arquivo: Correções necessárias/20 - Grafia no documento - Negocios.txt
+21. [BAIXA] [DOCUMENTO] PDF do currículo grafa “A0lgebra Linear”
+      arquivo: Correções necessárias/21 - PDF do currículo grafa A0lgebra Linear.txt
+22. [BAIXA] [DOCUMENTO] PDF do currículo grafa “Geometria AnalÍtica” nos requisitos
+      arquivo: Correções necessárias/22 - PDF do currículo grafa Geometria AnalÍtica nos requisitos.txt
+23. [BAIXA] [DOCUMENTO] PDF do currículo cita “Estrutura de Dados I” (sem s) nos requisitos
+      arquivo: Correções necessárias/23 - PDF do currículo cita Estrutura de Dados I (sem s) nos requisitos.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

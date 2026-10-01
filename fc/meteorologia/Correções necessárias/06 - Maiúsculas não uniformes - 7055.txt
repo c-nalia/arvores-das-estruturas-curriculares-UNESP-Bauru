@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 06 de 15 — Meteorologia
+
+Título: Maiúsculas não uniformes - 7055
+Gravidade: BAIXA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+7055 está grafada “Cálculo Diferencial e Integral de várias variáveis II”. As demais disciplinas usam maiúsculas (ex.: “Cálculo Diferencial e Integral de Várias Variáveis I”). O site corrigiu maiúsculas em outros cursos, mas não aqui.
+
+EVIDÊNCIA
+Tabelas da página do curso.
+
+CORREÇÃO NECESSÁRIA
+Definir o critério de maiúsculas para todos os cursos. Se for uniformizar: “Cálculo Diferencial e Integral de Várias Variáveis II” no documento e registro da correção no site.
+
+Referência: Relatório, M3
+Situação: pendente

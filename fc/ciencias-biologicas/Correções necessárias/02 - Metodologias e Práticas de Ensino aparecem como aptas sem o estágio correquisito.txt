@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 15 — Ciências Biológicas
+
+Título: Metodologias e Práticas de Ensino aparecem como aptas sem o estágio correquisito
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+Na Licenciatura (2711), as cinco “Metodologia e Prática de Ensino de Ciências e Biologia: …” têm como correquisito um “Estágio Supervisionado em Ensino de Ciências e Biologia: …” que não é disciplina da matriz. O site guarda o correquisito como texto, e a simulação o ignora.
+
+EVIDÊNCIA
+Avisos da página do 2711; mesmo defeito do teste X04 em revisao/exploratorio.mjs.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js, criar o estado “requisito a confirmar” para disciplinas com preTexto/coTexto.
+
+Referência: Relatório, A6
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 18 de 21 — Física
+
+Título: Recomendações citam disciplinas que não existem na grade
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Algumas notas de pré-requisito recomendado citam nomes que não existem na grade: “Cálculo Básico” (duas vezes; a grade tem Pré-Cálculo e Cálculo Diferencial e Integral I–IV) e “Cálculo I a V” (duas vezes; a grade vai até o IV). Várias usam “Calculo” sem acento.
+
+EVIDÊNCIA
+Ementas de Probabilidade e Estatística, Física Matemática I e Mecânica Quântica I, entre outras.
+
+CORREÇÃO NECESSÁRIA
+Trocar pelos nomes exatos das disciplinas da grade.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

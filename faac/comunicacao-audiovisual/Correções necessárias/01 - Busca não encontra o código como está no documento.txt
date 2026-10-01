@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 2 — Comunicação: Rádio, TV e Internet
+
+Título: Busca não encontra o código como está no documento
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+Digitar o código da disciplina como ele aparece no documento e no cartão (com espaço, ex.: “RTVI-E 35”) não encontra nada. A busca compara com o identificador interno, sem espaço (“RTVI-E35”), e ignora o código exibido.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X03: “ART-E 01” retorna 0 disciplinas.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js, função aplicarBusca: comparar também com o campo “cod” (código exibido), ignorando espaços e hifens.
+
+Referência: Relatório, M2
+Situação: pendente

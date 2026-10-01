@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 3 — Design
+
+Título: Lista por termo mostra a coluna Carga vazia
+Gravidade: BAIXA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento do Design não informa cargas. Mesmo assim, a visualização “Lista por termo” mantém a coluna “Carga”, sem nenhum valor.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X12.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js, não gerar a coluna “Carga” quando o currículo estiver marcado com semCarga.
+
+Referência: Relatório, B1
+Situação: pendente

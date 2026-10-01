@@ -1,0 +1,43 @@
+CORREÇÕES NECESSÁRIAS — Meteorologia
+Pasta: fc/meteorologia
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 15 correção(ões) — 1 alta(s), 3 média(s), 11 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Micrometeorologia aparece como apta sem o requisito “Física II”
+      arquivo: Correções necessárias/01 - Micrometeorologia aparece como apta sem o requisito Física II.txt
+02. [MÉDIA] [DOCUMENTO] Códigos 7005 e 7050 com o mesmo nome
+      arquivo: Correções necessárias/02 - Códigos 7005 e 7050 com o mesmo nome.txt
+03. [MÉDIA] [DOCUMENTO] Micrometeorologia exige “Física II”, que não existe na grade
+      arquivo: Correções necessárias/03 - Micrometeorologia exige Física II, que não existe na grade.txt
+04. [MÉDIA] [DOCUMENTO] Soma da grade (197 créditos) diferente do resumo da página (187)
+      arquivo: Correções necessárias/04 - Soma da grade (197 créditos) diferente do resumo da página (187).txt
+05. [BAIXA] [DECISÃO] Grafia no documento - Interação Biosfera Atmosfera
+      arquivo: Correções necessárias/05 - Grafia no documento - Interação Biosfera Atmosfera.txt
+06. [BAIXA] [DECISÃO] Maiúsculas não uniformes - 7055
+      arquivo: Correções necessárias/06 - Maiúsculas não uniformes - 7055.txt
+07. [BAIXA] [DECISÃO] Maiúsculas não uniformes - 49183
+      arquivo: Correções necessárias/07 - Maiúsculas não uniformes - 49183.txt
+08. [BAIXA] [DOCUMENTO] Laboratório de Física II com departamento DM e 4 créditos
+      arquivo: Correções necessárias/08 - Laboratório de Física II com departamento DM e 4 créditos.txt
+09. [BAIXA] [DOCUMENTO] Cálculo de Uma Variável com departamento DFM
+      arquivo: Correções necessárias/09 - Cálculo de Uma Variável com departamento DFM.txt
+10. [BAIXA] [DOCUMENTO] Optativa sem código - Meteorologia de Mesoescala
+      arquivo: Correções necessárias/10 - Optativa sem código - Meteorologia de Mesoescala.txt
+11. [BAIXA] [DOCUMENTO] Optativa sem código - Interação Solo-Vegetação-Atmosfera
+      arquivo: Correções necessárias/11 - Optativa sem código - Interação Solo-Vegetação-Atmosfera.txt
+12. [BAIXA] [DOCUMENTO] Requisito a confirmar - 7010
+      arquivo: Correções necessárias/12 - Requisito a confirmar - 7010.txt
+13. [BAIXA] [DOCUMENTO] Requisito a confirmar - 7051
+      arquivo: Correções necessárias/13 - Requisito a confirmar - 7051.txt
+14. [BAIXA] [DOCUMENTO] Requisito a confirmar - 7052
+      arquivo: Correções necessárias/14 - Requisito a confirmar - 7052.txt
+15. [BAIXA] [DOCUMENTO] Requisito a confirmar - 7030
+      arquivo: Correções necessárias/15 - Requisito a confirmar - 7030.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

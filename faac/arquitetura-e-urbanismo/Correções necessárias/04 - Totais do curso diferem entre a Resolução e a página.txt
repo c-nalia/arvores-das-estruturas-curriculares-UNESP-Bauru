@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 04 de 17 — Arquitetura e Urbanismo
+
+Título: Totais do curso diferem entre a Resolução e a página
+Gravidade: ALTA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+Disciplinas obrigatórias: 3.570 h no quadro da página (exibido no site) × 236 créditos = 3.540 h na Resolução. Total do curso: 4.230 h na página × 280 créditos = 4.200 h na Resolução. A diferença de 30 h é a de Paisagismo V.
+
+EVIDÊNCIA
+Resolução Unesp 123/2023, art. 1º (parágrafo único) e art. 2º; quadro “Componentes Curriculares” da página do curso.
+
+CORREÇÃO NECESSÁRIA
+Decidir a fonte e alinhar a página do curso ou o cadastro do Sistema de Graduação. No site, exibir aviso enquanto houver divergência.
+
+Referência: Relatório, A1
+Situação: pendente

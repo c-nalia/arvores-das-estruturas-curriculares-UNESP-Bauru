@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 2 — Matemática
+
+Título: Nome abreviado - “Desenho Geométrico e Geom. Descritiva”
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+5122A está grafada com abreviação: “Desenho Geométrico e Geom. Descritiva”.
+
+EVIDÊNCIA
+grade-curricular-1507, 5º termo.
+
+CORREÇÃO NECESSÁRIA
+Escrever o nome por extenso (“Geometria Descritiva”).
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

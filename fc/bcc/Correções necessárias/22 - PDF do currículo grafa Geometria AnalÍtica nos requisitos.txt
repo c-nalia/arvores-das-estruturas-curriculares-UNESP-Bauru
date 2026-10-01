@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 22 de 23 — Bacharelado em Ciência da Computação
+
+Título: PDF do currículo grafa “Geometria AnalÍtica” nos requisitos
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na coluna Pré-Requisito de 4616 - Métodos Numéricos Computacionais, o nome está como “Geometria AnalÍtica” (Í maiúsculo).
+
+EVIDÊNCIA
+bcc-curriculo-2105-com-quadro-resumo.pdf, 3º termo. O site liga o requisito à disciplina certa.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o PDF publicado.
+
+Referência: Relatório da 1ª revisão
+Situação: pendente

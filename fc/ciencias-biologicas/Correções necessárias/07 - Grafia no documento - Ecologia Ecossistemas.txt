@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 07 de 15 — Ciências Biológicas
+
+Título: Grafia no documento - Ecologia Ecossistemas
+Gravidade: BAIXA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina está grafado:
+    “Ecologia Ecossistemas”
+O site já exibe a forma corrigida:
+    “Ecologia de Ecossistemas”
+Motivo da correção: preposição ausente (como em “Ecologia de Populações”, 2710).
+
+EVIDÊNCIA
+Currículo(s): Licenciatura · noturno (2711).
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+ANTES de manter a correção, a coordenação precisa confirmar que a forma corrigida é a desejada: esta alteração muda a redação do nome, não é só um erro de digitação. Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 4 (M4)
+Situação: pendente

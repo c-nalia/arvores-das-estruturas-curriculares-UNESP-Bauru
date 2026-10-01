@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 17 — Arquitetura e Urbanismo
+
+Título: Número do currículo omitido (Estrutura 2011)
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A página oficial informa “Ingressantes a partir de 2023 - Estrutura 2011 - Resolução Unesp 123/2023”. O site não mostra o número e ainda traz o aviso “O documento publicado não informa o número do currículo”, que é falso.
+
+EVIDÊNCIA
+planos de ensino/FAAC/DAUP/Arquitetura_e_Urbanismo/matriz-curricular-arquitetura-e-urbanismo.html (texto fora da tabela).
+
+CORREÇÃO NECESSÁRIA
+Em construir.py: curriculo="2011" e remover o aviso. Regerar (o nome do arquivo de dados e o id passam a poder incluir 2011).
+
+Referência: Relatório, A4
+Situação: pendente

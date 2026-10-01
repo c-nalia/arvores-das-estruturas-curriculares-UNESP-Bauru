@@ -1,0 +1,17 @@
+CORREÇÕES NECESSÁRIAS — Matemática
+Pasta: fc/matematica
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 2 correção(ões) — 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [BAIXA] [DOCUMENTO] 8101A com 06 créditos no 5º termo e 07 no 6º
+      arquivo: Correções necessárias/01 - 8101A com 06 créditos no 5º termo e 07 no 6º.txt
+02. [BAIXA] [DOCUMENTO] Nome abreviado - “Desenho Geométrico e Geom. Descritiva”
+      arquivo: Correções necessárias/02 - Nome abreviado - Desenho Geométrico e Geom. Descritiva.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

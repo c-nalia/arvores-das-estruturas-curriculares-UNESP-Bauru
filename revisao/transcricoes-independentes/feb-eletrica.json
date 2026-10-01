@@ -1,0 +1,990 @@
+{
+ "cabecalho": "0304 - Curso: Engenharia Elétrica",
+ "disciplinas": [
+  {
+   "t": 1,
+   "cod": "DF1103F23",
+   "n": "Física I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DF1104F23",
+   "n": "Laboratório de Física I",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1103F23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "DM1101F23",
+   "n": "Cálculo Diferencial e Integral I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DM1102F23",
+   "n": "Cálculo Vetorial e Geometria Analítica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1105E23",
+   "n": "Fundamentos de Química para Engenharia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1106E23",
+   "n": "Química Experimental para Engenharia Elétrica",
+   "aceu": null,
+   "ch": 15.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DQ1105E23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "EE1001F23",
+   "n": "Introdução à Ciência da Computação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "EE1107E23",
+   "n": "Introdução à Engenharia Elétrica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "EE1108E23",
+   "n": "Laboratório de Introdução à Engenharia Elétrica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE1107E23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "AG1205E23",
+   "n": "Desenho Técnico",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1202F23",
+   "n": "Física II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1203F23",
+   "n": "Laboratório de Física II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "DM1201F23",
+   "n": "Cálculo Diferencial e Integral II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DM1204F23",
+   "n": "Álgebra Linear",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EE1206E23",
+   "n": "Sistemas Digitais",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE1207E23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EE1207E23",
+   "n": "Laboratório de Sistemas Digitais",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE1206E23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "EE1208E23",
+   "n": "Metodologia Científica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2102F23",
+   "n": "Física III",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2103F23",
+   "n": "Laboratório de Física III",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF2102F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "DM2101F23",
+   "n": "Cálculo de Múltiplas Variáveis",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EC2104E23",
+   "n": "Mecânica dos Sólidos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DF1103F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EE2105E23",
+   "n": "Microprocessadores",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1206E23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EE2106E23",
+   "n": "Projeto Integrador Multidisciplinar 01",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1001F23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE1206E23"
+    ],
+    [
+     "Correquisito",
+     "EE2105E23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EP2001F23",
+   "n": "Estatística e Probabilidade",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "DM2201F23",
+   "n": "Equações Diferenciais Ordinárias",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2202E23",
+   "n": "Microcontroladores",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1206E23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2203E23",
+   "n": "Circuitos Elétricos I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2204E23",
+   "n": "Materiais Elétricos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EE2205E23",
+   "n": "Eletrônica I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2206E23",
+   "n": "Laboratório de Eletrônica I",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE2205E23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EE2207E23",
+   "n": "Projeto Integrador Multidisciplinar 02",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1001F23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE2105E23"
+    ],
+    [
+     "Correquisito",
+     "EE2202E23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EP0201F23",
+   "n": "Economia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "EE3102E23",
+   "n": "Simulação Computacional",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1001F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM2101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM2201F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3103E23",
+   "n": "Circuitos Elétricos II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE2203E23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3104E23",
+   "n": "Laboratório de Circuitos Elétricos",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE3103E23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3105E23",
+   "n": "Eletrônica II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE2205E23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3106E23",
+   "n": "Laboratório de Eletrônica II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE3105E23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3107E23",
+   "n": "Eletromagnetismo I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM2101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DF2102F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM2201F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EE3108E23",
+   "n": "Sinais e Sistemas",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM2101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM2201F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3101E23",
+   "n": "Fenômenos de Transporte",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EP0101F23",
+   "n": "Engenharia Econômica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EE3201E23",
+   "n": "Eletrônica Industrial",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3105E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3202E23",
+   "n": "Eletromagnetismo II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3107E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3203E23",
+   "n": "Controle Linear I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1204F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM2201F23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE3103E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3204E23",
+   "n": "Medidas Elétricas e Instrumentação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE2203E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3205E23",
+   "n": "Laboratório de Medidas Elétricas e Instrumentação",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE3204E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3206E23",
+   "n": "Instalações Elétricas I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3103E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3207E23",
+   "n": "Princípios de Comunicação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE2205E23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3208E23",
+   "n": "Laboratório de Princípios de Comunicação",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE3207E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "CH0001F23",
+   "n": "Direito, Legislação e Ética",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EE4101E23",
+   "n": "Eletrônica de Potência",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3201E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4102E23",
+   "n": "Laboratório de Eletrônica de Potência",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4101E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4103E23",
+   "n": "Controle Linear II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3203E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4104E23",
+   "n": "Instalações Elétricas II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3206E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4105E23",
+   "n": "Laboratório de Instalações Elétricas",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4104E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4106E23",
+   "n": "Conversão de Energia e Transformadores",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3202E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4107E23",
+   "n": "Laboratório de Conversão de Energia e Transformadores",
+   "aceu": null,
+   "ch": 15.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4106E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4108E23",
+   "n": "Projeto Integrador Multidisciplinar 03",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE2106E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE3102E23"
+    ],
+    [
+     "Correquisito",
+     "EE4103E23"
+    ],
+    [
+     "Correquisito",
+     "EE4101E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE3203E23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EP0002F23",
+   "n": "Fundamentos de Gestão Empresarial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Percentual do Curso Exigido: 60.0%",
+     null
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4202E23",
+   "n": "Higiene e Segurança do Trabalho",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Percentual do Curso Exigido: 60.0%",
+     null
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4203E23",
+   "n": "Máquinas Elétricas",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3202E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4204E23",
+   "n": "Laboratório de Máquinas Elétricas",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4203E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4205E23",
+   "n": "Geração e Transmissão de Energia Elétrica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4203E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4206E23",
+   "n": "Distribuição de Energia Elétrica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE3103E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4207E23",
+   "n": "Sistemas Elétricos de Potência I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4203E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE3103E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4208E23",
+   "n": "Projeto Integrador Multidisciplinar 04",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EE4203E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE2207E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE3102E23"
+    ],
+    [
+     "Pré-Requisito",
+     "EE4103E23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EP0001F23",
+   "n": "Gestão Ambiental",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Percentual do Curso Exigido: 60.0%",
+     null
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EP4201E23",
+   "n": "Empreendedorismo",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Percentual do Curso Exigido: 60.0%",
+     null
+    ]
+   ]
+  }
+ ],
+ "totais": {
+  "1": 375.0,
+  "2": 390.0,
+  "3": 390.0,
+  "4": 390.0,
+  "5": 420.0,
+  "6": 420.0,
+  "7": 405.0,
+  "8": 390.0
+ },
+ "resumo": [
+  "Total Carga Horária Obrigatória do Curso: 3180.0",
+  "Total Carga Horária Obrigatória em Disciplinas Optativas do Curso: 240",
+  "Tabela (imagem) \"Componentes curriculares da estrutura proposta\" | Créditos | Horas: Disciplinas Obrigatórias 212 | 3180; Disciplinas Optativas 16 | 240; Estágio Curricular Obrigatório 11 | 165; Trabalho de Conclusão de Curso TCC 4 | 60; TOTAL (sem extensão ) 243 | 3645; Atividades Curriculares de Extensão Universitária ACEU 27 | 405; TOTAL (com extensão ) 270 | 4050"
+ ],
+ "observacoes": [
+  "Coluna CH Aceu vazia em todas as disciplinas (aceu=null); todos os valores estão na coluna Carga Horária.",
+  "Todas as 68 disciplinas são OBR e Semestral; não há disciplinas optativas listadas por termo (o total de optativas 240 aparece só no rodapé).",
+  "Documento lista apenas Séries 1 a 4 (termos 1-8).",
+  "Requisito \"Percentual do Curso Exigido: 60.0%\" em EP0002F23 (t7), EE4202E23, EP0001F23, EP4201E23 (t8); impresso em 2 linhas \"Percentual do Curso / Exigido: 60.0%\".",
+  "Quebra de página 4->5 dentro do termo 8: a linha \"Correquisito: EE4203E23 - Máquinas Elétricas\" no topo da pág. 5 foi atribuída a EE4208E23 (bloco de 4 requisitos centrado no nome de EE4208E23; EE4207E23 já tem bloco completo de 2 requisitos centrado no seu nome na pág. 4). Confirmado por coordenadas pdfplumber; dúvida baixa.",
+  "EE1206E23 e EE1207E23 são correquisitos mútuos; EE4205E23 tem apenas Correquisito EE4203E23 (texto começa centrado ao lado da 2ª linha do nome).",
+  "Ícone de disquete (salvar) na coluna extra à direita da linha EE3208E23 (topo da pág. 4); sem texto.",
+  "Nenhuma troca l/I detectada na camada de texto: numerais romanos são \"I\" maiúsculo.",
+  "Soma por termo (CH Aceu + Carga Horária) confere com o Total impresso em todos os 8 termos; soma geral 3180.0 = Total Carga Horária Obrigatória do Curso."
+ ]
+}

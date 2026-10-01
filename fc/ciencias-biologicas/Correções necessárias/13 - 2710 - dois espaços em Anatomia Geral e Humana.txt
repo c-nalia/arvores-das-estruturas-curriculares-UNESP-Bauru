@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 13 de 15 — Ciências Biológicas
+
+Título: 2710 - dois espaços em “Anatomia Geral e  Humana”
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No 1º ano / 1º semestre do 2710, o nome está digitado com dois espaços: “Anatomia Geral e  Humana”.
+
+EVIDÊNCIA
+Caracteres do PDF (transcrição independente). O site exibe com um espaço.
+
+CORREÇÃO NECESSÁRIA
+Retirar o espaço a mais.
+
+Referência: Relatório, seção 6
+Situação: pendente

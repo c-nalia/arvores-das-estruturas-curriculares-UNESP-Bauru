@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 12 de 23 — Bacharelado em Ciência da Computação
+
+Título: Grafia no documento - Estrategias
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No tabela de ementas da página do curso (Estrutura curricular), o ementa da disciplina 4654 está grafado:
+    “Estrategias”
+O site já exibe a forma corrigida:
+    “Estratégias”
+Motivo da correção: acentuação.
+
+EVIDÊNCIA
+Currículo(s): Bacharelado em Ciência da Computação.
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

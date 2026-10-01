@@ -1,0 +1,19 @@
+CORREÇÕES NECESSÁRIAS — Itens gerais do projeto (não pertencem a um curso)
+Pasta: revisao/gerais-do-projeto
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 3 correção(ões) — 1 alta(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Testes de fidelidade comparam o gerador com ele mesmo
+      arquivo: Correções necessárias/01 - Testes de fidelidade comparam o gerador com ele mesmo.txt
+02. [BAIXA] [SITE] README repete afirmações desmentidas pela revisão
+      arquivo: Correções necessárias/02 - README repete afirmações desmentidas pela revisão.txt
+03. [BAIXA] [SITE] Regra percentual usa bases diferentes para a meta e para o concluído
+      arquivo: Correções necessárias/03 - Regra percentual usa bases diferentes para a meta e para o concluído.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

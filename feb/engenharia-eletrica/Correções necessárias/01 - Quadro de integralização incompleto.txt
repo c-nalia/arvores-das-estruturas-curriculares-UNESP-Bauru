@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 3 — Engenharia Elétrica
+
+Título: Quadro de integralização incompleto
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O site mostra só as duas linhas de texto do documento (obrigatórias 3.180 h; optativas 240 h). A tabela em imagem “Componentes curriculares da estrutura proposta” traz também estágio, TCC, ACEU e os totais, que ficaram de fora.
+
+EVIDÊNCIA
+Valores lidos da imagem (revisao/transcricoes-independentes/feb-eletrica.json): Disciplinas Obrigatórias 212 créditos / 3.180 h; Disciplinas Optativas 16 / 240; Estágio Curricular Obrigatório 11 / 165; TCC 4 / 60; TOTAL (sem extensão) 243 / 3.645; ACEU 27 / 405; TOTAL (com extensão) 270 / 4.050.
+
+CORREÇÃO NECESSÁRIA
+Transcrever a tabela, substituir o quadroResumo atual e regerar. Conferir os valores na imagem antes de publicar.
+
+Referência: Relatório, A3
+Situação: pendente

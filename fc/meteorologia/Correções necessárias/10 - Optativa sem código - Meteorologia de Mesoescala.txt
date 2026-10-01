@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 10 de 15 — Meteorologia
+
+Título: Optativa sem código - Meteorologia de Mesoescala
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na tabela de disciplinas optativas, “Meteorologia de Mesoescala” está com a célula “Cód.” vazia.
+
+EVIDÊNCIA
+Imagem “Disciplinas Optativas” da página do curso. O site mostra “—” no lugar do código.
+
+CORREÇÃO NECESSÁRIA
+Informar o código da disciplina na página do curso; depois, atualizar a transcrição e regerar.
+
+Referência: Relatório, seção 6
+Situação: pendente

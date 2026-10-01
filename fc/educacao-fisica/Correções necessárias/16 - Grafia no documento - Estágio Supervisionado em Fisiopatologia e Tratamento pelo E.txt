@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 16 de 21 — Educação Física
+
+Título: Grafia no documento - Estágio Supervisionado em Fisiopatologia e Tratamento pelo E
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina está grafado:
+    “Estágio Supervisionado em Fisiopatologia e Tratamento pelo Exercício: Distúrbios do Aparelho Locomotor –I”
+O site já exibe a forma corrigida:
+    “Estágio Supervisionado em Fisiopatologia e Tratamento pelo Exercício: Distúrbios do Aparelho Locomotor – I”
+Motivo da correção: espaço antes do numeral.
+
+EVIDÊNCIA
+Currículo(s): Bacharelado · integral (2610).
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

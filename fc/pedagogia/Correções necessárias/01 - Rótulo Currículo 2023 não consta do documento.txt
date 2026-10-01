@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 4 — Pedagogia
+
+Título: Rótulo “Currículo 2023” não consta do documento
+Gravidade: BAIXA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A ficha mostra “Currículo: 2023”. O documento não dá número de currículo: o título é “Estrutura Curricular do Curso Pedagogia – Proposta de Reestruturação 2023”.
+
+EVIDÊNCIA
+matriz-curricular-final---21-12-a-partir-de-2023.pdf; campo “curriculo” do arquivo de dados.
+
+CORREÇÃO NECESSÁRIA
+Deixar “curriculo” vazio (a vigência já informa 2023) ou obter o número com a coordenação. Regerar.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 15 de 21 — Física
+
+Título: Erro de digitação no documento - Na ultima linha de cada tabela
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento “Grade das disciplinas por termos…”, 5º parágrafo, está escrito:
+    “Na ultima linha de cada tabela”
+O correto é:
+    “Na última linha de cada tabela”
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf. O site não reproduz esse trecho.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto do documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

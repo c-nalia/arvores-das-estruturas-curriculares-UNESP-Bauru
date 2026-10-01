@@ -1,0 +1,49 @@
+CORREÇÕES NECESSÁRIAS — Engenharia Civil
+Pasta: feb/engenharia-civil
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 18 correção(ões) — 1 alta(s), 17 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Quadro de integralização e exigência de optativas ausentes
+      arquivo: Correções necessárias/01 - Quadro de integralização e exigência de optativas ausentes.txt
+02. [BAIXA] [SITE] Nome da unidade redundante
+      arquivo: Correções necessárias/02 - Nome da unidade redundante.txt
+03. [BAIXA] [DOCUMENTO] Grafia no documento - lsostática
+      arquivo: Correções necessárias/03 - Grafia no documento - lsostática.txt
+04. [BAIXA] [DOCUMENTO] Grafia no documento - Materiais de Construção ll
+      arquivo: Correções necessárias/04 - Grafia no documento - Materiais de Construção ll.txt
+05. [BAIXA] [DOCUMENTO] Grafia no documento - ARQUITETURA
+      arquivo: Correções necessárias/05 - Grafia no documento - ARQUITETURA.txt
+06. [BAIXA] [DOCUMENTO] Grafia no documento - Resistência dos Materiais l
+      arquivo: Correções necessárias/06 - Grafia no documento - Resistência dos Materiais l.txt
+07. [BAIXA] [DOCUMENTO] Grafia no documento - URBANISMO
+      arquivo: Correções necessárias/07 - Grafia no documento - URBANISMO.txt
+08. [BAIXA] [DOCUMENTO] Grafia no documento - Análise de Estruturas l
+      arquivo: Correções necessárias/08 - Grafia no documento - Análise de Estruturas l.txt
+09. [BAIXA] [DOCUMENTO] Grafia no documento - Mecânica dos Solos l
+      arquivo: Correções necessárias/09 - Grafia no documento - Mecânica dos Solos l.txt
+10. [BAIXA] [DOCUMENTO] Grafia no documento - Resistência dos Materiais ll
+      arquivo: Correções necessárias/10 - Grafia no documento - Resistência dos Materiais ll.txt
+11. [BAIXA] [DOCUMENTO] Grafia no documento - Análise de Estruturas ll
+      arquivo: Correções necessárias/11 - Grafia no documento - Análise de Estruturas ll.txt
+12. [BAIXA] [DOCUMENTO] Grafia no documento - Estruturas de Concreto l
+      arquivo: Correções necessárias/12 - Grafia no documento - Estruturas de Concreto l.txt
+13. [BAIXA] [DOCUMENTO] Grafia no documento - Hidráulica l
+      arquivo: Correções necessárias/13 - Grafia no documento - Hidráulica l.txt
+14. [BAIXA] [DOCUMENTO] Grafia no documento - Estruturas de Concreto lI
+      arquivo: Correções necessárias/14 - Grafia no documento - Estruturas de Concreto lI.txt
+15. [BAIXA] [DOCUMENTO] Grafia no documento - Estruturas Metálicas lI
+      arquivo: Correções necessárias/15 - Grafia no documento - Estruturas Metálicas lI.txt
+16. [BAIXA] [DOCUMENTO] Grafia no documento - Estruturas de Concreto IlI
+      arquivo: Correções necessárias/16 - Grafia no documento - Estruturas de Concreto IlI.txt
+17. [BAIXA] [DOCUMENTO] Cabeçalho de coluna “Exclir” no PDF
+      arquivo: Correções necessárias/17 - Cabeçalho de coluna Exclir no PDF.txt
+18. [BAIXA] [DOCUMENTO] Numerais romanos gravados com a letra l no texto do PDF
+      arquivo: Correções necessárias/18 - Numerais romanos gravados com a letra l no texto do PDF.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 8 — Artes Visuais
+
+Título: Iframe fica com altura zero ao trocar de currículo
+Gravidade: CRÍTICA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+Esta página tem seletor de currículos. Quando ela está dentro de um iframe com o script de ajuste automático de altura (README, Opção A), basta trocar de currículo uma vez: a árvore anterior, já removida da tela, envia “altura: 0” e o iframe encolhe para 0 px. A ferramenta some da página do portal.
+
+EVIDÊNCIA
+revisao/exploratorio.mjs, teste X01. Mensagens registradas: “fisica-1606-materiais:2228” seguida de “fisica-1606-licenciatura:0”. Os cliques seguintes falham porque o iframe está com 0 px.
+
+CORREÇÃO NECESSÁRIA
+Em assets/arvore-grade.js: (1) a função montar deve devolver uma rotina de desmontagem que remova ouvintes e observadores; (2) montarSeletor deve chamá-la antes de montar o currículo seguinte; (3) avisarAltura não deve enviar nada quando raiz.isConnected for falso.
+
+Referência: Relatório, C2
+Situação: pendente

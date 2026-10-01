@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 07 de 21 — Física
+
+Título: Ementas que existem no documento não aparecem no site
+Gravidade: MÉDIA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento traz ementa para estas disciplinas, mas o site as mostra sem ementa (o gerador só reconhece o título quando ele cabe numa linha e é igual ao nome da tabela):
+  Licenciatura: Tecnologia da Comunicação e Informação no Ensino de Física; Filosofia das Ciências; Estágio Supervisionado II; Trabalho de Conclusão de Curso I, II e III; Ciência, Sociedade, Ambiente e Desenvolvimento Humano; Libras, Educação Especial e Inclusiva.
+  Física de Materiais: Ciência, Sociedade, Ambiente e Desenvolvimento Humano; Trabalho de Conclusão de Curso I e II.
+  Física Computacional: Cálculo Numérico I; Ciência, Sociedade, Ambiente e Desenvolvimento Humano; Estágio - I; Computação Quântica; Estágio II.
+
+EVIDÊNCIA
+Títulos no PDF que quebram em duas linhas ou diferem do nome da tabela: “Cálculo Numérico I (4credidos – …)”, “Estágio Física Computacional - I”, “Estágio II da Física Computacional”, “Computação Quântica -”, “Trabalho de Conclusão de Curso I – bacharelado - I”.
+
+CORREÇÃO NECESSÁRIA
+Em ferramentas/construir.py (ementas_fisica), aceitar títulos em duas linhas e mapear os títulos divergentes para os nomes da tabela. Regerar e conferir que só fica sem ementa o que o documento não traz.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

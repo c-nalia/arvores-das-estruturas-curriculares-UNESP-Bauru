@@ -1,0 +1,47 @@
+CORREÇÕES NECESSÁRIAS — Arquitetura e Urbanismo
+Pasta: faac/arquitetura-e-urbanismo
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 17 correção(ões) — 4 alta(s), 1 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [ALTA] [SITE] Documento oficial citado não é a origem dos números
+      arquivo: Correções necessárias/01 - Documento oficial citado não é a origem dos números.txt
+02. [ALTA] [SITE] Número do currículo omitido (Estrutura 2011)
+      arquivo: Correções necessárias/02 - Número do currículo omitido (Estrutura 2011).txt
+03. [ALTA] [DECISÃO] Paisagismo V - carga de 60 h no site e 30 h na Resolução
+      arquivo: Correções necessárias/03 - Paisagismo V - carga de 60 h no site e 30 h na Resolução.txt
+04. [ALTA] [DECISÃO] Totais do curso diferem entre a Resolução e a página
+      arquivo: Correções necessárias/04 - Totais do curso diferem entre a Resolução e a página.txt
+05. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+      arquivo: Correções necessárias/05 - Busca não encontra o código como está no documento.txt
+06. [BAIXA] [DECISÃO] Grafia no documento - História e Teorias e da Arquitetura - Pós-Moderna e Contempo
+      arquivo: Correções necessárias/06 - Grafia no documento - História e Teorias e da Arquitetura - Pós-Moderna e Contempo.txt
+07. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 01
+      arquivo: Correções necessárias/07 - Nome diferente entre SG e Resolução - ARQ-E 01.txt
+08. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 02
+      arquivo: Correções necessárias/08 - Nome diferente entre SG e Resolução - ARQ-E 02.txt
+09. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 03
+      arquivo: Correções necessárias/09 - Nome diferente entre SG e Resolução - ARQ-E 03.txt
+10. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 04
+      arquivo: Correções necessárias/10 - Nome diferente entre SG e Resolução - ARQ-E 04.txt
+11. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 05
+      arquivo: Correções necessárias/11 - Nome diferente entre SG e Resolução - ARQ-E 05.txt
+12. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 08
+      arquivo: Correções necessárias/12 - Nome diferente entre SG e Resolução - ARQ-E 08.txt
+13. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 10
+      arquivo: Correções necessárias/13 - Nome diferente entre SG e Resolução - ARQ-E 10.txt
+14. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 32
+      arquivo: Correções necessárias/14 - Nome diferente entre SG e Resolução - ARQ-E 32.txt
+15. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 40
+      arquivo: Correções necessárias/15 - Nome diferente entre SG e Resolução - ARQ-E 40.txt
+16. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 48
+      arquivo: Correções necessárias/16 - Nome diferente entre SG e Resolução - ARQ-E 48.txt
+17. [BAIXA] [DOCUMENTO] Nome diferente entre SG e Resolução - ARQ-E 65
+      arquivo: Correções necessárias/17 - Nome diferente entre SG e Resolução - ARQ-E 65.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

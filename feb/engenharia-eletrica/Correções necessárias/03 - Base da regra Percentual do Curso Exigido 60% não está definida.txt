@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 3 — Engenharia Elétrica
+
+Título: Base da regra “Percentual do Curso Exigido 60%” não está definida
+Gravidade: BAIXA
+Onde corrigir: DECISÃO
+Responsável: Conselho de Curso decide; depois, quem mantém o site aplica
+
+O QUE ESTÁ ERRADO
+Quatro disciplinas (EP0002F23, EE4202E23, EP0001F23, EP4201E23) exigem “Percentual do Curso Exigido: 60.0%”. O documento não diz 60% de quê. A simulação usa a carga das disciplinas da grade (3.180 h → 1.908 h). Se a base for o total do curso com extensão (4.050 h), o valor seria 2.430 h.
+
+EVIDÊNCIA
+eeletrica.pdf (coluna Requisitos); revisao/exploratorio.mjs, teste X08.
+
+CORREÇÃO NECESSÁRIA
+O Conselho de Curso deve informar a base do percentual. Depois, ajustar a regra no site ou acrescentar um aviso dizendo qual base a simulação usa.
+
+Referência: Relatório, B3
+Situação: pendente

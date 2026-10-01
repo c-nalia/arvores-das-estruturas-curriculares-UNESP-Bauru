@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 3 — Design
+
+Título: Ano diferente no título e nos metadados do PDF
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O título impresso é “ESTRUTURA CURRICULAR BACHARELADO DESIGN | FAAC | UNESP | 2023”; os metadados do arquivo dizem “Matriz Curricular 2024”; e a página do curso o apresenta como “Ingressantes a partir de 2024”.
+
+EVIDÊNCIA
+pdfinfo de matriz-curricular-2023-design-unesp.pdf; fonte.json do curso.
+
+CORREÇÃO NECESSÁRIA
+Uniformizar o ano no documento e na página. No site, confirmar se “Currículo 2023” é a identificação correta.
+
+Referência: Relatório, seção 6
+Situação: pendente

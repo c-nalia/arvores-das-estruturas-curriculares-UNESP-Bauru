@@ -1,0 +1,23 @@
+CORREÇÃO NECESSÁRIA nº 18 de 21 — Educação Física
+
+Título: Grafia no documento - Estágio Supervisionado em Princípios e Técnicas da prescriçã
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento oficial da matriz curricular / cadastro da disciplina no Sistema de Graduação, o nome da disciplina está grafado:
+    “Estágio Supervisionado em Princípios e Técnicas da prescrição para o Exercício de Força”
+O site já exibe a forma corrigida:
+    “Estágio Supervisionado em Princípios e Técnicas da Prescrição para o Exercício de Força”
+Motivo da correção: uniformização de maiúsculas (como na disciplina teórica).
+
+EVIDÊNCIA
+Currículo(s): Bacharelado · integral (2610).
+Registro da correção: campo "correcoes" do arquivo de dados; aparece no rodapé da página (“Grafias corrigidas em relação ao documento”).
+
+CORREÇÃO NECESSÁRIA
+Corrigir a grafia no documento oficial (ou no cadastro da disciplina). Depois disso, remover o registro em "correcoes" no site, para que o rodapé deixe de apontar a diferença.
+
+Referência: Relatório, seção 1 (correções registradas)
+Situação: pendente

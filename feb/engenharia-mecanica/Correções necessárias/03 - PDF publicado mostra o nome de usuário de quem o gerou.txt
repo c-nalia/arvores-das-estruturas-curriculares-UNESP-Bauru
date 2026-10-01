@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 3 — Engenharia Mecânica
+
+Título: PDF publicado mostra o nome de usuário de quem o gerou
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O cabeçalho da pág. 1 do PDF traz o nome de usuário do Sistema de Graduação de quem gerou o relatório (“amanda.peron”). É um dado pessoal num documento público.
+
+EVIDÊNCIA
+emecanica.pdf, pág. 1, primeira linha (“Sistema de Graduação … amanda.peron”). O site não reproduz esse dado.
+
+CORREÇÃO NECESSÁRIA
+Gerar o PDF de novo sem o cabeçalho de sessão (ou recortá-lo) e republicar.
+
+Referência: Relatório, seção 6
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 19 de 21 — Física
+
+Título: Ciências dos Materiais II recomenda a si mesma
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A ementa de “Ciências dos Materiais II” termina com “Prérequisito recomentado: Ciências dos Materiais II”. Provavelmente deveria ser “Ciências dos Materiais I”.
+
+EVIDÊNCIA
+Ementa de Ciências dos Materiais II (oitavo termo do Bacharelado em Física de Materiais).
+
+CORREÇÃO NECESSÁRIA
+Corrigir para “Ciências dos Materiais I” (confirmar com a coordenação).
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

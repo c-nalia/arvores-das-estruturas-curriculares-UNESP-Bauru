@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 11 de 21 — Física
+
+Título: Erro de digitação no documento - para concluir estas habilidades individu
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento “Grade das disciplinas por termos…”, 1º parágrafo, está escrito:
+    “para concluir estas habilidades individualmente”
+O correto é:
+    “para concluir estas habilitações individualmente”
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf. O site não reproduz esse trecho.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto do documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 07 de 17 — Psicologia
+
+Título: Requisito na coluna de correquisitos - Psicologia Organizacional e do Trabalho II
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+“Psicologia Organizacional e do Trabalho II” tem a coluna Pré-Requisitos vazia e, na coluna Correquisitos, “Psicologia Organizacional e do Trabalho I”. As disciplinas citadas são de semestres anteriores: pelo conteúdo, parecem pré-requisitos digitados na coluna errada.
+
+EVIDÊNCIA
+PDF, págs. 3 e 5 (conferido nas imagens). O site reproduz como correquisito, sem aviso.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve confirmar a coluna correta. No site, acrescentar aviso enquanto não houver confirmação.
+
+Referência: Relatório, seção 6
+Situação: pendente

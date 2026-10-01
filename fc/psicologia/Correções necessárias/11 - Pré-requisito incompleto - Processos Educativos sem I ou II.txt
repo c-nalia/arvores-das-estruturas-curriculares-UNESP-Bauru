@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 11 de 17 — Psicologia
+
+Título: Pré-requisito incompleto - “Processos Educativos” sem I ou II
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O pré-requisito de “Análise do Comportamento Aplicada: Educação Especial e Inclusiva” termina em “Análise do Comportamento Aplicada: Processos Educativos”, sem dizer se é I ou II.
+
+EVIDÊNCIA
+PDF, pág. 4. O site mantém como texto e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Completar com I ou II.
+
+Referência: Relatório, seção 6
+Situação: pendente

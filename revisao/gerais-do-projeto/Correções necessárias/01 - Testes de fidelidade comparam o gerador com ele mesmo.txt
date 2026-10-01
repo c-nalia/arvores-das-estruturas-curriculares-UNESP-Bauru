@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 3 — Itens gerais do projeto (não pertencem a um curso)
+
+Título: Testes de fidelidade comparam o gerador com ele mesmo
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+testes/conferir_fontes.py relê as fontes com o mesmo leitor (ferramentas/fontes_sg.py) e as mesmas transcrições (ferramentas/transcricoes.py) que geraram os dados. Por isso passou 6.250/6.250 sem detectar o requisito trocado da Produção nem a transcrição errada da Química. O README promete que ele “relê as fontes oficiais”.
+
+EVIDÊNCIA
+Relatório, seção 1.
+
+CORREÇÃO NECESSÁRIA
+Levar para testes/ as leituras independentes de revisao/ (segunda_leitura_sg.py, comparar_feb.py, comparar_independente.py com transcricoes-independentes/, comparar_edf.py) e corrigir a descrição no README.
+
+Referência: Relatório, A7
+Situação: pendente

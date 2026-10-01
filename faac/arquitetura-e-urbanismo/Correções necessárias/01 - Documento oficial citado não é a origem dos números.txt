@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 17 — Arquitetura e Urbanismo
+
+Título: Documento oficial citado não é a origem dos números
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A ficha do curso mostra “Documento oficial: Estrutura curricular - Resolução Unesp nº 123/2023”, mas os números exibidos (cargas, termos, tipos, requisitos, quadro) vêm da relação do Sistema de Graduação publicada na página do curso. As duas fontes divergem.
+
+EVIDÊNCIA
+Campo “fonte” de dados-arquitetura-urbanismo-2023.js; ferramentas/construir.py (função faac).
+
+CORREÇÃO NECESSÁRIA
+Citar as duas fontes: a relação do Sistema de Graduação (origem dos dados) e a Resolução (ato legal), com aviso da divergência.
+
+Referência: Relatório, A1
+Situação: pendente

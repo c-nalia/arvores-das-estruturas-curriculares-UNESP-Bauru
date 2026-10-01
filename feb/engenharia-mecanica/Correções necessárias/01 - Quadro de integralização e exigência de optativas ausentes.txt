@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 3 — Engenharia Mecânica
+
+Título: Quadro de integralização e exigência de optativas ausentes
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+O documento traz, em imagem, a tabela “Componentes curriculares da estrutura proposta”. O site não mostra o quadro-resumo nem a carga de optativas exigida (240 h).
+
+EVIDÊNCIA
+Valores lidos da imagem (revisao/transcricoes-independentes/feb-mecanica.json): Disciplinas obrigatórias 207 créditos / 3.105 h; Disciplinas optativas 16 / 240; Atividades curriculares de Extensão Universitária 27 / 405; Estágio Supervisionado 11 / 165; Trabalho de Conclusão de Curso 4 / 60; Atividades Complementares 4 / 60; TOTAL 269 / 4.035.
+
+CORREÇÃO NECESSÁRIA
+Transcrever a tabela, incluir como quadroResumo e exigência de optativas e regerar. Conferir os valores na imagem antes de publicar.
+
+Referência: Relatório, A3
+Situação: pendente

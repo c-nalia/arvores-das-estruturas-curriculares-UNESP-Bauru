@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 17 de 21 — Física
+
+Título: “recomentado” no lugar de “recomendado” (25 vezes)
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Em 25 ementas, a nota final está grafada “Pré-requisito recomentado” (com t).
+
+EVIDÊNCIA
+Contagem no texto do PDF: 25 ocorrências de “recomentado” e 22 de “recomendado”.
+
+CORREÇÃO NECESSÁRIA
+Substituir “recomentado” por “recomendado” em todo o documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

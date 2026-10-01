@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 10 de 17 — Psicologia
+
+Título: Disciplina sem semestre - ACA Processos Educativos I
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+“Análise do Comportamento Aplicada: Processos Educativos I” está com a coluna SEM vazia. Fica entre linhas do 4º semestre.
+
+EVIDÊNCIA
+PDF, pág. 2. O site a coloca no 4º termo e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Preencher o semestre (4) no documento.
+
+Referência: Relatório, seção 6
+Situação: pendente

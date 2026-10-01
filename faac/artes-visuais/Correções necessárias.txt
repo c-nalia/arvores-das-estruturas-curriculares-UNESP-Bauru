@@ -1,0 +1,29 @@
+CORREÇÕES NECESSÁRIAS — Artes Visuais
+Pasta: faac/artes-visuais
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 8 correção(ões) — 1 crítica(s), 2 média(s), 5 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+      arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
+02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+      arquivo: Correções necessárias/02 - Instâncias antigas continuam ativas a cada troca de currículo.txt
+03. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+      arquivo: Correções necessárias/03 - Busca não encontra o código como está no documento.txt
+04. [BAIXA] [DECISÃO] Maiúsculas não uniformes - Antropologia visual
+      arquivo: Correções necessárias/04 - Maiúsculas não uniformes - Antropologia visual.txt
+05. [BAIXA] [DOCUMENTO] Grafia no documento - Artemídia: vídeoarte
+      arquivo: Correções necessárias/05 - Grafia no documento - Artemídia vídeoarte.txt
+06. [BAIXA] [DOCUMENTO] Total do 8º termo do núcleo básico não inclui a CH ACEU
+      arquivo: Correções necessárias/06 - Total do 8º termo do núcleo básico não inclui a CH ACEU.txt
+07. [BAIXA] [DOCUMENTO] Total do 8º termo da Licenciatura não inclui a CH ACEU
+      arquivo: Correções necessárias/07 - Total do 8º termo da Licenciatura não inclui a CH ACEU.txt
+08. [BAIXA] [DOCUMENTO] Linha solta “Total de Carga Horária 1242.0” no Bacharelado
+      arquivo: Correções necessárias/08 - Linha solta Total de Carga Horária 1242.0 no Bacharelado.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

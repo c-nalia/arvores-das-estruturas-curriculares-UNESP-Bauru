@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 01 de 2 — Relações Públicas
+
+Título: Número do currículo omitido (Estrutura 2402)
+Gravidade: ALTA
+Onde corrigir: SITE
+Responsável: quem mantém o site (arquivos deste projeto)
+
+O QUE ESTÁ ERRADO
+A página oficial informa “Ingressantes a partir de 2023 - Estrutura 2402”. O site não mostra o número e traz o aviso “O documento publicado não informa o número do currículo”, que é falso.
+
+EVIDÊNCIA
+planos de ensino/FAAC/DARP/Relacoes_Publicas/matriz-curricular-relacoes-publicas.html (texto fora da tabela).
+
+CORREÇÃO NECESSÁRIA
+Em construir.py: curriculo="2402" e remover o aviso. Regerar.
+
+Referência: Relatório, A4
+Situação: pendente

@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 17 de 17 — Psicologia
+
+Título: “SIM” e “Sim” na coluna Divisão de Turma
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A coluna “Divisão de Turma” usa “SIM” nas disciplinas e “Sim” nos estágios.
+
+EVIDÊNCIA
+PDF, págs. 1 a 5. O site não exibe essa coluna.
+
+CORREÇÃO NECESSÁRIA
+Uniformizar.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

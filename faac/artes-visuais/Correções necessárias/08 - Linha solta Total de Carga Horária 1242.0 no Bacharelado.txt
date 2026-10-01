@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 8 — Artes Visuais
+
+Título: Linha solta “Total de Carga Horária 1242.0” no Bacharelado
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Depois do último termo, a relação do Bacharelado (2504B) traz uma segunda linha “Total de Carga Horária: 1242.0”, sem dizer a que se refere. Não corresponde à soma do bacharelado (240 h obrigatórias + 90 h de TCC) nem à do núcleo básico (1.680 h).
+
+EVIDÊNCIA
+artes-visuais-estrutura-curricular-bacharelado.csv, antes de “Total Carga Horária Obrigatória do Curso: 240.0”. O site ignora essa linha.
+
+CORREÇÃO NECESSÁRIA
+A Seção de Graduação deve esclarecer ou retirar a linha do relatório.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

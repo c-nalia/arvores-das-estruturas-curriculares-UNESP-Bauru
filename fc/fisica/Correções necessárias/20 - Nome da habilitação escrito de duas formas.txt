@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 20 de 21 — Física
+
+Título: Nome da habilitação escrito de duas formas
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O documento usa “Física de Materiais” no texto e nas ementas, e “Física dos Materiais” no título e no cabeçalho das tabelas (“Bach. Física dos Materiais”). O título também cita só “licenciatura e bacharelado em Física dos Materiais”, embora o documento inclua a Física Computacional.
+
+EVIDÊNCIA
+Título e tabelas do PDF. O site usa “Física de Materiais”.
+
+CORREÇÃO NECESSÁRIA
+Padronizar o nome da habilitação e incluir a Física Computacional no título.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

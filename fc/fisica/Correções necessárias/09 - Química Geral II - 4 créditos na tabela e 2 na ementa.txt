@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 09 de 21 — Física
+
+Título: Química Geral II - 4 créditos na tabela e 2 na ementa
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+“Química Geral II” tem “(4cd)” na tabela do terceiro termo e “(2 créditos – Primeiro Semestre – DQ)” no título da sua ementa. Os totais do termo só fecham com 4.
+
+EVIDÊNCIA
+PDF, tabela do terceiro termo e título da ementa. O site usa 4 e mostra aviso.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o título da ementa para 4 créditos (ou a tabela, se o correto for 2, refazendo os totais).
+
+Referência: Relatório, seção 6
+Situação: pendente

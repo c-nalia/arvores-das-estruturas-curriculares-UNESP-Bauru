@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 02 de 2 — Comunicação: Rádio, TV e Internet
+
+Título: Erro de ortografia na página do curso (engressaram)
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+O título da tabela na página oficial diz: “Estrutura Curricular (para alunos que engressaram a partir de 2023)”. O correto é “ingressaram”.
+
+EVIDÊNCIA
+planos de ensino/FAAC/DARP/Comunicacao_Audiovisual/matriz-curricular-comunicacao-radio-televisao-e-internet.html. O site não reproduz essa frase.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto na página do curso no portal da FAAC.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

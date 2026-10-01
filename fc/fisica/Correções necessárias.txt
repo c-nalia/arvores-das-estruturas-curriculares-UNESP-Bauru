@@ -1,0 +1,55 @@
+CORREÇÕES NECESSÁRIAS — Física
+Pasta: fc/fisica
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 21 correção(ões) — 1 crítica(s), 2 alta(s), 5 média(s), 13 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+      arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
+02. [ALTA] [SITE] Pré-requisito formal ausente - Introdução à Pesquisa em Ensino de Ciências
+      arquivo: Correções necessárias/02 - Pré-requisito formal ausente - Introdução à Pesquisa em Ensino de Ciências.txt
+03. [ALTA] [SITE] Aviso falso - “pré-requisito recomendado” em só dois casos
+      arquivo: Correções necessárias/03 - Aviso falso - pré-requisito recomendado em só dois casos.txt
+04. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+      arquivo: Correções necessárias/04 - Instâncias antigas continuam ativas a cada troca de currículo.txt
+05. [MÉDIA] [SITE] Pré-requisitos recomendados não aparecem nas disciplinas
+      arquivo: Correções necessárias/05 - Pré-requisitos recomendados não aparecem nas disciplinas.txt
+06. [MÉDIA] [SITE] Requisito dos TCC (“ver regulamento geral do TCC”) não aparece
+      arquivo: Correções necessárias/06 - Requisito dos TCC (ver regulamento geral do TCC) não aparece.txt
+07. [MÉDIA] [SITE] Ementas que existem no documento não aparecem no site
+      arquivo: Correções necessárias/07 - Ementas que existem no documento não aparecem no site.txt
+08. [MÉDIA] [DOCUMENTO] Pré-requisito recomendado “xxx” em cinco ementas
+      arquivo: Correções necessárias/08 - Pré-requisito recomendado xxx em cinco ementas.txt
+09. [BAIXA] [DOCUMENTO] Química Geral II - 4 créditos na tabela e 2 na ementa
+      arquivo: Correções necessárias/09 - Química Geral II - 4 créditos na tabela e 2 na ementa.txt
+10. [BAIXA] [DOCUMENTO] Erro de digitação no documento - é divido em duas modalidades
+      arquivo: Correções necessárias/10 - Erro de digitação no documento - é divido em duas modalidades.txt
+11. [BAIXA] [DOCUMENTO] Erro de digitação no documento - para concluir estas habilidades individu
+      arquivo: Correções necessárias/11 - Erro de digitação no documento - para concluir estas habilidades individu.txt
+12. [BAIXA] [DOCUMENTO] Erro de digitação no documento - De a acordo com a resolução
+      arquivo: Correções necessárias/12 - Erro de digitação no documento - De a acordo com a resolução.txt
+13. [BAIXA] [DOCUMENTO] Erro de digitação no documento - e do bacharelada tanto em Física de Mate
+      arquivo: Correções necessárias/13 - Erro de digitação no documento - e do bacharelada tanto em Física de Mate.txt
+14. [BAIXA] [DOCUMENTO] Erro de digitação no documento - a que compões o tronco comum
+      arquivo: Correções necessárias/14 - Erro de digitação no documento - a que compões o tronco comum.txt
+15. [BAIXA] [DOCUMENTO] Erro de digitação no documento - Na ultima linha de cada tabela
+      arquivo: Correções necessárias/15 - Erro de digitação no documento - Na ultima linha de cada tabela.txt
+16. [BAIXA] [DOCUMENTO] Erro de digitação no documento - Cálculo Numérico I (4credidos
+      arquivo: Correções necessárias/16 - Erro de digitação no documento - Cálculo Numérico I (4credidos.txt
+17. [BAIXA] [DOCUMENTO] “recomentado” no lugar de “recomendado” (25 vezes)
+      arquivo: Correções necessárias/17 - recomentado no lugar de recomendado (25 vezes).txt
+18. [BAIXA] [DOCUMENTO] Recomendações citam disciplinas que não existem na grade
+      arquivo: Correções necessárias/18 - Recomendações citam disciplinas que não existem na grade.txt
+19. [BAIXA] [DOCUMENTO] Ciências dos Materiais II recomenda a si mesma
+      arquivo: Correções necessárias/19 - Ciências dos Materiais II recomenda a si mesma.txt
+20. [BAIXA] [DOCUMENTO] Nome da habilitação escrito de duas formas
+      arquivo: Correções necessárias/20 - Nome da habilitação escrito de duas formas.txt
+21. [BAIXA] [DOCUMENTO] Nomes diferentes na tabela e no título da ementa
+      arquivo: Correções necessárias/21 - Nomes diferentes na tabela e no título da ementa.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

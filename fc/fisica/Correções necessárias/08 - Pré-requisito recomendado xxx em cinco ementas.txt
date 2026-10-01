@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 08 de 21 — Física
+
+Título: Pré-requisito recomendado “xxx” em cinco ementas
+Gravidade: MÉDIA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Cinco ementas do Bacharelado em Física Computacional trazem “Pré-requisito recomendado: xxx”, um marcador que ficou sem ser preenchido: Simulações Computacionais I, Estruturas de Dados, Computação Quântica, Estágio II da Física Computacional e Introdução às Técnicas de Aprendizado de Máquina.
+
+EVIDÊNCIA
+Texto do PDF: 5 ocorrências de “xxx”.
+
+CORREÇÃO NECESSÁRIA
+A coordenação deve informar o pré-requisito recomendado de cada uma (ou retirar a nota).
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

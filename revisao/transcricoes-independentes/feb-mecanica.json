@@ -1,0 +1,774 @@
+{
+ "cabecalho": "Sistema de Graduação | Faculdade de Engenharia - Câmpus de Bauru | 0204 - Curso: Engenharia Mecânica",
+ "disciplinas": [
+  {
+   "t": 1,
+   "cod": "AG1107M23",
+   "n": "Desenho Básico",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DF1103F23",
+   "n": "Física I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DF1104F23",
+   "n": "Laboratório de Física I",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1103F23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "DM1101F23",
+   "n": "Cálculo Diferencial e Integral I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DM1102F23",
+   "n": "Cálculo Vetorial e Geometria Analítica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1105M23",
+   "n": "Fundamentos de Química para Engenharia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1106M23",
+   "n": "Laboratório de Química Tecnológica",
+   "aceu": null,
+   "ch": 15.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "EM1108M23",
+   "n": "Introdução à Engenharia Mecânica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "AG1205M23",
+   "n": "Desenho Mecânico",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "AG1107M23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "DF1202F23",
+   "n": "Física II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1203F23",
+   "n": "Laboratório de Física II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "DM1201F23",
+   "n": "Cálculo Diferencial e Integral II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ]
+   ]
+  },
+  {
+   "t": 2,
+   "cod": "DM1204F23",
+   "n": "Álgebra Linear",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EE1001F23",
+   "n": "Introdução à Ciência da Computação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EM1206M23",
+   "n": "Estática",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EM1207M23",
+   "n": "Metodologia de Projeto",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2102F23",
+   "n": "Física III",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2103F23",
+   "n": "Laboratório de Física III",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DF2102F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "DM2101F23",
+   "n": "Cálculo de Múltiplas Variáveis",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EM2104M23",
+   "n": "Dinâmica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EM2105M23",
+   "n": "Mecânica dos Sólidos I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EM2106M23",
+   "n": "Ciência dos Materiais",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DQ1105M23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EP2001F23",
+   "n": "Estatística e Probabilidade",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "DM2201F23",
+   "n": "Equações Diferenciais Ordinárias",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EM2202M23",
+   "n": "Práticas de Oficina para Engenharia Mecânica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EM2203M23",
+   "n": "Materiais de Construção Mecânica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2106M23"
+    ],
+    [
+     "Correquisito",
+     "EM2204M23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EM2204M23",
+   "n": "Laboratório de Materiais",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "EM2203M23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EM2205M23",
+   "n": "Mecânica dos Sólidos II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2105M23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EM2206M23",
+   "n": "Cinemática de Mecanismos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EM2207M23",
+   "n": "Termodinâmica I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EM2208M23",
+   "n": "Fundamentos de Engenharia de Fabricação",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "DM3101F23",
+   "n": "Cálculo Numérico Computacional",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1001F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3102M23",
+   "n": "Elementos de Máquinas I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2205M23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3103M23",
+   "n": "Processos de Fabricação Mecânica I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "EM3104M23",
+   "n": "Mecânica dos Fluidos I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DF1202F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3105M23",
+   "n": "Transferência de Calor e Massa I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2207M23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3106M23",
+   "n": "Sistemas Dinâmicos",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2104M23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3107M23",
+   "n": "Termodinâmica II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2207M23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EM3108M23",
+   "n": "Usinagem dos Materiais",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2202M23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EE3206M23",
+   "n": "Eletrotécnica Geral",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DF2102F23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EM3201M23",
+   "n": "Mecânica dos Fluidos II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3104M23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EM3202M23",
+   "n": "Laboratório de Fenômenos de Transporte",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3104M23"
+    ],
+    [
+     "Correquisito",
+     "EM3201M23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EM3203M23",
+   "n": "Elementos de Máquinas II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2205M23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EM3204M23",
+   "n": "Transferência de Calor e Massa II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3105M23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EM3205M23",
+   "n": "Instrumentação e Sistemas de Medidas",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EM3207M23",
+   "n": "Vibrações Mecânicas",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3106M23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EE4105M23",
+   "n": "Eletrônica para Automação Industrial",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EM4101M23",
+   "n": "Máquinas de Fluxo",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3201M23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EM4102M23",
+   "n": "Projeto de Máquinas",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3203M23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EM4103M23",
+   "n": "Processos de Fabricação Mecânica II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2203M23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EM4104M23",
+   "n": "Controle de Sistemas Mecânicos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3106M23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EP0001F23",
+   "n": "Gestão Ambiental",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EP0002F23",
+   "n": "Fundamentos de Gestão Empresarial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EP0101F23",
+   "n": "Engenharia Econômica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 8,
+   "cod": "CH0001F23",
+   "n": "Direito, Legislação e Ética",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 8,
+   "cod": "EM4201M23",
+   "n": "Transferência de Calor Industrial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3107M23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EM4202M23",
+   "n": "Processos Metalúrgicos de Fabricação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2203M23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EM4203M23",
+   "n": "Sistemas de Refrigeração e Condicionamento de Ar",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2207M23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EM4204M23",
+   "n": "Sistemas Térmicos de Potência",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM3107M23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EP0201F23",
+   "n": "Economia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 8,
+   "cod": "EP4205M23",
+   "n": "Gestão da Qualidade",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 9,
+   "cod": "EM5101M23",
+   "n": "Manufatura Integrada por Computador",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 9,
+   "cod": "EM5102M23",
+   "n": "Fundamentos de Automação Industrial",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  }
+ ],
+ "totais": {
+  "1": 345.0,
+  "2": 420.0,
+  "3": 420.0,
+  "4": 390.0,
+  "5": 420.0,
+  "6": 390.0,
+  "7": 390.0,
+  "8": 240.0,
+  "9": 90.0
+ },
+ "resumo": [
+  "Componentes curriculares da estrutura proposta | Créditos | Horas",
+  "Disciplinas obrigatórias | 207 | 3105",
+  "Disciplinas optativas | 16 | 240",
+  "Atividades curriculares de Extensão Universitária | 27 | 405",
+  "Estágio Supervisionado | 11 | 165",
+  "Trabalho de Conclusão de Curso | 4 | 60",
+  "Atividades Complementares | 4 | 60",
+  "TOTAL | 269 | 4035"
+ ],
+ "observacoes": [
+  "Cabeçalho da pág. 1 traz também o nome de usuário 'amanda.peron' (impresso à direita de 'Sistema de Graduação'); o nome do curso quebra em duas linhas: '0204 - Curso: Engenharia' / 'Mecânica'.",
+  "Tabela-resumo 'Componentes curriculares da estrutura proposta' (pág. 4) não tem camada de texto (lida só da imagem). Conferência: créditos 207+16+27+11+4+4=269; horas 3105+240+405+165+60+60=4035; soma dos 9 'Total de Carga Horária' = 3105 = Disciplinas obrigatórias (207 créd. x 15 h).",
+  "Coluna CH Aceu vazia em todas as linhas (aceu=null).",
+  "Todas as disciplinas: Tipo OBR, Duração Semestral.",
+  "Curso tem só 9 termos impressos (termina em Série 5 - Período 1); não existe tabela para Série 5 - Período 2.",
+  "Termo 8 (Série 4 - Período 2) tem total 240.0, menor que os demais (7 disciplinas, soma confere).",
+  "EM3103M23 ocupa uma célula alta (com espaço vazio acima da linha do código) sem nenhum requisito; o requisito 'Pré-Requisito: EM2205M23 - Mecânica dos Sólidos II' está dentro da célula de EM3102M23 (top 582.0-610.5 pt) e não da de EM3103M23 (610.5-662.2 pt).",
+  "Termo 6: não há EM3206M23 (salto de EM3205M23 para EM3207M23); a disciplina 3206 é EE3206M23.",
+  "Páginas 5 e 6 sem conteúdo (pág. 6 só tem linhas horizontais vazias).",
+  "Atribuição de requisitos feita pelas células da tabela (segmentos verticais das bordas no PDF, conferidos com pdfplumber top/bottom) e confirmada visualmente nos recortes a 200 dpi; nenhuma atribuição ficou ambígua.",
+  "Somas por termo (CH Aceu + Carga Horária) conferem com todos os 'Total de Carga Horária' impressos."
+ ]
+}

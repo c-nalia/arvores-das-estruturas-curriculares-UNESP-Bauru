@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 17 de 18 — Engenharia Civil
+
+Título: Cabeçalho de coluna “Exclir” no PDF
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A tabela do 6º termo (Série 3 - Período 2) tem uma coluna extra, vazia, com o cabeçalho “Exclir” (botão “Excluir” da tela de edição, cortado).
+
+EVIDÊNCIA
+ecivil.pdf, pág. 3.
+
+CORREÇÃO NECESSÁRIA
+Gerar o PDF de novo pela tela de consulta e republicar.
+
+Referência: Relatório, seção 6
+Situação: pendente

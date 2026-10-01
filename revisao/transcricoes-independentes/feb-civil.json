@@ -1,0 +1,841 @@
+{
+ "cabecalho": "Sistema de Graduação | Faculdade de Engenharia - Câmpus de Bauru | 0104 - Curso: Engenharia Civil",
+ "disciplinas": [
+  {
+   "t": 1,
+   "cod": "AG1103C23",
+   "n": "Desenho Básico",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DM1101F23",
+   "n": "Cálculo Diferencial e Integral I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DM1102F23",
+   "n": "Cálculo Vetorial e Geometria Analítica",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "DQ1104C23",
+   "n": "Fundamentos de Química para Engenharia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DQ1106C23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "DQ1106C23",
+   "n": "Química Experimental para Engenharia Civil",
+   "aceu": null,
+   "ch": 15.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Correquisito",
+     "DQ1104C23"
+    ]
+   ]
+  },
+  {
+   "t": 1,
+   "cod": "EC1105C23",
+   "n": "Introdução à Engenharia Civil",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 1,
+   "cod": "EE1001F23",
+   "n": "Introdução à Ciência da Computação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "AG1205C23",
+   "n": "Desenho Técnico Civil",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DF1206C23",
+   "n": "Física Geral e Experimental I",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DM1201F23",
+   "n": "Cálculo Diferencial e Integral II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "DM1204F23",
+   "n": "Álgebra Linear",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EC1207C23",
+   "n": "Materiais de Construção I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EC1208C23",
+   "n": "Sistemas Estruturais",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 2,
+   "cod": "EP0201F23",
+   "n": "Economia",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DF2102C23",
+   "n": "Física Geral e Experimental II",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "DM2101F23",
+   "n": "Cálculo de Múltiplas Variáveis",
+   "aceu": null,
+   "ch": 90.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EC2103C23",
+   "n": "lsostática",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EC2104C23",
+   "n": "Materiais de Construção ll",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC1207C23"
+    ]
+   ]
+  },
+  {
+   "t": 3,
+   "cod": "EC2105C23",
+   "n": "Topografia",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 3,
+   "cod": "EP0101F23",
+   "n": "Engenharia Econômica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "AR2202C23",
+   "n": "ARQUITETURA",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "DM2201F23",
+   "n": "Equações Diferenciais Ordinárias",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EC2203C23",
+   "n": "Geologia de Engenharia",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EC2204C23",
+   "n": "Geoprocessamento",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EC2206C23",
+   "n": "Resistência dos Materiais l",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 4,
+   "cod": "EM2205C23",
+   "n": "Mecânica dos Fluidos",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 4,
+   "cod": "EP2001F23",
+   "n": "Estatística e Probabilidade",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "DM1101F23"
+    ],
+    [
+     "Pré-Requisito",
+     "DM1201F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "AR3108C23",
+   "n": "URBANISMO",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "DM3101F23",
+   "n": "Cálculo Numérico Computacional",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EE1001F23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EC3102C23",
+   "n": "Análise de Estruturas l",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2103C23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EC3103C23",
+   "n": "Estruturas de Madeira",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2103C23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EC3104C23",
+   "n": "Mecânica dos Solos l",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "EC3105C23",
+   "n": "Metodologia Científica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 5,
+   "cod": "EC3106C23",
+   "n": "Projeto Geométrico de Vias Terrestres",
+   "aceu": null,
+   "ch": 45.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2105C23"
+    ]
+   ]
+  },
+  {
+   "t": 5,
+   "cod": "EC3107C23",
+   "n": "Resistência dos Materiais ll",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 6,
+   "cod": "EC3201C23",
+   "n": "Análise de Estruturas ll",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2206C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EC3202C23",
+   "n": "Estruturas de Concreto l",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2206C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EC3203C23",
+   "n": "Estruturas Metálicas I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2103C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC2206C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EC3204C23",
+   "n": "Hidráulica l",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EM2205C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EC3205C23",
+   "n": "Mecânica dos Solos II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2203C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EC3206C23",
+   "n": "Pavimentação",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3104C23"
+    ]
+   ]
+  },
+  {
+   "t": 6,
+   "cod": "EP3207C23",
+   "n": "Pesquisa Operacional",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EC4101C23",
+   "n": "Tecnologia da Construção de Edifícios I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC1207C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC2104C23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EC4102C23",
+   "n": "Engenharia de Transportes",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EC4103C23",
+   "n": "Estruturas de Concreto lI",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 7,
+   "cod": "EC4104C23",
+   "n": "Estruturas Metálicas lI",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3203C23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EC4105C23",
+   "n": "Hidráulica II",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3204C23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EC4106C23",
+   "n": "Hidrologia",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3204C23"
+    ],
+    [
+     "Correquisito",
+     "EC4105C23"
+    ]
+   ]
+  },
+  {
+   "t": 7,
+   "cod": "EC4107C23",
+   "n": "Obras de Terra",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC2203C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC3104C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4201C23",
+   "n": "Concreto Protendido",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3107C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC3202C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4202C23",
+   "n": "Tecnologia da Construção de Edifícios II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC1207C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC2104C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4204C23",
+   "n": "Engenharia de Tráfego",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC4102C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4205C23",
+   "n": "Estruturas de Concreto IlI",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3202C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4206C23",
+   "n": "Fundações",
+   "aceu": null,
+   "ch": 45.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3205C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EC4207C23",
+   "n": "Saneamento Básico I",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3204C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC4105C23"
+    ]
+   ]
+  },
+  {
+   "t": 8,
+   "cod": "EE4203C23",
+   "n": "Eletricidade Básica",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 9,
+   "cod": "EC5101C23",
+   "n": "Aeroportos, Portos e Vias Navegáveis",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 9,
+   "cod": "EC5102C23",
+   "n": "Drenagem Urbana",
+   "aceu": null,
+   "ch": 45.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC4106C23"
+    ]
+   ]
+  },
+  {
+   "t": 9,
+   "cod": "EC5104C23",
+   "n": "Instalações Hidráulicas e Sanitárias",
+   "aceu": null,
+   "ch": 45.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3204C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC4105C23"
+    ]
+   ]
+  },
+  {
+   "t": 9,
+   "cod": "EC5105C23",
+   "n": "Pontes",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3102C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC4103C23"
+    ]
+   ]
+  },
+  {
+   "t": 9,
+   "cod": "EC5106C23",
+   "n": "Saneamento Básico II",
+   "aceu": null,
+   "ch": 60.0,
+   "tipo": "OBR",
+   "req": [
+    [
+     "Pré-Requisito",
+     "EC3204C23"
+    ],
+    [
+     "Pré-Requisito",
+     "EC4105C23"
+    ]
+   ]
+  },
+  {
+   "t": 9,
+   "cod": "EE5103C23",
+   "n": "Instalações Elétricas",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 10,
+   "cod": "CH0001F23",
+   "n": "Direito, Legislação e Ética",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 10,
+   "cod": "EC5201C23",
+   "n": "Resíduos Sólidos Urbanos",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  },
+  {
+   "t": 10,
+   "cod": "EP0002F23",
+   "n": "Fundamentos de Gestão Empresarial",
+   "aceu": null,
+   "ch": 30.0,
+   "tipo": "OBR",
+   "req": []
+  }
+ ],
+ "totais": {
+  "1": 315.0,
+  "2": 390.0,
+  "3": 390.0,
+  "4": 390.0,
+  "5": 375.0,
+  "6": 390.0,
+  "7": 360.0,
+  "8": 375.0,
+  "9": 300.0,
+  "10": 90.0
+ },
+ "resumo": [
+  "Componentes curriculares da estrutura proposta | Créditos | Horas",
+  "Disciplinas obrigatórias | 225 | 3375",
+  "Disciplinas optativas | 10 | 150",
+  "Atividades curriculares de Extensão Universitária | 28 | 420",
+  "Estágio Supervisionado | 11 | 165",
+  "Trabalho de Conclusão de Curso | 2 | 30",
+  "Atividades Complementares | 1 | 15",
+  "TOTAL | 277 | 4155"
+ ],
+ "observacoes": [
+  "Linha de EC2104C23 continua no topo da página 2 (texto de requisito: ['', '', '', '', 'I', '', '', '', '']); anexada à mesma disciplina.",
+  "Tabela-resumo 'Componentes curriculares da estrutura proposta' (fim da pág. 4) não tem camada de texto (lida só da imagem). Conferência: créditos 225+10+28+11+2+1=277; horas 3375+150+420+165+30+15=4155; soma dos 10 'Total de Carga Horária' = 3375 = Disciplinas obrigatórias (225 créd. x 15 h).",
+  "Cabeçalho da tabela da Série 3 - Período 2 (topo da pág. 3) traz um texto 'Exclir' na penúltima coluna extra à direita de Duração; nenhuma linha tem conteúdo nessa coluna.",
+  "Coluna CH Aceu vazia em todas as linhas (aceu=null).",
+  "Todas as disciplinas: Tipo OBR, Duração Semestral.",
+  "Lacunas de numeração apenas registradas (não são erro de leitura): não há EC4203C23 (há EE4203C23 no termo 8) nem EC5103C23 (há EE5103C23 no termo 9).",
+  "Grafias literais da camada de texto com 'l' minúsculo no lugar de 'I' (na imagem a fonte não distingue): lsostática, Construção ll, Materiais l/ll, Solos l, Estruturas l/ll, Concreto l, Hidráulica l, Concreto lI, Metálicas lI, Concreto IlI; as mesmas grafias aparecem nos textos de requisito (ex.: '- lsostática', '- Hidráulica l').",
+  "Páginas 5 e 6 em branco.",
+  "Atribuição de requisitos feita pelas células da tabela (segmentos verticais das bordas no PDF, conferidos com pdfplumber top/bottom) e confirmada visualmente nos recortes a 200 dpi; nenhuma atribuição ficou ambígua.",
+  "Somas por termo (CH Aceu + Carga Horária) conferem com todos os 'Total de Carga Horária' impressos."
+ ]
+}

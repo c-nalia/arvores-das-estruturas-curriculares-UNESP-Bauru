@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 18 de 18 — Engenharia Civil
+
+Título: Numerais romanos gravados com a letra l no texto do PDF
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+Na camada de texto do PDF, vários numerais romanos estão digitados com a letra “l” minúscula no lugar de “I” (ex.: “Hidráulica l”, “Estruturas de Concreto lI”, “lsostática”). Na tela não se nota, mas quem copia o texto ou usa leitor de tela recebe o nome errado. Cada nome afetado tem o seu próprio arquivo nesta pasta.
+
+EVIDÊNCIA
+pdftotext de ecivil.pdf; 12 nomes com “l” e “lsostática”.
+
+CORREÇÃO NECESSÁRIA
+Corrigir os nomes no cadastro das disciplinas (digitar “I” maiúsculo) e gerar o PDF de novo.
+
+Referência: Relatório, seção 7
+Situação: pendente

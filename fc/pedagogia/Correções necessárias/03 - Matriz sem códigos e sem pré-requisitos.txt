@@ -1,0 +1,18 @@
+CORREÇÃO NECESSÁRIA nº 03 de 4 — Pedagogia
+
+Título: Matriz sem códigos e sem pré-requisitos
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+A matriz traz só nomes e créditos. Sem códigos e pré-requisitos, a árvore da Pedagogia não tem ligações.
+
+EVIDÊNCIA
+PDF de 1 página; transcrição independente.
+
+CORREÇÃO NECESSÁRIA
+Publicar a relação com códigos e requisitos (por exemplo, a do Sistema de Graduação).
+
+Referência: Relatório, seção 6
+Situação: pendente

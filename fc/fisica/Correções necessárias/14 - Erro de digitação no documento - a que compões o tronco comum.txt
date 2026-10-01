@@ -1,0 +1,21 @@
+CORREÇÃO NECESSÁRIA nº 14 de 21 — Física
+
+Título: Erro de digitação no documento - a que compões o tronco comum
+Gravidade: BAIXA
+Onde corrigir: DOCUMENTO
+Responsável: Conselho de Curso / Seção Técnica de Graduação (documento oficial)
+
+O QUE ESTÁ ERRADO
+No documento “Grade das disciplinas por termos…”, 4º parágrafo, está escrito:
+    “a que compões o tronco comum”
+O correto é:
+    “as que compõem o tronco comum”
+
+EVIDÊNCIA
+grade-por-termo-com-ementa-e-objetivo-2.pdf. O site não reproduz esse trecho.
+
+CORREÇÃO NECESSÁRIA
+Corrigir o texto do documento.
+
+Referência: Novo (encontrado ao detalhar as correções)
+Situação: pendente

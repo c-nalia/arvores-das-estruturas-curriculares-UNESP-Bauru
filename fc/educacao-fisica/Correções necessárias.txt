@@ -1,0 +1,55 @@
+CORREÇÕES NECESSÁRIAS — Educação Física
+Pasta: fc/educacao-fisica
+Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
+
+Total: 21 correção(ões) — 1 crítica(s), 8 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+
+Onde corrigir:
+  SITE      = arquivos deste projeto (quem mantém o site)
+  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
+  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
+
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+      arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
+02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+      arquivo: Correções necessárias/02 - Instâncias antigas continuam ativas a cada troca de currículo.txt
+03. [MÉDIA] [SITE] TCC II repetido sem indicação de anual - 2610 Bacharelado (integral)
+      arquivo: Correções necessárias/03 - TCC II repetido sem indicação de anual - 2610 Bacharelado (integral).txt
+04. [MÉDIA] [SITE] TCC II repetido sem indicação de anual - 2610 Licenciatura (integral)
+      arquivo: Correções necessárias/04 - TCC II repetido sem indicação de anual - 2610 Licenciatura (integral).txt
+05. [MÉDIA] [SITE] TCC II repetido sem indicação de anual - 2611 Bacharelado (noturno)
+      arquivo: Correções necessárias/05 - TCC II repetido sem indicação de anual - 2611 Bacharelado (noturno).txt
+06. [MÉDIA] [SITE] TCC II repetido sem indicação de anual - 2611 Licenciatura (noturno)
+      arquivo: Correções necessárias/06 - TCC II repetido sem indicação de anual - 2611 Licenciatura (noturno).txt
+07. [MÉDIA] [DOCUMENTO] 2611 Bacharelado - total do 4º termo (22) diferente da soma (20)
+      arquivo: Correções necessárias/07 - 2611 Bacharelado - total do 4º termo (22) diferente da soma (20).txt
+08. [MÉDIA] [DOCUMENTO] 2611 Bacharelado - total do 5º termo (20) diferente da soma (22)
+      arquivo: Correções necessárias/08 - 2611 Bacharelado - total do 5º termo (20) diferente da soma (22).txt
+09. [MÉDIA] [DOCUMENTO] 2610 Bacharelado - “147 Créditos – 2005 H/A” no quadro
+      arquivo: Correções necessárias/09 - 2610 Bacharelado - 147 Créditos – 2005 HA no quadro.txt
+10. [BAIXA] [SITE] Marca “A” da coluna Cód. descartada (2610 Licenciatura)
+      arquivo: Correções necessárias/10 - Marca A da coluna Cód. descartada (2610 Licenciatura).txt
+11. [BAIXA] [DECISÃO] Grafia no documento - Processos de Produção e do Conhecimento Científico em Educaç
+      arquivo: Correções necessárias/11 - Grafia no documento - Processos de Produção e do Conhecimento Científico em Educaç.txt
+12. [BAIXA] [DECISÃO] Maiúsculas não uniformes - hipertensão e cardiovascular (2610 Bacharelado)
+      arquivo: Correções necessárias/12 - Maiúsculas não uniformes - hipertensão e cardiovascular (2610 Bacharelado).txt
+13. [BAIXA] [DECISÃO] Maiúsculas não uniformes - hipertensão e cardiovascular (2611 Bacharelado)
+      arquivo: Correções necessárias/13 - Maiúsculas não uniformes - hipertensão e cardiovascular (2611 Bacharelado).txt
+14. [BAIXA] [DOCUMENTO] Grafia no documento - Práticas Formativas em Bases Teórico-Prática do Treinamento 
+      arquivo: Correções necessárias/14 - Grafia no documento - Práticas Formativas em Bases Teórico-Prática do Treinamento.txt
+15. [BAIXA] [DOCUMENTO] Grafia no documento - Fisiopatologia e Tratamento pelo Exercício: Distúrbios do Ap
+      arquivo: Correções necessárias/15 - Grafia no documento - Fisiopatologia e Tratamento pelo Exercício Distúrbios do Ap.txt
+16. [BAIXA] [DOCUMENTO] Grafia no documento - Estágio Supervisionado em Fisiopatologia e Tratamento pelo E
+      arquivo: Correções necessárias/16 - Grafia no documento - Estágio Supervisionado em Fisiopatologia e Tratamento pelo E.txt
+17. [BAIXA] [DOCUMENTO] Grafia no documento - Práticas Formativas em Princípios e Técnicas da Prescrição p
+      arquivo: Correções necessárias/17 - Grafia no documento - Práticas Formativas em Princípios e Técnicas da Prescrição p.txt
+18. [BAIXA] [DOCUMENTO] Grafia no documento - Estágio Supervisionado em Princípios e Técnicas da prescriçã
+      arquivo: Correções necessárias/18 - Grafia no documento - Estágio Supervisionado em Princípios e Técnicas da prescriçã.txt
+19. [BAIXA] [DOCUMENTO] Grafia no documento - Estagio Supervisionado em Fisiopatologia e Tratamento pelo E
+      arquivo: Correções necessárias/19 - Grafia no documento - Estagio Supervisionado em Fisiopatologia e Tratamento pelo E.txt
+20. [BAIXA] [DOCUMENTO] 2611 Bacharelado - título “Licenciatura em Educação Física: Bacharelado”
+      arquivo: Correções necessárias/20 - 2611 Bacharelado - título Licenciatura em Educação Física Bacharelado.txt
+21. [BAIXA] [DOCUMENTO] Pré-requisitos indicados por siglas
+      arquivo: Correções necessárias/21 - Pré-requisitos indicados por siglas.txt
+
+Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

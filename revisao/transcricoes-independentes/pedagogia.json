@@ -1,0 +1,384 @@
+{
+ "titulo": "Estrutura Curricular do Curso Pedagogia – Proposta de Reestruturação 2023",
+ "termos": [
+  {
+   "termo": 1,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "História da Educação",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Filosofia da Educação I",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Psicologia da Educação I",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Fundamentos da Educação",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Sociologia da Educação I",
+     "creditos": 4,
+     "horas": null
+    }
+   ],
+   "ch_rodape": "300 horas",
+   "soma_creditos": 20
+  },
+  {
+   "termo": 2,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "História da Educação Brasileira",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Filosofia da Educação II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Psicologia da Educação II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Leitura e Produção de Textos",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Sociologia da Educação II",
+     "creditos": 4,
+     "horas": null
+    }
+   ],
+   "ch_rodape": "300 horas",
+   "soma_creditos": 20
+  },
+  {
+   "termo": 3,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "Política Educacional e Legislação de Ensino",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Metodologia da Pesquisa Científica I",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": "2 (subcélula inferior)",
+     "nome": "História da Infância",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Expressão Oral e Escrita na Educação Infantil",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Currículos, Programas e Projetos",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Didática I",
+     "creditos": 4,
+     "horas": null
+    }
+   ],
+   "ch_rodape": "300 horas",
+   "soma_creditos": 20
+  },
+  {
+   "termo": 4,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "Didática II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Metodologia da Pesquisa Científica II",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": "2 (subcélula inferior)",
+     "nome": "Ludicidade e Educação",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Alfabetização e Letramento",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Corporeidade e Educação",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Educação Especial e Inclusiva",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 6,
+     "nome": "Introdução à LIBRAS",
+     "creditos": 4,
+     "horas": null
+    }
+   ],
+   "ch_rodape": "360 horas",
+   "soma_creditos": 24
+  },
+  {
+   "termo": 5,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "Língua Portuguesa: conteúdos e metodologias I",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Políticas Públicas para a Infância e Juventude",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Educação Física: conteúdos e metodologias",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Matemática: conteúdos e metodologias I",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Organização do Trabalho Pedagógico na Educação Infantil",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 6,
+     "nome": "Práxis Pedagógica I",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 7,
+     "nome": "Estágio Curricular Supervisionado na Educação Básica I",
+     "creditos": 9,
+     "horas": 135
+    }
+   ],
+   "ch_rodape": "360 horas + 135 horas / 495 horas",
+   "soma_creditos": 33
+  },
+  {
+   "termo": 6,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "Língua Portuguesa: conteúdos e metodologias II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Geografia: conteúdos e metodologias",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Arte: conteúdos e metodologias",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Matemática: conteúdos e metodologias II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Organização do Trabalho Pedagógico no Ensino Fundamental – anos iniciais",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 6,
+     "nome": "Práxis Pedagógica II",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 7,
+     "nome": "Estágio Curricular Supervisionado na Educação Básica II",
+     "creditos": 9,
+     "horas": 135
+    }
+   ],
+   "ch_rodape": "360 horas + 135 horas / 495 horas",
+   "soma_creditos": 33
+  },
+  {
+   "termo": 7,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "História: conteúdos e metodologias",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Trabalho de Conclusão de Curso I",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": "2 (subcélula inferior)",
+     "nome": "Problemas de aprendizagem escolar I",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Ciências da natureza: conteúdos e metodologias",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Literatura Infantojuvenil",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Gestão da Educação Básica",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 6,
+     "nome": "Práxis Pedagógica III",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 7,
+     "nome": "Estágio Curricular Supervisionado na Educação Básica III",
+     "creditos": 10,
+     "horas": 150
+    }
+   ],
+   "ch_rodape": "360 horas + 150 horas / 510 horas",
+   "soma_creditos": 34
+  },
+  {
+   "termo": 8,
+   "componentes": [
+    {
+     "linha": 1,
+     "nome": "Cultura e Educação",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 2,
+     "nome": "Trabalho de Conclusão de Curso II",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": "2 (subcélula inferior)",
+     "nome": "Problemas de aprendizagem escolar II",
+     "creditos": 2,
+     "horas": null
+    },
+    {
+     "linha": 3,
+     "nome": "Tecnologias digitais na prática pedagógica",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 4,
+     "nome": "Organização do Trabalho na escola e a Coordenação Pedagógica",
+     "creditos": 4,
+     "horas": null
+    },
+    {
+     "linha": 5,
+     "nome": "Organização do Trabalho Pedagógico na Educação de Jovens e Adultos",
+     "creditos": 4,
+     "horas": null
+    }
+   ],
+   "ch_rodape": "300 horas",
+   "soma_creditos": 20
+  }
+ ],
+ "observacoes": [
+  "1º Termo: 20 créditos × 15 = 300 h; rodapé '300 horas' → confere",
+  "2º Termo: 20 créditos × 15 = 300 h; rodapé '300 horas' → confere",
+  "3º Termo: 20 créditos × 15 = 300 h; rodapé '300 horas' → confere",
+  "4º Termo: 24 créditos × 15 = 360 h; rodapé '360 horas' → confere",
+  "5º Termo: 33 créditos × 15 = 495 h; rodapé '360 horas + 135 horas / 495 horas' → confere",
+  "6º Termo: 33 créditos × 15 = 495 h; rodapé '360 horas + 135 horas / 495 horas' → confere",
+  "7º Termo: 34 créditos × 15 = 510 h; rodapé '360 horas + 150 horas / 510 horas' → confere",
+  "8º Termo: 20 créditos × 15 = 300 h; rodapé '300 horas' → confere",
+  "Total geral: 204 créditos = 3060 h (soma dos rodapés: 3060 h). Nenhuma divergência.",
+  "Título: 'Estrutura Curricular do Curso Pedagogia – Proposta de Reestruturação 2023'.",
+  "Linhas 6 e 7 vazias nos termos 1–3 e 8 (linha 7 vazia também no 4º); linha 6 vazia no 8º.",
+  "Linha 2 dos termos 3, 4, 7 e 8 é dividida em duas subcélulas (2 cr + 2 cr); nos termos 1, 2, 5 e 6 é uma célula única de 4 cr.",
+  "Rodapé dos termos 5–7 impresso em duas linhas: '360 horas + 135 horas' / '495 horas' (5º e 6º) e '360 horas + 150 horas' / '510 horas' (7º); os 135/150 h são do Estágio Curricular Supervisionado (impresso '(135 horas)'/'(150 horas)' + '(9 créditos)'/'(10 créditos)').",
+  "Espaçamento no original: 'Expressão Oral      e Escrita...', 'Alfabetização  e Letramento', 'Corporeidade   e Educação' (espaços extras normalizados para um). Minúsculas literais: 'conteúdos e metodologias', 'Ciências da natureza', 'Problemas de aprendizagem escolar', 'Tecnologias digitais na prática pedagógica', 'Organização do Trabalho na escola e a Coordenação Pedagógica'.",
+  "A grade não traz pré-requisitos nem correquisitos."
+ ]
+}
