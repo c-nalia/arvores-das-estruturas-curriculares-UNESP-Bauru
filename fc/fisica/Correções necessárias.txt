@@ -2,20 +2,20 @@ CORREÇÕES NECESSÁRIAS — Física
 Pasta: fc/fisica
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 21 correção(ões) — 1 crítica(s), 2 alta(s), 5 média(s), 13 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 21 correção(ões) — 1 crítica(s), 2 alta(s), 5 média(s), 13 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 2; pendentes: 19.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
   DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
   DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
 
-01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo — CORRIGIDO
       arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
 02. [ALTA] [SITE] Pré-requisito formal ausente - Introdução à Pesquisa em Ensino de Ciências
       arquivo: Correções necessárias/02 - Pré-requisito formal ausente - Introdução à Pesquisa em Ensino de Ciências.txt
 03. [ALTA] [SITE] Aviso falso - “pré-requisito recomendado” em só dois casos
       arquivo: Correções necessárias/03 - Aviso falso - pré-requisito recomendado em só dois casos.txt
-04. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+04. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo — CORRIGIDO
       arquivo: Correções necessárias/04 - Instâncias antigas continuam ativas a cada troca de currículo.txt
 05. [MÉDIA] [SITE] Pré-requisitos recomendados não aparecem nas disciplinas
       arquivo: Correções necessárias/05 - Pré-requisitos recomendados não aparecem nas disciplinas.txt

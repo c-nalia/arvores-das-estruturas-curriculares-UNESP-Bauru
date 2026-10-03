@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Engenharia Civil
 Pasta: feb/engenharia-civil
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 18 correção(ões) — 1 alta(s), 17 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 18 correção(ões) — 1 alta(s), 17 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 17.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -11,7 +11,7 @@ Onde corrigir:
 
 01. [ALTA] [SITE] Quadro de integralização e exigência de optativas ausentes
       arquivo: Correções necessárias/01 - Quadro de integralização e exigência de optativas ausentes.txt
-02. [BAIXA] [SITE] Nome da unidade redundante
+02. [BAIXA] [SITE] Nome da unidade redundante — CORRIGIDO
       arquivo: Correções necessárias/02 - Nome da unidade redundante.txt
 03. [BAIXA] [DOCUMENTO] Grafia no documento - lsostática
       arquivo: Correções necessárias/03 - Grafia no documento - lsostática.txt

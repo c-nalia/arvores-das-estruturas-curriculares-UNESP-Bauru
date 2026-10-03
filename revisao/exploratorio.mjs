@@ -29,7 +29,7 @@ await t("X01", "iframe: após trocar de currículo várias vezes e redimensionar
 });
 await t("X02", "trocar de currículo não acumula instâncias ativas (ouvintes de resize/ResizeObserver)", async () => {
   const pg = await nova();
-  await pg.addInitScript(() => { window.__resize = 0; const o = window.addEventListener; window.addEventListener = function (tp, ...a) { if (tp === "resize") window.__resize++; return o.call(this, tp, ...a); }; });
+  await pg.addInitScript(() => { window.__resize = 0; const o = window.addEventListener; window.addEventListener = function (tp, ...a) { if (tp === "resize") window.__resize++; return o.call(this, tp, ...a); }; const r = window.removeEventListener; window.removeEventListener = function (tp, ...a) { if (tp === "resize") window.__resize--; return r.call(this, tp, ...a); }; });
   await pg.goto(url("fc/fisica/index.html")); await pg.waitForTimeout(300);
   const r0 = await pg.evaluate(() => window.__resize);
   for (let i = 0; i < 6; i++) { await pg.click(`[data-curriculo="${i % 2 ? "fisica-1606-licenciatura" : "fisica-1606-materiais"}"]`); await pg.waitForTimeout(100); }

@@ -15,4 +15,10 @@ CORREÇÃO NECESSÁRIA
 Em assets/arvore-grade.js, função aplicarBusca: comparar também com o campo “cod” (código exibido), ignorando espaços e hifens.
 
 Referência: Relatório, M2
-Situação: pendente
+Situação: CORRIGIDO em 01/10/2026
+
+O QUE FOI FEITO
+assets/arvore-grade.js: a busca compara também o código exibido (campo cod) e uma forma sem espaços, hífens e pontos.
+
+TESTE QUE COBRE
+testes/e2e.mjs T31 e T32; revisao/exploratorio.mjs X03

@@ -15,4 +15,10 @@ CORREÇÃO NECESSÁRIA
 Usar “Faculdade de Engenharia · Câmpus de Bauru” (ou “Faculdade de Engenharia de Bauru (FEB)”) e regerar.
 
 Referência: Relatório, B2
-Situação: pendente
+Situação: CORRIGIDO em 01/10/2026
+
+O QUE FOI FEITO
+ferramentas/construir.py: UNIDADES["FEB"] passou a “Faculdade de Engenharia · Câmpus de Bauru”; os 4 cursos foram gerados de novo (nenhum número mudou).
+
+TESTE QUE COBRE
+testes/e2e.mjs T34

@@ -15,4 +15,10 @@ CORREÇÃO NECESSÁRIA
 Em assets/arvore-grade.js: (1) a função montar deve devolver uma rotina de desmontagem que remova ouvintes e observadores; (2) montarSeletor deve chamá-la antes de montar o currículo seguinte; (3) avisarAltura não deve enviar nada quando raiz.isConnected for falso.
 
 Referência: Relatório, C2
-Situação: pendente
+Situação: CORRIGIDO em 01/10/2026
+
+O QUE FOI FEITO
+assets/arvore-grade.js: a árvore retirada da página não envia mais a altura (verifica raiz.isConnected) e o seletor desmonta a árvore anterior antes de montar a seguinte.
+
+TESTE QUE COBRE
+testes/e2e.mjs T29; revisao/exploratorio.mjs X01

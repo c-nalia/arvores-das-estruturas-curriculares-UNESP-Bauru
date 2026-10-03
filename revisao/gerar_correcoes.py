@@ -557,6 +557,22 @@ for arq in glob.glob(os.path.join(RAIZ, "ferramentas", "cursos-gerados.json")):
 NOMES.update({"fc/bcc": "Bacharelado em Ciência da Computação", "fc/bsi": "Bacharelado em Sistemas de Informação", G: "Itens gerais do projeto (não pertencem a um curso)"})
 RESP = {"SITE": "quem mantém o site (arquivos deste projeto)", "DOCUMENTO": "Conselho de Curso / Seção Técnica de Graduação (documento oficial)",
         "DECISÃO": "Conselho de Curso decide; depois, quem mantém o site aplica"}
+# Itens já corrigidos no site: (expressão no título, o que foi feito, teste que cobre)
+import re as _re
+RESOLVIDOS = [
+    (r"^Iframe fica com altura zero", "assets/arvore-grade.js: a árvore retirada da página não envia mais a altura (verifica raiz.isConnected) e o seletor desmonta a árvore anterior antes de montar a seguinte.", "testes/e2e.mjs T29; revisao/exploratorio.mjs X01"),
+    (r"^Instâncias antigas continuam ativas", "assets/arvore-grade.js: montar() devolve desmontar(), que remove o ouvinte de resize e o ResizeObserver; montarSeletor chama desmontar() a cada troca.", "testes/e2e.mjs T30; revisao/exploratorio.mjs X02"),
+    (r"^Busca não encontra o código", "assets/arvore-grade.js: a busca compara também o código exibido (campo cod) e uma forma sem espaços, hífens e pontos.", "testes/e2e.mjs T31 e T32; revisao/exploratorio.mjs X03"),
+    (r"^Nome da unidade redundante", "ferramentas/construir.py: UNIDADES[\"FEB\"] passou a “Faculdade de Engenharia · Câmpus de Bauru”; os 4 cursos foram gerados de novo (nenhum número mudou).", "testes/e2e.mjs T34"),
+    (r"^Lista por termo mostra a coluna Carga vazia", "assets/arvore-grade.js: a coluna “Carga” não é gerada quando o currículo tem semCarga.", "testes/e2e.mjs T33; revisao/exploratorio.mjs X12"),
+]
+TOTAL_FEITOS = 0
+def situacao(titulo):
+    for exp, feito, teste in RESOLVIDOS:
+        if _re.search(exp, titulo):
+            return ["Situação: CORRIGIDO em 01/10/2026", "", "O QUE FOI FEITO", feito, "", "TESTE QUE COBRE", teste, ""]
+    return ["Situação: pendente", ""]
+
 total = 0
 resumo = []
 for pasta in sorted(ITENS):
@@ -570,20 +586,24 @@ for pasta in sorted(ITENS):
               "Onde corrigir:", "  SITE      = arquivos deste projeto (quem mantém o site)", "  DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)",
               "  DECISÃO   = a coordenação precisa decidir antes de qualquer alteração", ""]
     cont = {}
+    feitos = 0
     for i, it in enumerate(itens, 1):
         nome = nome_arquivo(i, it["titulo"])
         cont[it["grav"]] = cont.get(it["grav"], 0) + 1
-        linhas.append(f"{i:02d}. [{it['grav']}] [{it['onde']}] {it['titulo']}")
+        feito = situacao(it["titulo"])[0] != "Situação: pendente"
+        feitos += 1 if feito else 0
+        linhas.append(f"{i:02d}. [{it['grav']}] [{it['onde']}] {it['titulo']}" + (" — CORRIGIDO" if feito else ""))
         linhas.append(f"      arquivo: Correções necessárias/{nome}")
         corpo = [f"CORREÇÃO NECESSÁRIA nº {i:02d} de {len(itens)} — {curso}", "", f"Título: {it['titulo']}", f"Gravidade: {it['grav']}",
                  f"Onde corrigir: {it['onde']}", f"Responsável: {RESP[it['onde']]}", "", "O QUE ESTÁ ERRADO", it["errado"], "", "EVIDÊNCIA", it["evidencia"], "",
-                 "CORREÇÃO NECESSÁRIA", it["correcao"], "", f"Referência: {it['ref']}", "Situação: pendente", ""]
+                 "CORREÇÃO NECESSÁRIA", it["correcao"], "", f"Referência: {it['ref']}"] + situacao(it["titulo"])
         open(os.path.join(sub, nome), "w", encoding="utf-8", newline="\r\n").write("\n".join(corpo))
         total += 1
-    linhas[4] = f"Total: {len(itens)} correção(ões) — " + ", ".join(f"{v} {k.lower()}(s)" for k, v in sorted(cont.items(), key=lambda kv: ORDEM[kv[0]])) + ". Cada uma tem o seu arquivo na pasta “Correções necessárias”."
+    linhas[4] = f"Total: {len(itens)} correção(ões) — " + ", ".join(f"{v} {k.lower()}(s)" for k, v in sorted(cont.items(), key=lambda kv: ORDEM[kv[0]])) + ". Cada uma tem o seu arquivo na pasta “Correções necessárias”." + (f" Já corrigidas: {feitos}; pendentes: {len(itens) - feitos}." if feitos else "")
+    TOTAL_FEITOS += feitos
     linhas += ["", "Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js."]
     open(os.path.join(base, "Correções necessárias.txt"), "w", encoding="utf-8", newline="\r\n").write("\n".join(linhas) + "\n")
     resumo.append((pasta, len(itens), cont))
 for p, n, c in resumo:
     print(f"{p:<34} {n:>3}  " + ", ".join(f"{v} {k}" for k, v in sorted(c.items(), key=lambda kv: ORDEM[kv[0]])))
-print("total de arquivos de correção:", total, "em", len(resumo), "pastas")
+print("total de arquivos de correção:", total, "em", len(resumo), "pastas; corrigidos:", TOTAL_FEITOS)

@@ -1,7 +1,7 @@
 /*
  * Árvore de Grade — dados do curso
  * Engenharia Civil · Currículo 0104
- * Faculdade de Engenharia de Bauru · Câmpus de Bauru
+ * Faculdade de Engenharia · Câmpus de Bauru
  *
  * ARQUIVO GERADO por ferramentas/construir.py a partir de "planos de ensino/FEB/DEC/Engenharia_Civil".
  * Não edite à mão: corrija a fonte, a transcrição ou a tabela de correções e gere de novo.
@@ -14,7 +14,7 @@ ArvoreGrade.registrar({
   "curso": "Engenharia Civil",
   "curriculo": "0104",
   "vigencia": "Ingressantes a partir de 2023",
-  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru",
+  "unidade": "Faculdade de Engenharia · Câmpus de Bauru",
   "atualizadoEm": "2026-09-30",
   "rotuloTermo": "serie-periodo",
   "tiposNoDocumento": true,

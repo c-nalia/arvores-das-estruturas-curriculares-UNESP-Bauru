@@ -273,6 +273,74 @@ await teste("T28", "índice lista os 20 cursos e todos os links levam a páginas
   return (cursos === 20 && !faltam.length) || `cursos=${cursos} faltam=${faltam.join(", ")}`;
 });
 
+// ---- regressões da revisão de 01/10/2026 (tipo 3: defeitos do componente e da exibição) ----
+await teste("T29", "iframe com ajuste de altura: trocar de currículo não envia altura anômala nem encolhe o iframe", async () => {
+  const pg = await nova(1200, 800); await pg.goto(url("index.html"));
+  await pg.evaluate((src) => {
+    document.body.innerHTML = '<iframe class="arvore-grade" src="' + src + '" style="width:100%;border:0;height:600px"></iframe>';
+    window.__alturas = [];
+    window.addEventListener("message", (e) => { if (e.data && e.data.tipo === "arvore-grade:altura") { window.__alturas.push(e.data.altura); document.querySelector("iframe").style.height = e.data.altura + "px"; } });
+  }, url("fc/fisica/index.html?embed=1"));
+  await pg.waitForTimeout(1200);
+  const fl = pg.frameLocator("iframe");
+  for (const id of ["fisica-1606-materiais", "fisica-1606-computacional", "fisica-1606-licenciatura", "fisica-1606-materiais"]) { await fl.locator(`[data-curriculo="${id}"]`).click(); await pg.waitForTimeout(500); }
+  await pg.setViewportSize({ width: 900, height: 800 }); await pg.waitForTimeout(800);
+  const f = pg.frames().find((x) => x !== pg.mainFrame());
+  const real = await f.evaluate(() => Math.ceil(document.querySelector(".ag-container").getBoundingClientRect().bottom + scrollY + parseFloat(getComputedStyle(document.body).paddingBottom || 0)));
+  const ifr = parseInt(await pg.$eval("iframe", (e) => e.style.height));
+  const mins = await pg.evaluate(() => window.__alturas.filter((a) => a < 400));
+  return (Math.abs(real - ifr) <= 4 && !mins.length) || `iframe ${ifr}px × conteúdo ${real}px; alturas anômalas: ${mins.join(",")}`;
+});
+
+await teste("T30", "seletor: a árvore anterior é desmontada (ouvintes de resize não se acumulam)", async () => {
+  const pg = await nova();
+  await pg.addInitScript(() => { window.__resize = 0; const o = window.addEventListener, r = window.removeEventListener; window.addEventListener = function (tp, ...a) { if (tp === "resize") window.__resize++; return o.call(this, tp, ...a); }; window.removeEventListener = function (tp, ...a) { if (tp === "resize") window.__resize--; return r.call(this, tp, ...a); }; });
+  await pg.goto(url("fc/fisica/index.html")); await pg.waitForTimeout(300);
+  const r0 = await pg.evaluate(() => window.__resize);
+  for (let i = 0; i < 6; i++) { await pg.click(`[data-curriculo="${i % 2 ? "fisica-1606-licenciatura" : "fisica-1606-materiais"}"]`); await pg.waitForTimeout(100); }
+  const r1 = await pg.evaluate(() => window.__resize);
+  const arvores = await pg.locator(".ag[data-curso]").count();
+  return (r1 === r0 && arvores === 1 && !pg.erros.length) || `ouvintes ${r0} → ${r1}; árvores na página: ${arvores}; erros: ${pg.erros.join(" | ")}`;
+});
+
+await teste("T31", "busca pelo código como impresso no documento, com ou sem espaço e hífen", async () => {
+  const falhas = [];
+  for (const [pagina, termo] of [["faac/artes-visuais/index.html", "ART-E 01"], ["faac/artes-visuais/index.html", "art-e01"], ["faac/artes-visuais/index.html", "arte 01"], ["faac/comunicacao-audiovisual/index.html", "RTVI-E 35"], ["faac/jornalismo/index.html", null], ["faac/relacoes-publicas/index.html", null], ["faac/arquitetura-e-urbanismo/index.html", null], ["fc/bcc/index.html", null]]) {
+    const pg = await nova(); await pg.goto(url(pagina)); await pg.waitForTimeout(300);
+    // sem termo fixo: usa o código exibido na primeira linha da lista
+    const q = termo || await pg.evaluate(() => { const td = [...document.querySelectorAll(".ag-tabela tr[data-c] td:first-child")].find((x) => x.textContent.trim() !== "—"); return td.textContent.trim(); });
+    await pg.fill('input[type="search"]', q);
+    const n = await pg.locator(".ag-card.achado").count();
+    if (n !== 1) falhas.push(`${pagina}: “${q}” → ${n}`);
+    await pg.context().close();
+  }
+  return !falhas.length || falhas.join("; ");
+});
+
+await teste("T32", "busca por nome com números não é afetada pela comparação de códigos", async () => {
+  const pg = await nova(); await pg.goto(url("fc/bcc/index.html")); await pg.waitForTimeout(300);
+  await pg.fill('input[type="search"]', "calculo");
+  const porNome = await pg.locator(".ag-card.achado").count();
+  await pg.fill('input[type="search"]', "zzz 99");
+  const nada = await pg.locator(".ag-card.achado").count();
+  return (porNome > 0 && nada === 0) || `“calculo” → ${porNome}; “zzz 99” → ${nada}`;
+});
+
+await teste("T33", "currículo sem carga (Design): lista por termo não tem coluna “Carga”; os demais têm", async () => {
+  const pg = await nova(); await pg.goto(url("faac/design/index.html")); await pg.waitForTimeout(300);
+  const d = await pg.evaluate(() => ({ th: [...document.querySelectorAll(".ag-vista-lista .ag-tabela thead th")].filter((x) => x.textContent === "Carga").length, td: document.querySelectorAll('.ag-vista-lista td[data-rot="Carga"]').length }));
+  await pg.goto(url("fc/bcc/index.html")); await pg.waitForTimeout(300);
+  const b = await pg.evaluate(() => document.querySelectorAll('.ag-vista-lista td[data-rot="Carga"]').length);
+  return (d.th === 0 && d.td === 0 && b > 0) || `Design: th=${d.th} td=${d.td}; BCC: td=${b}`;
+});
+
+await teste("T34", "FEB: nome da unidade sem repetição de “de Bauru”", async () => {
+  const ruins = gerados.filter((g) => /de Bauru.*de Bauru/.test(g.unidade || "")).map((g) => g.pasta || g.id);
+  const pg = await nova(); await pg.goto(url("feb/engenharia-civil/index.html")); await pg.waitForTimeout(300);
+  const txt = await pg.evaluate(() => document.querySelector(".ag").textContent);
+  return (!ruins.length && !/Faculdade de Engenharia de Bauru · Câmpus de Bauru/.test(txt)) || `repetição em: ${ruins.join(", ") || "página da Eng. Civil"}`;
+});
+
 await browser.close();
 const w = Math.max(...resultados.map((r) => r[0].length));
 resultados.forEach(([id, st, nome, det]) => console.log(`${st.padEnd(5)} ${id.padEnd(w)}  ${nome}${det ? "\n        → " + det : ""}`));

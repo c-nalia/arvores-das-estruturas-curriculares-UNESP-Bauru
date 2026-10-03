@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Engenharia de Produção
 Pasta: feb/engenharia-de-producao
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 8 correção(ões) — 1 crítica(s), 1 alta(s), 6 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 8 correção(ões) — 1 crítica(s), 1 alta(s), 6 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 7.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -13,7 +13,7 @@ Onde corrigir:
       arquivo: Correções necessárias/01 - Correquisito de Gestão de Custos atribuído à disciplina errada.txt
 02. [ALTA] [SITE] Quadro de integralização e exigência de optativas ausentes
       arquivo: Correções necessárias/02 - Quadro de integralização e exigência de optativas ausentes.txt
-03. [BAIXA] [SITE] Nome da unidade redundante
+03. [BAIXA] [SITE] Nome da unidade redundante — CORRIGIDO
       arquivo: Correções necessárias/03 - Nome da unidade redundante.txt
 04. [BAIXA] [DOCUMENTO] Total do 2º termo não inclui a CH ACEU
       arquivo: Correções necessárias/04 - Total do 2º termo não inclui a CH ACEU.txt

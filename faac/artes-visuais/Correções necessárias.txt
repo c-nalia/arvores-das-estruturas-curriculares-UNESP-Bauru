@@ -2,18 +2,18 @@ CORREÇÕES NECESSÁRIAS — Artes Visuais
 Pasta: faac/artes-visuais
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 8 correção(ões) — 1 crítica(s), 2 média(s), 5 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 8 correção(ões) — 1 crítica(s), 2 média(s), 5 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 3; pendentes: 5.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
   DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
   DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
 
-01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo — CORRIGIDO
       arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
-02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo — CORRIGIDO
       arquivo: Correções necessárias/02 - Instâncias antigas continuam ativas a cada troca de currículo.txt
-03. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+03. [MÉDIA] [SITE] Busca não encontra o código como está no documento — CORRIGIDO
       arquivo: Correções necessárias/03 - Busca não encontra o código como está no documento.txt
 04. [BAIXA] [DECISÃO] Maiúsculas não uniformes - Antropologia visual
       arquivo: Correções necessárias/04 - Maiúsculas não uniformes - Antropologia visual.txt

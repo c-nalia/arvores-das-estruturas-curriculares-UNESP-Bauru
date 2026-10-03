@@ -2,16 +2,16 @@ CORREÇÕES NECESSÁRIAS — Educação Física
 Pasta: fc/educacao-fisica
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 21 correção(ões) — 1 crítica(s), 8 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 21 correção(ões) — 1 crítica(s), 8 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 2; pendentes: 19.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
   DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
   DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
 
-01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo — CORRIGIDO
       arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
-02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+02. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo — CORRIGIDO
       arquivo: Correções necessárias/02 - Instâncias antigas continuam ativas a cada troca de currículo.txt
 03. [MÉDIA] [SITE] TCC II repetido sem indicação de anual - 2610 Bacharelado (integral)
       arquivo: Correções necessárias/03 - TCC II repetido sem indicação de anual - 2610 Bacharelado (integral).txt

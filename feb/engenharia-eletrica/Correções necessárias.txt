@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Engenharia Elétrica
 Pasta: feb/engenharia-eletrica
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 3 correção(ões) — 1 alta(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 3 correção(ões) — 1 alta(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 2.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -11,7 +11,7 @@ Onde corrigir:
 
 01. [ALTA] [SITE] Quadro de integralização incompleto
       arquivo: Correções necessárias/01 - Quadro de integralização incompleto.txt
-02. [BAIXA] [SITE] Nome da unidade redundante
+02. [BAIXA] [SITE] Nome da unidade redundante — CORRIGIDO
       arquivo: Correções necessárias/02 - Nome da unidade redundante.txt
 03. [BAIXA] [DECISÃO] Base da regra “Percentual do Curso Exigido 60%” não está definida
       arquivo: Correções necessárias/03 - Base da regra Percentual do Curso Exigido 60% não está definida.txt

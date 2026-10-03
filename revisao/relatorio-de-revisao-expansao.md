@@ -230,3 +230,22 @@ Encontradas nas leituras independentes. Os dados seguem o documento; algumas ain
 ## 9. Arquivos "Correções necessárias" por curso
 
 Gerados por `revisao/gerar_correcoes.py` em 01/10/2026: 197 arquivos em 21 pastas (20 cursos + `revisao/gerais-do-projeto`). Cada pasta de curso tem `Correções necessárias.txt` (índice) e a subpasta `Correções necessárias/` com um arquivo por item. Incluem achados menores não listados acima (erros de digitação dos documentos oficiais, rótulos, totais por termo). São arquivos de trabalho: não publicar no portal.
+
+---
+
+## 10. Correções já aplicadas
+
+### 01/10/2026 — defeitos do componente e da exibição (C2, M2, B1, B2)
+
+| Achado | O que foi feito | Teste |
+|---|---|---|
+| C2 — iframe com altura zero ao trocar de currículo | A árvore retirada da página não envia mais a altura; o seletor desmonta a árvore anterior | `e2e.mjs` T29, `exploratorio.mjs` X01 |
+| C2 (X02) — instâncias antigas ativas | `montar()` devolve `desmontar()`, que remove o ouvinte de `resize` e o `ResizeObserver` | T30, X02 |
+| M2 — busca pelo código impresso | A busca compara também o código exibido e uma forma sem espaços, hífens e pontos | T31, T32, X03 |
+| B1 — coluna "Carga" vazia no Design | A coluna não é gerada em currículo sem carga | T33, X12 |
+| B2 — unidade redundante na FEB | "Faculdade de Engenharia · Câmpus de Bauru"; 4 cursos gerados de novo, sem mudança de números | T34 |
+
+- **Arquivos alterados:** `assets/arvore-grade.js`, `ferramentas/construir.py`, `ferramentas/cursos-gerados.json`, `testes/e2e.mjs`, `revisao/exploratorio.mjs` e, na FEB, os 4 `dados-*.js` e os 4 `index.html` (só o nome da unidade).
+- **Resultado dos testes após a correção:** `validar-dados.mjs` 16226/16226, `conferir_fontes.py` 6250/6250, `e2e.mjs` 179/179.
+- **Observação sobre X02:** o teste contava só os ouvintes acrescentados; passou a descontar os removidos.
+- **Continuam pendentes:** todos os demais achados (C1, A1 a A8, M1, M3 a M5, B3 a B5).

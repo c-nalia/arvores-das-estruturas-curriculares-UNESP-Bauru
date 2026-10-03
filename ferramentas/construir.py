@@ -41,7 +41,7 @@ ATUALIZADO = "2026-09-30"
 UNIDADES = {
     "FC": "Faculdade de Ciências · Câmpus de Bauru",
     "FAAC": "Faculdade de Arquitetura, Artes, Comunicação e Design · Câmpus de Bauru",
-    "FEB": "Faculdade de Engenharia de Bauru · Câmpus de Bauru",
+    "FEB": "Faculdade de Engenharia · Câmpus de Bauru",
 }
 FONTES = json.load(open(os.path.join(AQUI, "fontes.json"), encoding="utf-8"))
 

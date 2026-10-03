@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Relações Públicas
 Pasta: faac/relacoes-publicas
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 2 correção(ões) — 1 alta(s), 1 média(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 2 correção(ões) — 1 alta(s), 1 média(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 1.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -11,7 +11,7 @@ Onde corrigir:
 
 01. [ALTA] [SITE] Número do currículo omitido (Estrutura 2402)
       arquivo: Correções necessárias/01 - Número do currículo omitido (Estrutura 2402).txt
-02. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+02. [MÉDIA] [SITE] Busca não encontra o código como está no documento — CORRIGIDO
       arquivo: Correções necessárias/02 - Busca não encontra o código como está no documento.txt
 
 Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Design
 Pasta: faac/design
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 3 correção(ões) — 1 média(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 3 correção(ões) — 1 média(s), 2 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 2.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -11,7 +11,7 @@ Onde corrigir:
 
 01. [MÉDIA] [DOCUMENTO] Documento não informa cargas, códigos nem pré-requisitos
       arquivo: Correções necessárias/01 - Documento não informa cargas, códigos nem pré-requisitos.txt
-02. [BAIXA] [SITE] Lista por termo mostra a coluna Carga vazia
+02. [BAIXA] [SITE] Lista por termo mostra a coluna Carga vazia — CORRIGIDO
       arquivo: Correções necessárias/02 - Lista por termo mostra a coluna Carga vazia.txt
 03. [BAIXA] [DOCUMENTO] Ano diferente no título e nos metadados do PDF
       arquivo: Correções necessárias/03 - Ano diferente no título e nos metadados do PDF.txt

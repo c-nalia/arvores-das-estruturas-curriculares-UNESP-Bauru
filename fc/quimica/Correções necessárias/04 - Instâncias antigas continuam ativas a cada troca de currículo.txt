@@ -15,4 +15,10 @@ CORREÇÃO NECESSÁRIA
 Mesma correção do item do iframe: desmontar a instância anterior (remover ouvintes e desconectar o ResizeObserver) antes de montar a nova.
 
 Referência: Relatório, C2
-Situação: pendente
+Situação: CORRIGIDO em 01/10/2026
+
+O QUE FOI FEITO
+assets/arvore-grade.js: montar() devolve desmontar(), que remove o ouvinte de resize e o ResizeObserver; montarSeletor chama desmontar() a cada troca.
+
+TESTE QUE COBRE
+testes/e2e.mjs T30; revisao/exploratorio.mjs X02

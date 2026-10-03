@@ -15,4 +15,10 @@ CORREÇÃO NECESSÁRIA
 Em assets/arvore-grade.js, não gerar a coluna “Carga” quando o currículo estiver marcado com semCarga.
 
 Referência: Relatório, B1
-Situação: pendente
+Situação: CORRIGIDO em 01/10/2026
+
+O QUE FOI FEITO
+assets/arvore-grade.js: a coluna “Carga” não é gerada quando o currículo tem semCarga.
+
+TESTE QUE COBRE
+testes/e2e.mjs T33; revisao/exploratorio.mjs X12

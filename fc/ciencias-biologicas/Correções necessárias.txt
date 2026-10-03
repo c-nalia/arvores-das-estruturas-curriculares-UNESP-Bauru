@@ -2,18 +2,18 @@ CORREÇÕES NECESSÁRIAS — Ciências Biológicas
 Pasta: fc/ciencias-biologicas
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 15 correção(ões) — 1 crítica(s), 1 alta(s), 2 média(s), 11 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 15 correção(ões) — 1 crítica(s), 1 alta(s), 2 média(s), 11 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 2; pendentes: 13.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
   DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
   DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
 
-01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo
+01. [CRÍTICA] [SITE] Iframe fica com altura zero ao trocar de currículo — CORRIGIDO
       arquivo: Correções necessárias/01 - Iframe fica com altura zero ao trocar de currículo.txt
 02. [ALTA] [SITE] Metodologias e Práticas de Ensino aparecem como aptas sem o estágio correquisito
       arquivo: Correções necessárias/02 - Metodologias e Práticas de Ensino aparecem como aptas sem o estágio correquisito.txt
-03. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo
+03. [MÉDIA] [SITE] Instâncias antigas continuam ativas a cada troca de currículo — CORRIGIDO
       arquivo: Correções necessárias/03 - Instâncias antigas continuam ativas a cada troca de currículo.txt
 04. [MÉDIA] [DOCUMENTO] 2711 - estágios citados como correquisito não constam da matriz
       arquivo: Correções necessárias/04 - 2711 - estágios citados como correquisito não constam da matriz.txt

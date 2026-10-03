@@ -39,6 +39,7 @@
     });
   }
   function norm(s) { return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+  function compacto(s) { return norm(s).replace(/[\s\-_.\/]+/g, ""); }
   function horas(h) { return Number(h).toLocaleString("pt-BR") + " h"; }
   function numCr(h) { var c = h / 15; return c % 1 === 0 ? String(c) : c.toFixed(1).replace(".", ","); }
   function termoOrdinal(t) { return t + "º termo"; }
@@ -250,7 +251,7 @@
     termos.forEach(function (t) {
       var ds = lista.filter(function (d) { return d.t === t; });
       h.push('<section class="ag-lista-termo"><h3>' + termoOrdinal(t) + "<span>" + (rotuloTermo(t) ? esc(rotuloTermo(t)) + " · " : "") + somaTermo(ds) + "</span></h3>");
-      h.push('<div class="ag-tabela-wrap"><table class="ag-tabela"><thead><tr><th scope="col">Código</th><th scope="col">Disciplina</th><th scope="col">Carga</th><th scope="col">Pré-requisitos</th><th scope="col">Libera</th></tr></thead><tbody>');
+      h.push('<div class="ag-tabela-wrap"><table class="ag-tabela"><thead><tr><th scope="col">Código</th><th scope="col">Disciplina</th>' + (dados.semCarga ? "" : '<th scope="col">Carga</th>') + '<th scope="col">Pré-requisitos</th><th scope="col">Libera</th></tr></thead><tbody>');
       ds.forEach(function (d) {
         var req = [];
         var rc = function (p) { return cod(M[p]) ? " (" + esc(cod(M[p])) + ")" : ""; };
@@ -261,7 +262,7 @@
         if (d.coTexto) req.push("co-requisito: " + esc(d.coTexto));
         var lib = d.filhos.map(function (f) { return esc(M[f].n); });
         h.push('<tr data-c="' + esc(d.c) + '"><td>' + (cod(d) ? esc(cod(d)) : "—") + '</td><td class="nome"><button type="button" data-selecionar="' + esc(d.c) + '">' + esc(d.n) + "</button>" + (selo(d) ? ' <span class="ag-selo">' + esc(selo(d)) + "</span>" : "") + "</td>");
-        h.push('<td class="num" data-rot="Carga">' + metaTexto(d) + "</td>");
+        if (!dados.semCarga) h.push('<td class="num" data-rot="Carga">' + metaTexto(d) + "</td>");
         h.push('<td class="req" data-rot="Pré-requisitos">' + (req.length ? req.join("; ") : '<span class="ag-vazio">—</span>') + "</td>");
         h.push('<td class="req" data-rot="Libera">' + (lib.length ? lib.join("; ") : '<span class="ag-vazio">—</span>') + "</td></tr>");
       });
@@ -510,10 +511,13 @@
     /* ---------- busca ---------- */
     function aplicarBusca() {
       var q = norm(busca.trim());
+      var qc = /\d/.test(q) ? compacto(q) : "";
       var nres = 0;
       tela.classList.toggle("com-busca", !!q);
       lista.forEach(function (d) {
-        var ok = !!q && (norm(d.n).indexOf(q) > -1 || norm(d.c).indexOf(q) > -1);
+        // o código é comparado como impresso no documento e também sem espaços, hífens e pontos ("ART-E 01" = "ARTE01")
+        var ok = !!q && (norm(d.n).indexOf(q) > -1 || norm(d.c).indexOf(q) > -1 || norm(cod(d) || "").indexOf(q) > -1 ||
+          (!!qc && (compacto(d.c).indexOf(qc) > -1 || compacto(cod(d) || "").indexOf(qc) > -1)));
         if (ok) nres++;
         cards[d.c].classList.toggle("achado", ok);
         linhas[d.c].classList.toggle("oculta", !!q && !ok);
@@ -612,7 +616,7 @@
     }
 
     /* ---------- altura para iframe ---------- */
-    var ultimaAltura = 0;
+    var ultimaAltura = 0, desmontado = false;
     function alturaConteudo() {
       // mede o conteúdo, não a janela: scrollHeight nunca fica menor que a altura do iframe
       var alvo = raiz.closest(".ag-container") || raiz;
@@ -621,8 +625,10 @@
       return Math.ceil(r.bottom + window.scrollY + parseFloat(cs.marginBottom || 0) + parseFloat(cs.paddingBottom || 0));
     }
     function avisarAltura() {
-      if (window.parent === window) return;
+      if (window.parent === window || desmontado) return;
       requestAnimationFrame(function () {
+        // uma árvore já retirada da página mediria 0 e encolheria o iframe
+        if (desmontado || !raiz.isConnected) return;
         var a = alturaConteudo();
         if (a !== ultimaAltura) { ultimaAltura = a; window.parent.postMessage({ tipo: "arvore-grade:altura", id: dados.id, altura: a }, "*"); }
       });
@@ -668,9 +674,18 @@
     });
 
     var agendado = false;
-    function redesenharDepois() { if (agendado) return; agendado = true; requestAnimationFrame(function () { agendado = false; desenhar(); avisarAltura(); }); }
+    function redesenharDepois() { if (agendado || desmontado) return; agendado = true; requestAnimationFrame(function () { agendado = false; if (desmontado || !raiz.isConnected) return; desenhar(); avisarAltura(); }); }
     window.addEventListener("resize", redesenharDepois);
-    if (window.ResizeObserver) { var ro = new ResizeObserver(redesenharDepois); ro.observe(tela); ro.observe(ag); }
+    var ro = null;
+    if (window.ResizeObserver) { ro = new ResizeObserver(redesenharDepois); ro.observe(tela); ro.observe(ag); }
+    // desfaz o que foi registrado fora da própria árvore; usado pelo seletor ao trocar de currículo
+    function desmontar() {
+      if (desmontado) return;
+      desmontado = true;
+      window.removeEventListener("resize", redesenharDepois);
+      if (ro) ro.disconnect();
+      raiz.innerHTML = "";
+    }
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(redesenharDepois);
 
     /* ---------- estado inicial ---------- */
@@ -680,7 +695,7 @@
     if (linkProfundo) { var m = /^#d=([^&]+)/.exec(location.hash); if (m) inicial = decodeURIComponent(m[1]); }
     selecionar(inicial, !!inicial);
 
-    return { selecionar: selecionar, dados: dados };
+    return { selecionar: selecionar, dados: dados, desmontar: desmontar };
   }
 
   /* ---------- inicialização automática ---------- */
@@ -707,6 +722,7 @@
     caixa.innerHTML = '<span class="ag-rotulo" id="ag-sel' + n + '">Currículo</span><div class="ag-seg ag-seg-quebra" role="group" aria-labelledby="ag-sel' + n + '">' +
       ids.map(function (id) { var d = REGISTRO[id]; return '<button type="button" data-curriculo="' + esc(id) + '">' + esc(d.rotuloSeletor || d.curso) + "</button>"; }).join("") + "</div>";
     var alvo = document.createElement("div");
+    var instancia = null;
     el.innerHTML = "";
     el.appendChild(caixa);
     el.appendChild(alvo);
@@ -715,9 +731,10 @@
       gravar(chave, id);
       caixa.querySelectorAll("[data-curriculo]").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-curriculo") === id ? "true" : "false"); });
       var box = document.createElement("div");
+      if (instancia && instancia.desmontar) instancia.desmontar();
       alvo.innerHTML = "";
       alvo.appendChild(box);
-      montar(box, REGISTRO[id]);
+      instancia = montar(box, REGISTRO[id]);
       if (location.hash.indexOf("#!") !== 0) {
         var p = new URLSearchParams(location.search);
         p.set("curriculo", id);

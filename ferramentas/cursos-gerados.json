@@ -209,7 +209,7 @@
     "rotulo": "Engenharia Civil"
    }
   ],
-  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+  "unidade": "Faculdade de Engenharia · Câmpus de Bauru"
  },
  {
   "pasta": "feb/engenharia-eletrica",
@@ -221,7 +221,7 @@
     "rotulo": "Engenharia Elétrica"
    }
   ],
-  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+  "unidade": "Faculdade de Engenharia · Câmpus de Bauru"
  },
  {
   "pasta": "feb/engenharia-mecanica",
@@ -233,7 +233,7 @@
     "rotulo": "Engenharia Mecânica"
    }
   ],
-  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+  "unidade": "Faculdade de Engenharia · Câmpus de Bauru"
  },
  {
   "pasta": "feb/engenharia-de-producao",
@@ -245,6 +245,6 @@
     "rotulo": "Engenharia de Produção"
    }
   ],
-  "unidade": "Faculdade de Engenharia de Bauru · Câmpus de Bauru"
+  "unidade": "Faculdade de Engenharia · Câmpus de Bauru"
  }
 ]

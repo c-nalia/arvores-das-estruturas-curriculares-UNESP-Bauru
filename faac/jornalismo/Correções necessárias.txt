@@ -2,14 +2,14 @@ CORREÇÕES NECESSÁRIAS — Jornalismo
 Pasta: faac/jornalismo
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 1 correção(ões) — 1 média(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 1 correção(ões) — 1 média(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 0.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
   DOCUMENTO = documento oficial do curso (Conselho de Curso / Seção de Graduação)
   DECISÃO   = a coordenação precisa decidir antes de qualquer alteração
 
-01. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+01. [MÉDIA] [SITE] Busca não encontra o código como está no documento — CORRIGIDO
       arquivo: Correções necessárias/01 - Busca não encontra o código como está no documento.txt
 
 Observação: estes arquivos são de trabalho. Não publicar no portal junto com index.html e dados-*.js.

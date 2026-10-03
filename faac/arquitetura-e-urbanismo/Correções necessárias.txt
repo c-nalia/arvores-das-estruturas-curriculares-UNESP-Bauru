@@ -2,7 +2,7 @@ CORREÇÕES NECESSÁRIAS — Arquitetura e Urbanismo
 Pasta: faac/arquitetura-e-urbanismo
 Origem: revisão de 01/10/2026 (revisao/relatorio-de-revisao-expansao.md)
 
-Total: 17 correção(ões) — 4 alta(s), 1 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”.
+Total: 17 correção(ões) — 4 alta(s), 1 média(s), 12 baixa(s). Cada uma tem o seu arquivo na pasta “Correções necessárias”. Já corrigidas: 1; pendentes: 16.
 
 Onde corrigir:
   SITE      = arquivos deste projeto (quem mantém o site)
@@ -17,7 +17,7 @@ Onde corrigir:
       arquivo: Correções necessárias/03 - Paisagismo V - carga de 60 h no site e 30 h na Resolução.txt
 04. [ALTA] [DECISÃO] Totais do curso diferem entre a Resolução e a página
       arquivo: Correções necessárias/04 - Totais do curso diferem entre a Resolução e a página.txt
-05. [MÉDIA] [SITE] Busca não encontra o código como está no documento
+05. [MÉDIA] [SITE] Busca não encontra o código como está no documento — CORRIGIDO
       arquivo: Correções necessárias/05 - Busca não encontra o código como está no documento.txt
 06. [BAIXA] [DECISÃO] Grafia no documento - História e Teorias e da Arquitetura - Pós-Moderna e Contempo
       arquivo: Correções necessárias/06 - Grafia no documento - História e Teorias e da Arquitetura - Pós-Moderna e Contempo.txt
